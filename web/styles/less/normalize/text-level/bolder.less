@@ -1,0 +1,20 @@
+/*!
+ * @file    bolder.less
+ * @brief   Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ * @author  Byrne-Systems <http://www.byrne-systems.com>
+ */
+
+/* Content: Bold, Strong */
+/* -------------------------------------------------------------------------- */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/* NOTE:
+ * Add the correct font weight in Chrome, Edge, and Safari.                   */
+b,
+strong {
+  font-weight: bolder;
+}

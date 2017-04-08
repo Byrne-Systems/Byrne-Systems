@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="516.473px" height="600.001px" viewBox="0 0 516.473 600.001" enable-background="new 0 0 516.473 600.001"
+	 xml:space="preserve">
+<g id="Outer_Cube_T">
+	<polygon fill="#4069B2" points="258.242,0 0,148.425 258.242,301.455 516.473,148.425 	"/>
+</g>
+<g id="Outer_Cube_L">
+	<polygon fill="#2F507F" points="0,148.425 258.242,301.455 258.242,600.001 0,449.377 	"/>
+</g>
+<g id="Outer_Cube_R">
+	<polygon fill="#396099" points="516.473,148.425 516.473,449.377 258.242,600.001 258.242,301.455 	"/>
+</g>
+<g id="Inner_Cube_T">
+	<polygon fill="#46BDCF" points="258.242,148.425 127.658,224.072 258.242,301.455 388.822,224.072 	"/>
+</g>
+<g id="Inner_Cube_L">
+	<polygon fill="#368F99" points="127.658,224.072 258.242,301.455 258.242,449.377 127.647,373.826 	"/>
+</g>
+<g id="Inner_Cube_R">
+	<polygon fill="#3FA7B2" points="388.822,224.072 258.242,301.455 258.242,449.377 388.822,373.826 	"/>
+</g>
+<g id="Inner_Layer">
+	<g>
+		<polygon fill="#CAEAEF" points="78.242,194.79 127.664,224.073 127.653,373.826 78.242,405.875 		"/>
+		<polygon fill="#DAF0F4" points="438.242,194.79 438.242,405.875 388.828,373.826 388.828,224.073 		"/>
+		<polygon fill="#FFFEFA" points="258.248,90 258.248,148.426 388.828,224.073 438.242,194.79 		"/>
+		<polygon fill="#EDF7F9" points="258.248,90 258.248,148.426 127.664,224.073 78.242,194.79 		"/>
+		<polygon fill="#91BFBE" points="127.653,373.826 258.248,449.377 258.242,510 78.242,405.875 		"/>
+		<polygon fill="#99CCCC" points="258.248,449.377 258.242,510 438.242,405.875 388.828,373.826 		"/>
+	</g>
+</g>
+</svg>

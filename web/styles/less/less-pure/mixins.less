@@ -1,0 +1,173 @@
+/*!
+ * @file    mixins.less
+ * @brief   Various mixins for LESS Pure
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ */
+
+/* Mixins */
+/* -------------------------------------------------------------------------- */
+
+/* Selectors */
+/* ------------------------------------------------------------------ */
+.user-select(@selection) {
+  -webkit-user-select: @selection;
+     -moz-user-select: @selection;
+      -ms-user-select: @selection;
+          user-select: @selection;
+}
+
+/* Transition(s) & Animation(s) */
+/* ------------------------------------------------------------------ */
+.transition(@duration; @property: all; @timing: ease; @delay: 0, ...) {
+  -webkit-transition: @arguments;
+     -moz-transition: @arguments;
+      -ms-transition: @arguments;
+       -o-transition: @arguments;
+          transition: @arguments;
+}
+
+/* Box Model */
+/* ------------------------------------------------------------------ */
+.box-sizing(@type) {
+  -webkit-box-sizing: @type;
+     -moz-box-sizing: @type;
+          box-sizing: @type;
+}
+
+/* Backgrounds-n-Borders */
+/* ------------------------------------------------------------------ */
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+      -ms-border-radius: @radius;
+       -o-border-radius: @radius;
+          border-radius: @radius;
+}
+
+/* Margins */
+/* ------------------------------------------------------------------ */
+.margin(@size) {
+  margin: @size;
+}
+
+.margin(@height, @width) {
+  margin: @height @width;
+}
+
+.margin(@top, @right, @bottom, @left) {
+  margin-top: @top;
+  margin-right: @right;
+  margin-bottom: @bottom;
+  margin-left: @left;
+}
+
+/* Paddings */
+/* ------------------------------------------------------------------ */
+.padding(@size) {
+  padding: @size;
+}
+
+.padding(@height, @width) {
+  padding: @height @width;
+}
+
+.padding(@top, @right, @bottom, @left) {
+  padding-top: @top;
+  padding-right: @right;
+  padding-bottom: @bottom;
+  padding-left: @left;
+}
+
+/* Fonts */
+/* -------------------------------------------------------------------------- */
+#fonts {
+  .load {
+    .open-sans {
+      @font-face {
+      font-family: 'open-sans';
+      src: url('web/fonts/open-sans.eot');
+      src: url('web/fonts/open-sans.eot?#iefix') format('embedded-opentype'),
+           url('web/fonts/open-sans.woff') format('woff'),
+           url('web/fonts/open-sans.ttf') format('truetype'),
+           url('web/fonts/open-sans.svg#webfont') format('svg');
+      }
+    }
+    .droid-serif {
+      @font-face {
+      font-family: 'droid-serif';
+      src: url('web/fonts/DroidSerif-Regular.eot');
+      src: url('web/fonts/DroidSerif-Regular.eot?#iefix') format('embedded-opentype'),
+           url('web/fonts/DroidSerif-Regular.woff') format('woff'),
+           url('web/fonts/DroidSerif-Regular.ttf') format('truetype'),
+           url('web/fonts/DroidSerif-Regular.svg#webfont') format('svg');
+      }
+    }
+  }
+  .face {
+    .open-sans (@weight: normal, @size: 14px, @lineHeight: 20px) {
+      font-family: Georgia, "open-sans-reg", serif;
+      font-weight: @weight;
+      font-size: @size;
+      line-height: @lineHeight;
+    }
+    .droid-serif (@weight: normal, @size: 14px, @lineHeight: 20px) {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: @weight;
+      font-size: @size;
+      line-height: @lineHeight;
+    }
+  }
+}
+
+/* Coverr */
+/* -------------------------------------------------------------------------- */
+.coverr {
+  .video-wrapper {
+      border-right: none;
+      border-left: none;
+      position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+      display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+      display: block !important;
+  }
+
+  .video-container {
+      position: relative;
+      bottom: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background: #000;
+  }
+
+  .video-container .poster img {
+      width: 100%;
+      bottom: 0;
+      position: absolute;
+  }
+
+  .video-container .filter {
+      z-index: 100;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+  }
+
+  .video-container video {
+      position: absolute;
+      z-index: 0;
+      bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+      width: 100%;
+  }
+}

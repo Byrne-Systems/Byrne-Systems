@@ -1,0 +1,17 @@
+# Patterns read from: $GIT_DIR/info/exclude.
+# Ignore General Operating Environment Files
+*.ini
+
+# Ignore In-Development Apps
+/config
+/dashboard
+
+# Ignore LESS source map
+/data/logs/LESS_source.map
+
+# Ignore Project'centric Ancillary Documentation
+*.todo
+*.cpy
+
+# Ignore cachegrind XDEBUG Profile
+cachegrind*

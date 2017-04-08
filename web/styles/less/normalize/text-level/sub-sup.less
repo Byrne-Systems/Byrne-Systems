@@ -1,0 +1,24 @@
+/*!
+ * @file    sub-sup.less
+ * @brief   Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ * @author  Byrne-Systems <http://www.byrne-systems.com>
+ */
+
+/* Content: Subscript, Superscript */
+/* -------------------------------------------------------------------------- */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}

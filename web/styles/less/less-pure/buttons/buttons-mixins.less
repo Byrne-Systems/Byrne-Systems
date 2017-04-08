@@ -1,0 +1,43 @@
+/*!
+ * @file    buttons-aux.less
+ * @brief   Custom axillary buttons
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ * @author  Byrne-Systems <http://www.byrne-systems.com>
+ */
+
+/* Top Coat */
+/* -------------------------------------------------------------------------- */
+.flat-button {
+  display: block;
+
+  .button_bar {
+    display: table;
+    table-layout: fixed;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+
+    .bar_item {
+      display: table-cell;
+      width: auto;
+      border-radius: 0;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+
+      .button {
+        border-right: none;
+        border-radius: inherit;
+        padding: 0 0.563rem;
+        font-size: 12px;
+        line-height: 1.313rem;
+        letter-spacing: 0;
+        color: #C6C8C8;
+        text-shadow: 0 -1px rgba(0, 0, 0, 0.69);
+        vertical-align: top;
+        background-color: #595B5B;
+        box-shadow: insert 0 1px #737373;
+        border: 1px solid #333434;
+      }
+    }
+  }
+}

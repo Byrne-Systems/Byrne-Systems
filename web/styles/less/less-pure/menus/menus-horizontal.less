@@ -1,0 +1,27 @@
+/*!
+ * @file    menus-horizontal.less
+ * @brief   Pure's horizontal menu styles
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ */
+
+/* Menu (Horizontal) */
+/* -------------------------------------------------------------------------- */
+.pure-menu-horizontal {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.pure-menu-horizontal .pure-menu-list {
+  display: inline-block;
+}
+
+/* NOTE:
+ * Initial menus should be inline-block so that they are horizontal           */
+.pure-menu-horizontal .pure-menu-item,
+.pure-menu-horizontal .pure-menu-heading,
+.pure-menu-horizontal .pure-menu-separator {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
