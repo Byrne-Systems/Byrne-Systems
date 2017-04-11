@@ -893,32 +893,30 @@ a.pure-button-selected {
   border-right: none;
 }
 /*!
- * @file    buttons-aux.less
- * @brief   Custom axillary buttons
+ * @file    buttons-mixins.less
+ * @brief   Custom user-defined buttons
  * @author  Justin D. Byrne <justin@byrne-systems.com>
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
-/* Top Coat */
+/* Flat-Button */
 /* -------------------------------------------------------------------------- */
 .flat-button {
   display: block;
   background-color: #345994;
   border: 1px solid #081b54;
-  padding: 7px 14px;
+  padding: 7px 0px 7px 7px;
   border-radius: 3px;
-  box-shadow: inset 1px 1px #7f7d9c;
+  box-shadow: inset 1px 1px #8381a2;
   text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
   vertical-align: top;
 }
 .flat-button:hover {
-  background-color: #314758;
+  background-color: #305289;
   box-shadow: 1px 1px #4d4d4d;
-  box-shadow: inset -1px -1px #7f7d9c;
+  box-shadow: inset 1px 1px #3e3b7b;
 }
 .flat-button:active {
-  background-color: #3d4f5d;
-  border: 1px solid #232d4a;
-  text-shadow: -0.75px -0.75px 0.25px rgba(128, 128, 128, 0.85);
+  background-color: #2d4e81;
 }
 /*!
  * @file    forms.less
@@ -1824,6 +1822,9 @@ a.pure-button-selected {
  * @author  Justin D. Byrne <justin@byrne-systems.com>
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
+* {
+  box-sizing: border-box;
+}
 #Byrne-Systems {
   /* Landing Page */
   /* Desktop */
@@ -2019,24 +2020,27 @@ a.pure-button-selected {
   display: block;
   background-color: #345994;
   border: 1px solid #081b54;
-  padding: 7px 14px;
+  padding: 7px 0px 7px 7px;
   border-radius: 3px;
-  box-shadow: inset 1px 1px #7f7d9c;
+  box-shadow: inset 1px 1px #8381a2;
   text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
   vertical-align: top;
   margin-bottom: 7px;
   text-decoration: none;
   color: #081b54;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
 }
 #Byrne-Systems #blog .sidebar .nav ul.nav-list a:hover {
-  background-color: #314758;
+  background-color: #305289;
   box-shadow: 1px 1px #4d4d4d;
-  box-shadow: inset -1px -1px #7f7d9c;
+  box-shadow: inset 1px 1px #3e3b7b;
 }
 #Byrne-Systems #blog .sidebar .nav ul.nav-list a:active {
-  background-color: #3d4f5d;
-  border: 1px solid #232d4a;
-  text-shadow: -0.75px -0.75px 0.25px rgba(128, 128, 128, 0.85);
+  background-color: #2d4e81;
 }
 #Byrne-Systems #blog .sidebar .header {
   margin: 80% 2em 0;
@@ -2054,5 +2058,7 @@ a.pure-button-selected {
   vertical-align: top;
   text-rendering: auto;
   width: 75%;
+  margin-left: 25%;
+  padding: 2em 3em 0;
 }
 /*# sourceMappingURL=style.css.map */

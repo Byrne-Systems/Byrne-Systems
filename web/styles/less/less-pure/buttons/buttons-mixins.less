@@ -11,21 +11,19 @@
   display: block;
   background-color: @bsy-blue;
   border: 1px solid @bsy-black;
-  padding: 7px 14px;
+  padding: 7px 0px 7px 7px;
   border-radius: 3px;
-  box-shadow: inset 1px 1px #7f7d9c;
+  box-shadow: inset 1px 1px #8381a2;
   text-shadow: 0.75px 0.75px 0.25px rgba(128,128,128,0.85);
   vertical-align: top;
 
   &:hover {
-    background-color: @bluewood;
+    background-color: darken(@bsy-blue, 3%);
     box-shadow: 1px 1px rgb(77,77,77);
-    box-shadow: inset -1px -1px #7f7d9c;
+    box-shadow: inset 1px 1px #3e3b7b;
   }
 
   &:active {
-    background-color: @pure-blue;
-    border: 1px solid @cloud-burst;
-    text-shadow: -0.75px -0.75px 0.25px rgba(128,128,128,0.85);
+    background-color: darken(@bsy-blue, 5%);
   }
 }
