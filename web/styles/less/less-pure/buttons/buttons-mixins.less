@@ -1,43 +1,31 @@
 /*!
- * @file    buttons-aux.less
- * @brief   Custom axillary buttons
+ * @file    buttons-mixins.less
+ * @brief   Custom user-defined buttons
  * @author  Justin D. Byrne <justin@byrne-systems.com>
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
 
-/* Top Coat */
+/* Flat-Button */
 /* -------------------------------------------------------------------------- */
 .flat-button {
   display: block;
+  background-color: @bsy-blue;
+  border: 1px solid @bsy-black;
+  padding: 7px 14px;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px #7f7d9c;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128,128,128,0.85);
+  vertical-align: top;
 
-  .button_bar {
-    display: table;
-    table-layout: fixed;
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
+  &:hover {
+    background-color: @bluewood;
+    box-shadow: 1px 1px rgb(77,77,77);
+    box-shadow: inset -1px -1px #7f7d9c;
+  }
 
-    .bar_item {
-      display: table-cell;
-      width: auto;
-      border-radius: 0;
-      border-top-left-radius: 4px;
-      border-bottom-left-radius: 4px;
-
-      .button {
-        border-right: none;
-        border-radius: inherit;
-        padding: 0 0.563rem;
-        font-size: 12px;
-        line-height: 1.313rem;
-        letter-spacing: 0;
-        color: #C6C8C8;
-        text-shadow: 0 -1px rgba(0, 0, 0, 0.69);
-        vertical-align: top;
-        background-color: #595B5B;
-        box-shadow: insert 0 1px #737373;
-        border: 1px solid #333434;
-      }
-    }
+  &:active {
+    background-color: @pure-blue;
+    border: 1px solid @cloud-burst;
+    text-shadow: -0.75px -0.75px 0.25px rgba(128,128,128,0.85);
   }
 }

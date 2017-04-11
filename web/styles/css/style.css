@@ -893,6 +893,34 @@ a.pure-button-selected {
   border-right: none;
 }
 /*!
+ * @file    buttons-aux.less
+ * @brief   Custom axillary buttons
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ * @author  Byrne-Systems <http://www.byrne-systems.com>
+ */
+/* Top Coat */
+/* -------------------------------------------------------------------------- */
+.flat-button {
+  display: block;
+  background-color: #345994;
+  border: 1px solid #081b54;
+  padding: 7px 14px;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px #7f7d9c;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+}
+.flat-button:hover {
+  background-color: #314758;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset -1px -1px #7f7d9c;
+}
+.flat-button:active {
+  background-color: #3d4f5d;
+  border: 1px solid #232d4a;
+  text-shadow: -0.75px -0.75px 0.25px rgba(128, 128, 128, 0.85);
+}
+/*!
  * @file    forms.less
  * @brief   Pure's form styles
  * @author  Justin D. Byrne <justin@byrne-systems.com>
@@ -1336,6 +1364,195 @@ a.pure-button-selected {
   font-family: sans-serif;
 }
 /*!
+ * @file    grids-r.less
+ * @brief   Pure's responsive grid styles
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ */
+/* csslint regex-selectors:false, unqualified-attributes:false */
+/* Grids (Responsive) */
+/* -------------------------------------------------------------------------- */
+.pure-g-r {
+  letter-spacing: -0.31em;
+  *letter-spacing: normal;
+  *word-spacing: -0.43em;
+}
+.pure-g-r img {
+  max-width: 100%;
+}
+/**
+ * Opera as of 12 on Windows needs word-spacing.
+ * The ".opera-only" selector is used to prevent actual prefocus styling
+ * and is not required in markup.                                             */
+.opera-only :-o-prefocus,
+.pure-g-r {
+  word-spacing: -0.43em;
+}
+@media (min-width: 980px) {
+  .pure-visible-phone {
+    display: none;
+  }
+  .pure-visible-tablet {
+    display: none;
+  }
+  .pure-hidden-desktop {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .pure-g-r > .pure-u,
+  .pure-g-r > [class*="pure-u-"] {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .pure-g-r > .pure-u,
+  .pure-g-r > [class*="pure-u-"] {
+    width: 100%;
+  }
+  .pure-hidden-phone {
+    display: none;
+  }
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .pure-hidden-tablet {
+    display: none;
+  }
+  .pure-visible-desktop {
+    display: none;
+  }
+}
+/*!
+ * @file    grids-units.less
+ * @brief   Pure's grid size(s) by unit
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ */
+/* Grids (Units) */
+/* -------------------------------------------------------------------------- */
+.pure-u-1,
+.pure-u-1-2,
+.pure-u-1-3,
+.pure-u-2-3,
+.pure-u-1-4,
+.pure-u-3-4,
+.pure-u-1-5,
+.pure-u-2-5,
+.pure-u-3-5,
+.pure-u-4-5,
+.pure-u-1-6,
+.pure-u-5-6,
+.pure-u-1-8,
+.pure-u-3-8,
+.pure-u-5-8,
+.pure-u-7-8,
+.pure-u-1-12,
+.pure-u-5-12,
+.pure-u-7-12,
+.pure-u-11-12,
+.pure-u-1-24,
+.pure-u-5-24,
+.pure-u-7-24,
+.pure-u-11-24,
+.pure-u-13-24,
+.pure-u-17-24,
+.pure-u-19-24,
+.pure-u-23-24 {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+.pure-u-1 {
+  width: 100%;
+}
+.pure-u-1-2 {
+  width: 50%;
+}
+.pure-u-1-3 {
+  width: 33.33333%;
+}
+.pure-u-2-3 {
+  width: 66.66666%;
+}
+.pure-u-1-4 {
+  width: 25%;
+}
+.pure-u-3-4 {
+  width: 75%;
+}
+.pure-u-1-5 {
+  width: 20%;
+}
+.pure-u-2-5 {
+  width: 40%;
+}
+.pure-u-3-5 {
+  width: 60%;
+}
+.pure-u-4-5 {
+  width: 80%;
+}
+.pure-u-1-6 {
+  width: 16.666%;
+}
+.pure-u-5-6 {
+  width: 83.33%;
+}
+.pure-u-1-8 {
+  width: 12.5%;
+}
+.pure-u-3-8 {
+  width: 37.5%;
+}
+.pure-u-5-8 {
+  width: 62.5%;
+}
+.pure-u-7-8 {
+  width: 87.5%;
+}
+.pure-u-1-12 {
+  width: 8.3333%;
+}
+.pure-u-5-12 {
+  width: 41.6666%;
+}
+.pure-u-7-12 {
+  width: 58.3333%;
+}
+.pure-u-11-12 {
+  width: 91.6666%;
+}
+.pure-u-1-24 {
+  width: 4.1666%;
+}
+.pure-u-5-24 {
+  width: 20.8333%;
+}
+.pure-u-7-24 {
+  width: 29.1666%;
+}
+.pure-u-11-24 {
+  width: 45.8333%;
+}
+.pure-u-13-24 {
+  width: 54.1666%;
+}
+.pure-u-17-24 {
+  width: 70.8333%;
+}
+.pure-u-19-24 {
+  width: 79.1666%;
+}
+.pure-u-23-24 {
+  width: 95.8333%;
+}
+/*!
  * @file    menus-core.less
  * @brief   Pure's core menu styles
  * @author  Justin D. Byrne <justin@byrne-systems.com>
@@ -1607,6 +1824,11 @@ a.pure-button-selected {
  * @author  Justin D. Byrne <justin@byrne-systems.com>
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
+#Byrne-Systems {
+  /* Landing Page */
+  /* Desktop */
+  /* Blog Page */
+}
 #Byrne-Systems .video-wrapper {
   border-right: none;
   border-left: none;
@@ -1658,88 +1880,179 @@ a.pure-button-selected {
   src: url('web/fonts/DroidSerif-Regular.eot');
   src: url('web/fonts/DroidSerif-Regular.eot?#iefix') format('embedded-opentype'), url('web/fonts/DroidSerif-Regular.woff') format('woff'), url('web/fonts/DroidSerif-Regular.ttf') format('truetype'), url('web/fonts/DroidSerif-Regular.svg#webfont') format('svg');
 }
-#Byrne-Systems header {
-  height: 30px;
-  padding: 14px 14px 0 14px;
-  background-color: #4a4d4e;
-  color: #f6f7f7;
-  border-bottom: 1px solid #000;
-  text-shadow: 0 -1px #000;
-  box-shadow: 1px 0px 2px #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+@media (max-width: 1920px) {
+  #Byrne-Systems header {
+    height: 30px;
+    padding: 14px 14px 0 14px;
+    background-color: #4a4d4e;
+    color: #f6f7f7;
+    border-bottom: 1px solid #000;
+    text-shadow: 0 -1px #000;
+    box-shadow: 1px 0px 2px #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #Byrne-Systems header button {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: -6px;
+    padding: 6px 8px;
+    background-color: #4a4d4e;
+    color: #f6f7f7;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  #Byrne-Systems header button:hover {
+    background-color: #646e75;
+  }
+  #Byrne-Systems header button:active {
+    background-color: #3f3d3c;
+  }
+  #Byrne-Systems .logo {
+    max-width: 100%;
+    display: block;
+    max-width: 80%;
+    display: inline-block;
+    position: relative;
+    padding-top: 147px;
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 2;
+    margin: 0 auto;
+    /* Nexus X5 (Landscape)*/
+    /* iPhone 5*/
+  }
+  #Byrne-Systems .logo img {
+    max-width: 66.666%;
+  }
+  #Byrne-Systems .video-wrapper {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+  #Byrne-Systems footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    height: 77px;
+    padding: 14px 14px 0 14px;
+    background-color: #4a4d4e;
+    color: white;
+    border-bottom: 1px solid #000;
+    text-shadow: 0 -1px #000;
+    box-shadow: 1px 0px 2px #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #Byrne-Systems footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+  }
+  #Byrne-Systems footer ul li {
+    display: inline;
+    padding-right: 14px;
+  }
+  #Byrne-Systems footer ul li a {
+    text-decoration: none;
+    color: #f6f7f7;
+  }
+  #Byrne-Systems footer ul li a:hover {
+    color: #adb3b6;
+    text-decoration: underline;
+  }
 }
-#Byrne-Systems header button {
+@media (max-width: 1920px) and (max-width: 768px) {
+  #Byrne-Systems .logo {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 1920px) and (max-width: 720px) {
+  #Byrne-Systems .logo {
+    padding-top: 51px;
+  }
+}
+#Byrne-Systems #blog .sidebar {
+  /* IE < 8: fake inline-block */
+  width: 100%;
   display: inline-block;
-  position: absolute;
-  right: 10px;
-  margin-top: -6px;
-  padding: 6px 8px;
-  background-color: #4a4d4e;
-  color: #f6f7f7;
-  border: 1px solid #000;
-  border-radius: 3px;
-}
-#Byrne-Systems header button:hover {
-  background-color: #646e75;
-}
-#Byrne-Systems header button:active {
-  background-color: #3f3d3c;
-}
-#Byrne-Systems .logo {
-  max-width: 100%;
-  display: block;
-  max-width: 80%;
-  display: inline-block;
-  position: relative;
-  padding-top: 147px;
-  min-width: 100%;
-  height: auto;
-  text-align: center;
-  z-index: 2;
-  margin: 0 auto;
-}
-#Byrne-Systems .logo img {
-  max-width: 66.666%;
-}
-#Byrne-Systems .video-wrapper {
-  overflow-x: hidden !important;
-}
-#Byrne-Systems footer {
-  display: block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 25%;
   position: fixed;
+  top: 0;
   bottom: 0;
-  min-width: 100%;
-  height: 77px;
-  padding: 14px 14px 0 14px;
-  background-color: #4a4d4e;
-  color: white;
-  border-bottom: 1px solid #000;
-  text-shadow: 0 -1px #000;
-  box-shadow: 1px 0px 2px #000;
+  background-color: #3d4f5d;
+}
+#Byrne-Systems #blog .sidebar .brand {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#Byrne-Systems #blog .sidebar .tagline {
+  color: #f6f7f7;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
+  text-align: center;
 }
-#Byrne-Systems footer ul {
-  list-style-type: none;
+#Byrne-Systems #blog .sidebar .nav ul.nav-list {
+  width: 90px;
   margin: 0 auto;
   padding: 0;
-  width: 300px;
+  list-style-type: none;
 }
-#Byrne-Systems footer ul li {
-  display: inline;
-  padding-right: 14px;
-}
-#Byrne-Systems footer ul li a {
+#Byrne-Systems #blog .sidebar .nav ul.nav-list a {
+  display: block;
+  background-color: #345994;
+  border: 1px solid #081b54;
+  padding: 7px 14px;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px #7f7d9c;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+  margin-bottom: 7px;
   text-decoration: none;
-  color: #f6f7f7;
+  color: #081b54;
 }
-#Byrne-Systems footer ul li a:hover {
-  color: #adb3b6;
-  text-decoration: underline;
+#Byrne-Systems #blog .sidebar .nav ul.nav-list a:hover {
+  background-color: #314758;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset -1px -1px #7f7d9c;
+}
+#Byrne-Systems #blog .sidebar .nav ul.nav-list a:active {
+  background-color: #3d4f5d;
+  border: 1px solid #232d4a;
+  text-shadow: -0.75px -0.75px 0.25px rgba(128, 128, 128, 0.85);
+}
+#Byrne-Systems #blog .sidebar .header {
+  margin: 80% 2em 0;
+  top: auto;
+}
+#Byrne-Systems #blog .content {
+  /* IE < 8: fake inline-block */
+  width: 100%;
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 75%;
 }
 /*# sourceMappingURL=style.css.map */
