@@ -78,9 +78,9 @@ a
       { .nav-list
         { width: 110px; margin: 0 auto; padding: 0; list-style-type: none;
           .button
-          { .flat-button; margin-bottom: 7px; color: @bsy-black; #fonts > .face > .droid-mono(normal, 18px, 20px); font-weight: 600;
+          { .flat-button; margin-bottom: 7px; color: @bsy-black; #fonts > .face > .cabin(normal, 18px, 20px); font-weight: 600;
             span
-            { display: inline-block; #fonts > .face > .webfont-icons(normal, 18px, 20px); }
+            { display: inline-block; padding-right: 2px; #fonts > .face > .webfont-icons(normal, 18px, 20px); }
             .about::before
             { content: "\e971"; }
             .blog::before
@@ -100,19 +100,36 @@ a
 
     /* Content */
     .content
-    { .pure-u-1; .pure-u-3-4; margin-left: 25%; padding: 2em 3em 0; background-color: rgb(149,186,230); border-left: 1px solid @nepal;
+    { .pure-u-1; .pure-u-3-4; margin-left: 25%; padding: 2em 3em 0; background-color: @athens-light; color: black; border-left: 1px solid @nepal; box-shadow: 2px 0px 3px black;
       .content-subhead
-      { #fonts > .face > .droid-mono(normal, 14px, 10px); padding: 10px; border: 1px solid black; background-color: rgb(119,136,153); }
+      { #fonts > .face > .droid-mono(normal, 14px, 10px); padding: 10px; background-color: @link-water; .border(1px, solid, white, @right, @bottom, @left);
+        span
+        { display: inline-block; }
+        .timestamp::before
+        { #fonts > .face > .webfont-icons(normal, 18px, 20px); content: "\e94e"; }
+        .stamp
+        { position: relative; top: -1px; padding-left: 5px; #fonts > .face > .cornerstone(normal, 18px, 20px); }
+      }
       .post
-      { padding-bottom: 10px; letter-spacing: 1px;
+      { padding-bottom: 10px;
         .post-header
-        { height: 100px; background-color: @bsy-bg-blue; text-shadow: none; box-shadow: none; .border(1px, solid, @slate, black, black, @slate); border-radius: 5px; box-shadow: -1px -1px 0px #000;
+        { height: 100px; background-color: @athens-gray; text-shadow: none; box-shadow: none; .border(1px, solid, white, @right, @bottom, @left); .border-radius(3px, 3px, 0px, 0px); color: @abbey;
           .post-title
-          { #fonts > .face > .open-sans(normal, 32px, 0px); text-shadow: 1px 1px 1px black; }
+          { #fonts > .face > .droid-mono(normal, 32px, 0px); text-shadow: 1px 1px 1px black; }
           img
           { .size(74px, 74px); float: right; }
           .post-meta
-          { line-height: 20px; #fonts > .face > .cornerstone(normal, 14px, 10px);
+          { line-height: 20px; padding-top: 4px; padding-left: 12px; #fonts > .face > .droid-mono(normal, 14px, 10px);
+            .tag-css
+            { .tag > .tag-css; }
+            .tag-pure
+            { .tag > .tag-pure; }
+            .tag-js
+            { .tag > .tag-js; }
+            .tag-yui
+            { .tag > .tag-yui; }
+            .tag-uncategorized
+            { .tag > .tag-uncategorized }
             a
             { color: @bsy-cyan; text-decoration: none;
               &:hover
@@ -121,9 +138,9 @@ a
           }
         }
         .post-description
-        { background-color: lighten(@bsy-bg-blue, 66%); padding: 0px 18px; border-radius: 5px; border: 1px solid black; box-shadow: -1px 1px 0px #7b7b7b; #fonts > .face > .droid-mono(normal, 14px, 20px);
+        { background-color: white; padding: 0px 18px; .border(1px, solid, white, @right, @bottom, @left); .border-radius(0px, 0px, 3px, 3px);
           p
-          { line-height: 32px; }
+          { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; }
           .post-images
           { .pure-g; padding: 14px 14px 0px 0px; }
         }

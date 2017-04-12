@@ -98,7 +98,7 @@
              url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'),
              url('../../fonts/cornerstone/cornerstone.woff') format('woff'),
              url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'),
-             url('../../fonts/cornerstone/cornerstone.svg#cornerstoneregular') format('svg');
+             url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
         font-weight: normal;
         font-style: normal;
     }
@@ -135,7 +135,7 @@
       line-height: @lineHeight;
     }
     .cornerstone (@weight: normal, @size: 14px, @lineHeight: 20px) {
-      font-family: "cornerstoneregular";
+      font-family: "cornerstone";
       font-weight: @weight;
       font-size: @size;
       line-height: @lineHeight;
@@ -166,6 +166,59 @@
   }
 }
 
+/* .tag */
+/* -------------------------------------------------------------------------- */
+.tag {
+  #fonts > .face > .cornerstone(normal, 12px, 10px);
+  border-radius: 4px;
+  color: white;
+  padding: 3px 7px;
+  margin-left: 3px;
+  text-decoration: none;
+  .tag-css {
+    @denim: rgb(21, 114, 182);
+    background-color: @denim;
+    color: white;
+    .border(2px, solid, lighten(@denim, 5%), lighten(@denim, 5%), darken(@denim, 5%), darken(@denim, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-pure {
+    @curious-blue: rgb(52, 152, 219);
+    background-color: @curious-blue;
+    color: white;
+    .border(2px, solid, lighten(@curious-blue, 5%), lighten(@curious-blue, 5%), darken(@curious-blue, 5%), darken(@curious-blue, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-js {
+    @curious-blue: rgb(52, 152, 219);
+    background-color: @curious-blue;
+    color: white;
+    .border(2px, solid, lighten(@curious-blue, 5%), lighten(@curious-blue, 5%), darken(@curious-blue, 5%), darken(@curious-blue, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-yui {
+    @scarlet-gum: rgb(100, 15, 108);
+    background-color: @scarlet-gum;
+    color: white;
+    .border(2px, solid, lighten(@scarlet-gum, 5%), lighten(@scarlet-gum, 5%), darken(@scarlet-gum, 5%), darken(@scarlet-gum, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-uncategorized {
+    @brandy-punch: rgb(218, 125, 50);
+    background-color: @brandy-punch;
+    color: white;
+    .border(2px, solid, lighten(@brandy-punch, 5%), lighten(@brandy-punch, 5%), darken(@brandy-punch, 5%), darken(@brandy-punch, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+}
+
+
+
 /* .border */
 /* -------------------------------------------------------------------------- */
 .border(@size: 1px, @type: solid, @top, @right, @bottom, @left) {
@@ -173,6 +226,15 @@
   border-right: @size @type @right;
   border-bottom: @size @type @bottom;
   border-left: @size @type @left;
+}
+
+/* .border-radius */
+/* -------------------------------------------------------------------------- */
+.border-radius(@topLeft, @topRight, @btmRight, @btmLeft) {
+  border-top-right-radius: @topLeft;
+  border-top-left-radius:  @topRight;
+  border-bottom-left-radius: @btmLeft;
+  border-bottom-right-radius: @btmRight;
 }
 
 /* .size */

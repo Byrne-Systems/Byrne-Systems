@@ -679,7 +679,7 @@ template {
 @font-face {
   font-family: 'cornerstone';
   src: url('../../fonts/cornerstone/cornerstone.eot');
-  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstoneregular') format('svg');
+  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -698,7 +698,77 @@ template {
   src: url('../../fonts/webfont-icons/webfont-icons.eot');
   src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'), url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'), url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
 }
+/* .tag */
+/* -------------------------------------------------------------------------- */
+.tag {
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 10px;
+  border-radius: 4px;
+  color: white;
+  padding: 3px 7px;
+  margin-left: 3px;
+  text-decoration: none;
+}
+.tag .tag-css {
+  background-color: #1572b6;
+  color: white;
+  border-top: 2px solid #1880cd;
+  border-right: 2px solid #1880cd;
+  border-bottom: 2px solid #12649f;
+  border-left: 2px solid #12649f;
+}
+.tag .tag-css:hover {
+  color: #e9ebee;
+}
+.tag .tag-pure {
+  background-color: #3498db;
+  color: white;
+  border-top: 2px solid #4aa3df;
+  border-right: 2px solid #4aa3df;
+  border-bottom: 2px solid #258cd1;
+  border-left: 2px solid #258cd1;
+}
+.tag .tag-pure:hover {
+  color: #e9ebee;
+}
+.tag .tag-js {
+  background-color: #3498db;
+  color: white;
+  border-top: 2px solid #4aa3df;
+  border-right: 2px solid #4aa3df;
+  border-bottom: 2px solid #258cd1;
+  border-left: 2px solid #258cd1;
+}
+.tag .tag-js:hover {
+  color: #e9ebee;
+}
+.tag .tag-yui {
+  background-color: #640f6c;
+  color: white;
+  border-top: 2px solid #791282;
+  border-right: 2px solid #791282;
+  border-bottom: 2px solid #4f0c56;
+  border-left: 2px solid #4f0c56;
+}
+.tag .tag-yui:hover {
+  color: #e9ebee;
+}
+.tag .tag-uncategorized {
+  background-color: #da7d32;
+  color: white;
+  border-top: 2px solid #de8b48;
+  border-right: 2px solid #de8b48;
+  border-bottom: 2px solid #cd7025;
+  border-left: 2px solid #cd7025;
+}
+.tag .tag-uncategorized:hover {
+  color: #e9ebee;
+}
 /* .border */
+/* -------------------------------------------------------------------------- */
+/* .border-radius */
 /* -------------------------------------------------------------------------- */
 /* .size */
 /* -------------------------------------------------------------------------- */
@@ -1858,7 +1928,7 @@ a {
 @font-face {
   font-family: 'cornerstone';
   src: url('../../fonts/cornerstone/cornerstone.eot');
-  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstoneregular') format('svg');
+  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1927,7 +1997,7 @@ a {
   #Byrne-Systems header {
     height: 30px;
     padding: 14px 14px 0 14px;
-    background-color: #4a4d4e;
+    background-color: #4b4f56;
     color: #f6f7f7;
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
@@ -1943,7 +2013,7 @@ a {
     right: 10px;
     margin-top: -6px;
     padding: 6px 8px;
-    background-color: #4a4d4e;
+    background-color: #4b4f56;
     color: #f6f7f7;
     border: 1px solid #000;
     border-radius: 3px;
@@ -1983,7 +2053,7 @@ a {
     min-width: 100%;
     height: 77px;
     padding: 14px 14px 0 14px;
-    background-color: #4a4d4e;
+    background-color: #4b4f56;
     color: white;
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
@@ -2074,7 +2144,7 @@ a {
   vertical-align: top;
   margin-bottom: 7px;
   color: #081b54;
-  font-family: "droid-mono";
+  font-family: "cabin";
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
@@ -2090,6 +2160,7 @@ a {
 }
 #Byrne-Systems #blog .sidebar .nav .nav-list .button span {
   display: inline-block;
+  padding-right: 2px;
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'webfont-icons' !important;
   speak: none;
@@ -2135,8 +2206,10 @@ a {
   width: 75%;
   margin-left: 25%;
   padding: 2em 3em 0;
-  background-color: #95bae6;
+  background-color: #f6f7f9;
+  color: black;
   border-left: 1px solid #909ebb;
+  box-shadow: 2px 0px 3px black;
 }
 #Byrne-Systems #blog .content .content-subhead {
   font-family: "droid-mono";
@@ -2144,27 +2217,56 @@ a {
   font-size: 14px;
   line-height: 10px;
   padding: 10px;
-  border: 1px solid black;
-  background-color: #778899;
+  background-color: #d4dbf1;
+  border-top: 1px solid white;
+  border-right: 1px solid #e5e6df;
+  border-bottom: 1px solid #d0d1d5;
+  border-left: 1px solid #dfe0e4;
+}
+#Byrne-Systems #blog .content .content-subhead span {
+  display: inline-block;
+}
+#Byrne-Systems #blog .content .content-subhead .timestamp::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  content: "\e94e";
+}
+#Byrne-Systems #blog .content .content-subhead .stamp {
+  position: relative;
+  top: -1px;
+  padding-left: 5px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
 }
 #Byrne-Systems #blog .content .post {
   padding-bottom: 10px;
-  letter-spacing: 1px;
 }
 #Byrne-Systems #blog .content .post .post-header {
   height: 100px;
-  background-color: #396098;
+  background-color: #e9ebee;
   text-shadow: none;
   box-shadow: none;
-  border-top: 1px solid #707784;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-left: 1px solid #707784;
-  border-radius: 5px;
-  box-shadow: -1px -1px 0px #000;
+  border-top: 1px solid white;
+  border-right: 1px solid #e5e6df;
+  border-bottom: 1px solid #d0d1d5;
+  border-left: 1px solid #dfe0e4;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #4b4f56;
 }
 #Byrne-Systems #blog .content .post .post-header .post-title {
-  font-family: "open-sans";
+  font-family: "droid-mono";
   font-weight: normal;
   font-size: 32px;
   line-height: 0px;
@@ -2177,10 +2279,67 @@ a {
 }
 #Byrne-Systems #blog .content .post .post-header .post-meta {
   line-height: 20px;
-  font-family: "cornerstoneregular";
+  padding-top: 4px;
+  padding-left: 12px;
+  font-family: "droid-mono";
   font-weight: normal;
   font-size: 14px;
   line-height: 10px;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-css {
+  background-color: #1572b6;
+  color: white;
+  border-top: 2px solid #1880cd;
+  border-right: 2px solid #1880cd;
+  border-bottom: 2px solid #12649f;
+  border-left: 2px solid #12649f;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-css:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-pure {
+  background-color: #3498db;
+  color: white;
+  border-top: 2px solid #4aa3df;
+  border-right: 2px solid #4aa3df;
+  border-bottom: 2px solid #258cd1;
+  border-left: 2px solid #258cd1;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-pure:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-js {
+  background-color: #3498db;
+  color: white;
+  border-top: 2px solid #4aa3df;
+  border-right: 2px solid #4aa3df;
+  border-bottom: 2px solid #258cd1;
+  border-left: 2px solid #258cd1;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-js:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-yui {
+  background-color: #640f6c;
+  color: white;
+  border-top: 2px solid #791282;
+  border-right: 2px solid #791282;
+  border-bottom: 2px solid #4f0c56;
+  border-left: 2px solid #4f0c56;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-yui:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-uncategorized {
+  background-color: #da7d32;
+  color: white;
+  border-top: 2px solid #de8b48;
+  border-right: 2px solid #de8b48;
+  border-bottom: 2px solid #cd7025;
+  border-left: 2px solid #cd7025;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta .tag-uncategorized:hover {
+  color: #e9ebee;
 }
 #Byrne-Systems #blog .content .post .post-header .post-meta a {
   color: #03bad5;
@@ -2190,18 +2349,23 @@ a {
   color: #345994;
 }
 #Byrne-Systems #blog .content .post .post-description {
-  background-color: #ffffff;
+  background-color: white;
   padding: 0px 18px;
-  border-radius: 5px;
-  border: 1px solid black;
-  box-shadow: -1px 1px 0px #7b7b7b;
+  border-top: 1px solid white;
+  border-right: 1px solid #e5e6df;
+  border-bottom: 1px solid #d0d1d5;
+  border-left: 1px solid #dfe0e4;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#Byrne-Systems #blog .content .post .post-description p {
   font-family: "droid-mono";
   font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
-}
-#Byrne-Systems #blog .content .post .post-description p {
-  line-height: 32px;
+  line-height: 24px;
+  text-align: justify;
 }
 #Byrne-Systems #blog .content .post .post-description .post-images {
   *letter-spacing: normal;
