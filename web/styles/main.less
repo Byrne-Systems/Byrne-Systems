@@ -5,20 +5,24 @@
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
 
+
+
 *
 { box-sizing: border-box; }
+
+a
+{ text-decoration: none; }
+
+#fonts > .load;
 
 #Byrne-Systems
 { /* Landing Page */
   .coverr;
 
-  #fonts > .load > .open-sans;
-  #fonts > .load > .droid-serif;
-
   /* Desktop */
   @media (max-width: 1920px)
   { header
-    { height: 30px; padding: 14px 14px 0 14px; background-color: @abbey; color: @haze; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-serif(normal, 14px, 20px);
+    { height: 30px; padding: 14px 14px 0 14px; background-color: @abbey; color: @haze; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
       button
       { display: inline-block; position: absolute; right: 10px; margin-top: -6px; padding: 6px 8px; background-color: @abbey; color: @haze; border: 1px solid #000; border-radius: 3px;
         &:hover
@@ -44,13 +48,13 @@
     { overflow-x: hidden !important; overflow-y: hidden !important; }
 
     footer
-    { display: block; position: fixed; bottom: 0; min-width: 100%; height: 77px; padding: 14px 14px 0 14px; background-color: @abbey; color: white; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-serif(normal, 14px, 20px);
+    { display: block; position: fixed; bottom: 0; min-width: 100%; height: 77px; padding: 14px 14px 0 14px; background-color: @abbey; color: white; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
       ul
       { list-style-type: none; margin: 0 auto; padding: 0; width: 300px;
         li
         { display: inline; padding-right: 14px;
           a
-          { text-decoration: none; color: @haze;
+          { color: @haze;
             &:hover
             { color: @chateau; text-decoration: underline; }
           }
@@ -62,25 +66,68 @@
 
   /* Blog Page */
   #blog {
+
+    /* Sidebar */
     .sidebar
-    { .pure-u-1; .pure-u-1-4; position: fixed; top: 0; bottom: 0; background-color: @pure-blue;
+    { .pure-u-1; .pure-u-1-4; position: fixed; top: 0; bottom: 0; background-color: @bsy-bg-blue; border-right: 1px solid black;
       .brand
       { .pure-img; }
       .tagline
-      { color: @haze; #fonts > .face > .droid-serif(normal, 14px, 20px); text-align: center; }
+      { color: @haze; #fonts > .face > .droid-mono(normal, 16px, 32px); text-align: center; text-shadow: 1px 1px 3px black; }
       .nav
-      { ul.nav-list
-        { width: 90px; margin: 0 auto; padding: 0; list-style-type: none;
-          a
-          { .flat-button; margin-bottom: 7px; text-decoration: none; color: @bsy-black; #fonts > .face > .droid-serif(normal, 18px, 20px); font-weight: 600; }
+      { .nav-list
+        { width: 110px; margin: 0 auto; padding: 0; list-style-type: none;
+          .button
+          { .flat-button; margin-bottom: 7px; color: @bsy-black; #fonts > .face > .droid-mono(normal, 18px, 20px); font-weight: 600;
+            span
+            { display: inline-block; #fonts > .face > .webfont-icons(normal, 18px, 20px); }
+            .about::before
+            { content: "\e971"; }
+            .blog::before
+            { content: "\e91f"; }
+            .projects::before
+            { content: "\ea81"; }
+            .contact::before
+            { content: "\e978"; }
+          }
+          .button::before
+          { position: relative; top: 24px; left: 12px;}
         }
       }
       .header
-      { margin: 80% 2em 0; top: auto; }
+      { margin: 60% 2em 0; top: auto; }
     }
+
+    /* Content */
     .content
-    { .pure-u-1; .pure-u-3-4; margin-left: 25%; padding: 2em 3em 0; }
+    { .pure-u-1; .pure-u-3-4; margin-left: 25%; padding: 2em 3em 0; background-color: rgb(149,186,230); border-left: 1px solid @nepal;
+      .content-subhead
+      { #fonts > .face > .droid-mono(normal, 14px, 10px); padding: 10px; border: 1px solid black; background-color: rgb(119,136,153); }
+      .post
+      { padding-bottom: 10px; letter-spacing: 1px;
+        .post-header
+        { height: 100px; background-color: @bsy-bg-blue; text-shadow: none; box-shadow: none; .border(1px, solid, @slate, black, black, @slate); border-radius: 5px; box-shadow: -1px -1px 0px #000;
+          .post-title
+          { #fonts > .face > .open-sans(normal, 32px, 0px); text-shadow: 1px 1px 1px black; }
+          img
+          { .size(74px, 74px); float: right; }
+          .post-meta
+          { line-height: 20px; #fonts > .face > .cornerstone(normal, 14px, 10px);
+            a
+            { color: @bsy-cyan; text-decoration: none;
+              &:hover
+              { color: @bsy-blue; }
+            }
+          }
+        }
+        .post-description
+        { background-color: lighten(@bsy-bg-blue, 66%); padding: 0px 18px; border-radius: 5px; border: 1px solid black; box-shadow: -1px 1px 0px #7b7b7b; #fonts > .face > .droid-mono(normal, 14px, 20px);
+          p
+          { line-height: 32px; }
+          .post-images
+          { .pure-g; padding: 14px 14px 0px 0px; }
+        }
+      }
+    }
   }
-
-
 }

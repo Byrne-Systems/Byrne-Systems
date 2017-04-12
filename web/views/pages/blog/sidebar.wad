@@ -1,23 +1,43 @@
 <div class="sidebar">
-    <div class="header">
-        <img class="brand" src="/web/images/byrne-systems_logo.png">
-        <h2 class="tagline">Developing Tools & Systems to Encourage Further Advancement</h2>
+  <div class="header">
+    <img class="brand" src="/web/images/byrne-systems_logo.png">
+    <h2 class="tagline">Developing Tools & Systems to Encourage Growth & Advancement</h2>
 
-        <nav class="nav">
-            <ul class="nav-list">
-                <li>
-                  <a href="">About</a>
-                </li>
-                <li>
-                  <a href="">Blog</a>
-                </li>
-                <li>
-                  <a href="">Projects</a>
-                </li>
-                <li>
-                  <a href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#about">
+            <span class="button">
+              <span class="about"></span>
+              About
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#blog">
+            <span class="button">
+              <span class="blog"></span>
+              Blog
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            <span class="button">
+              <span class="projects"></span>
+              Projects
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <span class="button">
+              <span class="contact"></span>
+              Contact
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>

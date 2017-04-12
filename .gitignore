@@ -1,6 +1,7 @@
 # Patterns read from: $GIT_DIR/info/exclude.
 # Ignore General Operating Environment Files
 *.ini
+.*
 
 # Ignore In-Development Apps
 /config

@@ -625,6 +625,7 @@ template {
 /* -------------------------------------------------------------------------- */
 /* General (Body) */
 /* ------------------------------------------------------------------ */
+/* Facebook */
 /* Buttons */
 /* ------------------------------------------------------------------ */
 /* SECTION */
@@ -671,15 +672,36 @@ template {
 /* Fonts */
 /* -------------------------------------------------------------------------- */
 @font-face {
-  font-family: 'open-sans';
-  src: url('web/fonts/open-sans.eot');
-  src: url('web/fonts/open-sans.eot?#iefix') format('embedded-opentype'), url('web/fonts/open-sans.woff') format('woff'), url('web/fonts/open-sans.ttf') format('truetype'), url('web/fonts/open-sans.svg#webfont') format('svg');
+  font-family: 'cabin';
+  src: url('../../fonts/cabin/cabin.eot');
+  src: url('../../fonts/cabin/cabin.eot?#iefix') format('embedded-opentype'), url('../../fonts/cabin/cabin.woff2') format('woff2'), url('../../fonts/cabin/cabin.woff') format('woff'), url('../../fonts/cabin/cabin.ttf') format('truetype'), url('../../fonts/cabin/cabin.svg#cabin') format('svg');
 }
 @font-face {
-  font-family: 'droid-serif';
-  src: url('web/fonts/DroidSerif-Regular.eot');
-  src: url('web/fonts/DroidSerif-Regular.eot?#iefix') format('embedded-opentype'), url('web/fonts/DroidSerif-Regular.woff') format('woff'), url('web/fonts/DroidSerif-Regular.ttf') format('truetype'), url('web/fonts/DroidSerif-Regular.svg#webfont') format('svg');
+  font-family: 'cornerstone';
+  src: url('../../fonts/cornerstone/cornerstone.eot');
+  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstoneregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'droid-mono';
+  src: url('../../fonts/droid-mono/droid-mono.eot');
+  src: url('../../fonts/droid-mono/droid-mono.eot?#iefix') format('embedded-opentype'), url('../../fonts/droid-mono/droid-mono.woff') format('woff'), url('../../fonts/droid-mono/droid-mono.ttf') format('truetype'), url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
+}
+@font-face {
+  font-family: 'open-sans';
+  src: url('../../fonts/open-sans/open-sans.eot');
+  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'webfont-icons';
+  src: url('../../fonts/webfont-icons/webfont-icons.eot');
+  src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'), url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'), url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
+}
+/* .border */
+/* -------------------------------------------------------------------------- */
+/* .size */
+/* -------------------------------------------------------------------------- */
 /* Coverr */
 /* -------------------------------------------------------------------------- */
 .coverr .video-wrapper {
@@ -1825,6 +1847,36 @@ a.pure-button-selected {
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'cabin';
+  src: url('../../fonts/cabin/cabin.eot');
+  src: url('../../fonts/cabin/cabin.eot?#iefix') format('embedded-opentype'), url('../../fonts/cabin/cabin.woff2') format('woff2'), url('../../fonts/cabin/cabin.woff') format('woff'), url('../../fonts/cabin/cabin.ttf') format('truetype'), url('../../fonts/cabin/cabin.svg#cabin') format('svg');
+}
+@font-face {
+  font-family: 'cornerstone';
+  src: url('../../fonts/cornerstone/cornerstone.eot');
+  src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstoneregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'droid-mono';
+  src: url('../../fonts/droid-mono/droid-mono.eot');
+  src: url('../../fonts/droid-mono/droid-mono.eot?#iefix') format('embedded-opentype'), url('../../fonts/droid-mono/droid-mono.woff') format('woff'), url('../../fonts/droid-mono/droid-mono.ttf') format('truetype'), url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
+}
+@font-face {
+  font-family: 'open-sans';
+  src: url('../../fonts/open-sans/open-sans.eot');
+  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'webfont-icons';
+  src: url('../../fonts/webfont-icons/webfont-icons.eot');
+  src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'), url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'), url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
+}
 #Byrne-Systems {
   /* Landing Page */
   /* Desktop */
@@ -1871,16 +1923,6 @@ a.pure-button-selected {
 #Byrne-Systems .video-container video.fillWidth {
   width: 100%;
 }
-@font-face {
-  font-family: 'open-sans';
-  src: url('web/fonts/open-sans.eot');
-  src: url('web/fonts/open-sans.eot?#iefix') format('embedded-opentype'), url('web/fonts/open-sans.woff') format('woff'), url('web/fonts/open-sans.ttf') format('truetype'), url('web/fonts/open-sans.svg#webfont') format('svg');
-}
-@font-face {
-  font-family: 'droid-serif';
-  src: url('web/fonts/DroidSerif-Regular.eot');
-  src: url('web/fonts/DroidSerif-Regular.eot?#iefix') format('embedded-opentype'), url('web/fonts/DroidSerif-Regular.woff') format('woff'), url('web/fonts/DroidSerif-Regular.ttf') format('truetype'), url('web/fonts/DroidSerif-Regular.svg#webfont') format('svg');
-}
 @media (max-width: 1920px) {
   #Byrne-Systems header {
     height: 30px;
@@ -1890,7 +1932,7 @@ a.pure-button-selected {
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
     box-shadow: 1px 0px 2px #000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "droid-mono";
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
@@ -1946,7 +1988,7 @@ a.pure-button-selected {
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
     box-shadow: 1px 0px 2px #000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "droid-mono";
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
@@ -1962,7 +2004,6 @@ a.pure-button-selected {
     padding-right: 14px;
   }
   #Byrne-Systems footer ul li a {
-    text-decoration: none;
     color: #f6f7f7;
   }
   #Byrne-Systems footer ul li a:hover {
@@ -1980,6 +2021,10 @@ a.pure-button-selected {
     padding-top: 51px;
   }
 }
+#Byrne-Systems #blog {
+  /* Sidebar */
+  /* Content */
+}
 #Byrne-Systems #blog .sidebar {
   /* IE < 8: fake inline-block */
   width: 100%;
@@ -1995,7 +2040,8 @@ a.pure-button-selected {
   position: fixed;
   top: 0;
   bottom: 0;
-  background-color: #3d4f5d;
+  background-color: #396098;
+  border-right: 1px solid black;
 }
 #Byrne-Systems #blog .sidebar .brand {
   max-width: 100%;
@@ -2004,19 +2050,20 @@ a.pure-button-selected {
 }
 #Byrne-Systems #blog .sidebar .tagline {
   color: #f6f7f7;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "droid-mono";
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 32px;
   text-align: center;
+  text-shadow: 1px 1px 3px black;
 }
-#Byrne-Systems #blog .sidebar .nav ul.nav-list {
-  width: 90px;
+#Byrne-Systems #blog .sidebar .nav .nav-list {
+  width: 110px;
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
 }
-#Byrne-Systems #blog .sidebar .nav ul.nav-list a {
+#Byrne-Systems #blog .sidebar .nav .nav-list .button {
   display: block;
   background-color: #345994;
   border: 1px solid #081b54;
@@ -2026,24 +2073,52 @@ a.pure-button-selected {
   text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
   vertical-align: top;
   margin-bottom: 7px;
-  text-decoration: none;
   color: #081b54;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "droid-mono";
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
   font-weight: 600;
 }
-#Byrne-Systems #blog .sidebar .nav ul.nav-list a:hover {
+#Byrne-Systems #blog .sidebar .nav .nav-list .button:hover {
   background-color: #305289;
   box-shadow: 1px 1px #4d4d4d;
   box-shadow: inset 1px 1px #3e3b7b;
 }
-#Byrne-Systems #blog .sidebar .nav ul.nav-list a:active {
+#Byrne-Systems #blog .sidebar .nav .nav-list .button:active {
   background-color: #2d4e81;
 }
+#Byrne-Systems #blog .sidebar .nav .nav-list .button span {
+  display: inline-block;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+#Byrne-Systems #blog .sidebar .nav .nav-list .button .about::before {
+  content: "\e971";
+}
+#Byrne-Systems #blog .sidebar .nav .nav-list .button .blog::before {
+  content: "\e91f";
+}
+#Byrne-Systems #blog .sidebar .nav .nav-list .button .projects::before {
+  content: "\ea81";
+}
+#Byrne-Systems #blog .sidebar .nav .nav-list .button .contact::before {
+  content: "\e978";
+}
+#Byrne-Systems #blog .sidebar .nav .nav-list .button::before {
+  position: relative;
+  top: 24px;
+  left: 12px;
+}
 #Byrne-Systems #blog .sidebar .header {
-  margin: 80% 2em 0;
+  margin: 60% 2em 0;
   top: auto;
 }
 #Byrne-Systems #blog .content {
@@ -2060,5 +2135,103 @@ a.pure-button-selected {
   width: 75%;
   margin-left: 25%;
   padding: 2em 3em 0;
+  background-color: #95bae6;
+  border-left: 1px solid #909ebb;
+}
+#Byrne-Systems #blog .content .content-subhead {
+  font-family: "droid-mono";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #778899;
+}
+#Byrne-Systems #blog .content .post {
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+#Byrne-Systems #blog .content .post .post-header {
+  height: 100px;
+  background-color: #396098;
+  text-shadow: none;
+  box-shadow: none;
+  border-top: 1px solid #707784;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid #707784;
+  border-radius: 5px;
+  box-shadow: -1px -1px 0px #000;
+}
+#Byrne-Systems #blog .content .post .post-header .post-title {
+  font-family: "open-sans";
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 0px;
+  text-shadow: 1px 1px 1px black;
+}
+#Byrne-Systems #blog .content .post .post-header img {
+  width: 74px;
+  height: 74px;
+  float: right;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta {
+  line-height: 20px;
+  font-family: "cornerstoneregular";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta a {
+  color: #03bad5;
+  text-decoration: none;
+}
+#Byrne-Systems #blog .content .post .post-header .post-meta a:hover {
+  color: #345994;
+}
+#Byrne-Systems #blog .content .post .post-description {
+  background-color: #ffffff;
+  padding: 0px 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: -1px 1px 0px #7b7b7b;
+  font-family: "droid-mono";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+#Byrne-Systems #blog .content .post .post-description p {
+  line-height: 32px;
+}
+#Byrne-Systems #blog .content .post .post-description .post-images {
+  *letter-spacing: normal;
+  /* reset IE < 8 */
+  *word-spacing: -0.43em;
+  /* IE < 8: collapse white-space between units */
+  text-rendering: optimizespeed;
+  /* Webkit: fixes text-rendering: optimizeLegibility */
+  /* NOTE:
+ * Sets the font stack to fonts known to work properly with the above letter
+  and word spacings. See: https://github.com/yahoo/pure/issues/41/
+
+  The following font stack makes Pure Grids work on all known environments'
+
+  * FreeSans: Ships with many Linux distros, including Ubuntu
+
+  * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
+    Arial to get picked up by the browser, even though neither is available
+    in Chrome OS.
+
+  * Droid Sans: Ships with all versions of Android.
+
+  * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.      */
+  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+  display: flex;
+  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
+  flex-flow: row wrap;
+  align-content: flex-start;
+  /* Prevents distributing space between rows */
+  word-spacing: -0.43em;
+  padding: 14px 14px 0px 0px;
 }
 /*# sourceMappingURL=style.css.map */
