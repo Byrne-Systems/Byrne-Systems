@@ -38,39 +38,36 @@ $app    = new Template($root . '/web/views/' . 'app.wad');
 # Load: layout 'bootstrap'
 $layout = new Template($root . '/web/views/layouts/'  . 'html5.wad');
 
-$_SESSION['Page'] = 'blog';
+// $_SESSION['Page'] = 'landing';
 
-switch ($_SESSION['Page']) {
-  case 'blog':
-    # Load: blog page page elements
-    $blog    = new Template($root . '/web/views/pages/blog/' . 'blog.wad');
-    $sidebar = new Template($root . '/web/views/pages/blog/' . 'sidebar.wad');
-    $content = new Template($root . '/web/views/pages/blog/' . 'content.wad');
+if (empty($_GET['Page'])) {
+  # Load: landing page elements
+  $header = new Template($root . '/web/views/pages/landing/' . 'header.wad');
+  $main   = new Template($root . '/web/views/pages/landing/' . 'main.wad');
+  $footer = new Template($root . '/web/views/pages/landing/' . 'footer.wad');
 
-    ############################################################################
-    ###                       Setup Landing Page                             ###
-    ############################################################################
-    $layout->set('header', '');
-    $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
-    $blog->set('sidebar',                   $sidebar->output());
-    $blog->set('content',                   $content->output());
-    $layout->set('main',                    $blog->output());
-    $layout->set('footer',                  '');
-    break;
-  default:
-    # Load: landing page elements
-    $header = new Template($root . '/web/views/pages/landing/' . 'header.wad');
-    $main   = new Template($root . '/web/views/pages/landing/' . 'main.wad');
-    $footer = new Template($root . '/web/views/pages/landing/' . 'footer.wad');
+  ############################################################################
+  ###                       Setup Landing Page                             ###
+  ############################################################################
+  $layout->set('header',                  $header->output());
+  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
+  $layout->set('main',                    $main->output());
+  $layout->set('footer',                  $footer->output());
+} else if ($_GET['Page']) {
+  # Load: blog page page elements
+  $blog    = new Template($root . '/web/views/pages/blog/' . 'blog.wad');
+  $sidebar = new Template($root . '/web/views/pages/blog/' . 'sidebar.wad');
+  $content = new Template($root . '/web/views/pages/blog/' . 'content.wad');
 
-    ############################################################################
-    ###                       Setup Landing Page                             ###
-    ############################################################################
-    $layout->set('header',                  $header->output());
-    $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
-    $layout->set('main',                    $main->output());
-    $layout->set('footer',                  $footer->output());
-    break;
+  ############################################################################
+  ###                       Setup Landing Page                             ###
+  ############################################################################
+  $layout->set('header', '');
+  $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
+  $blog->set('sidebar',                   $sidebar->output());
+  $blog->set('content',                   $content->output());
+  $layout->set('main',                    $blog->output());
+  $layout->set('footer',                  '');
 }
 
 ###############################################################################

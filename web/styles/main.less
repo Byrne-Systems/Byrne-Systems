@@ -22,13 +22,13 @@ a
   /* Desktop */
   @media (max-width: 1920px)
   { header
-    { height: 30px; padding: 14px 14px 0 14px; background-color: @abbey; color: @haze; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
+    { height: 46px; padding: 14px 14px 0 14px; background-color: @abbey; color: @haze; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
       button
       { display: inline-block; position: absolute; right: 10px; margin-top: -6px; padding: 6px 8px; background-color: @abbey; color: @haze; border: 1px solid #000; border-radius: 3px;
         &:hover
-        { background-color: @nevada; }
+        { background-color: @nevada; color: @twilight; }
         &:active
-        { background-color: @masla; }
+        { background-color: @masla; color: @affair; }
       }
     }
 
@@ -56,7 +56,7 @@ a
           a
           { color: @haze;
             &:hover
-            { color: @chateau; text-decoration: underline; }
+            { color: @ochre; }
           }
         }
       }
@@ -106,12 +106,12 @@ a
         span
         { display: inline-block; }
         .timestamp
-        { padding: 3px 0px 0px 3px;
+        { padding: 3px 0px 0px 3px; color: @lynch;
           &::before
           { #fonts > .face > .webfont-icons(normal, 18px, 20px); content: "\e94e"; }
         }
         .stamp
-        { position: relative; top: -1px; padding-left: 5px; #fonts > .face > .cornerstone(normal, 18px, 20px); color: @azure; }
+        { position: relative; top: -2px; padding-left: 5px; #fonts > .face > .cornerstone(normal, 18px, 20px); color: @chambray; }
       }
       .post
       { padding-bottom: 10px;
@@ -120,7 +120,7 @@ a
           .post-title
           { #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
           img
-          { .size(100px, 100px); float: right; margin-top: -14px; margin-right: -7px; }
+          { .size(32px, 32px); float: right; margin: 14px 14px 0px 0px; }
           .post-meta
           { padding-top: 4px; padding-left: 12px; #fonts > .face > .droid-mono(normal, 15px, 21px);
             .tag-css
@@ -144,8 +144,10 @@ a
         { background-color: white; padding: 0px 18px; .border(1px, solid, white, @right, @bottom, @left); .border-radius(0px, 0px, 3px, 3px);
           p
           { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; color: darken(@boulder, 7%); }
-          .post-images
-          { .pure-g; padding: 14px 14px 0px 0px; }
+          .post-image
+          { .pure-u-1-6; padding: 20px 0px 20px 10px; }
+          .post-content
+          { .pure-u-5-6; padding: 0px 0px 10px 20px; float: right; }
         }
       }
     }

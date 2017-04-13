@@ -689,8 +689,6 @@ template {
   font-family: 'cornerstone';
   src: url('../../fonts/cornerstone/cornerstone.eot');
   src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 @font-face {
   font-family: 'droid-mono';
@@ -700,7 +698,12 @@ template {
 @font-face {
   font-family: 'open-sans';
   src: url('../../fonts/open-sans/open-sans.eot');
-  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#webfont') format('svg');
+  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
+}
+@font-face {
+  font-family: 'ikaros-sans';
+  src: url('../../fonts/ikaros-sans/ikaros-sans.eot');
+  src: url('../../fonts/ikaros-sans/ikaros-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/ikaros-sans/ikaros-sans.woff') format('woff'), url('../../fonts/ikaros-sans/ikaros-sans.ttf') format('truetype'), url('../../fonts/ikaros-sans/ikaros-sans.svg#ikaros-sans') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
@@ -1938,8 +1941,6 @@ a {
   font-family: 'cornerstone';
   src: url('../../fonts/cornerstone/cornerstone.eot');
   src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'), url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'), url('../../fonts/cornerstone/cornerstone.woff') format('woff'), url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'), url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 @font-face {
   font-family: 'droid-mono';
@@ -1949,7 +1950,12 @@ a {
 @font-face {
   font-family: 'open-sans';
   src: url('../../fonts/open-sans/open-sans.eot');
-  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#webfont') format('svg');
+  src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
+}
+@font-face {
+  font-family: 'ikaros-sans';
+  src: url('../../fonts/ikaros-sans/ikaros-sans.eot');
+  src: url('../../fonts/ikaros-sans/ikaros-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/ikaros-sans/ikaros-sans.woff') format('woff'), url('../../fonts/ikaros-sans/ikaros-sans.ttf') format('truetype'), url('../../fonts/ikaros-sans/ikaros-sans.svg#ikaros-sans') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
@@ -2004,7 +2010,7 @@ a {
 }
 @media (max-width: 1920px) {
   #Byrne-Systems header {
-    height: 30px;
+    height: 46px;
     padding: 14px 14px 0 14px;
     background-color: #4b4f56;
     color: #f6f7f7;
@@ -2029,9 +2035,11 @@ a {
   }
   #Byrne-Systems header button:hover {
     background-color: #646e75;
+    color: #e8d1dc;
   }
   #Byrne-Systems header button:active {
     background-color: #3f3d3c;
+    color: #6d479c;
   }
   #Byrne-Systems .logo {
     max-width: 100%;
@@ -2086,8 +2094,7 @@ a {
     color: #f6f7f7;
   }
   #Byrne-Systems footer ul li a:hover {
-    color: #adb3b6;
-    text-decoration: underline;
+    color: #d67528;
   }
 }
 @media (max-width: 1920px) and (max-width: 768px) {
@@ -2237,6 +2244,7 @@ a {
 }
 #Byrne-Systems #blog .content .content-subhead .timestamp {
   padding: 3px 0px 0px 3px;
+  color: #6c7c9a;
 }
 #Byrne-Systems #blog .content .content-subhead .timestamp::before {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -2252,13 +2260,13 @@ a {
 }
 #Byrne-Systems #blog .content .content-subhead .stamp {
   position: relative;
-  top: -1px;
+  top: -2px;
   padding-left: 5px;
   font-family: "cornerstone";
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
-  color: #38619a;
+  color: #3b5998;
 }
 #Byrne-Systems #blog .content .post {
   padding-bottom: 10px;
@@ -2286,11 +2294,10 @@ a {
   text-shadow: 1px 1px 1px black;
 }
 #Byrne-Systems #blog .content .post .post-header img {
-  width: 100px;
-  height: 100px;
+  width: 32px;
+  height: 32px;
   float: right;
-  margin-top: -14px;
-  margin-right: -7px;
+  margin: 14px 14px 0px 0px;
 }
 #Byrne-Systems #blog .content .post .post-header .post-meta {
   padding-top: 4px;
@@ -2382,35 +2389,29 @@ a {
   text-align: justify;
   color: #9f9f9f;
 }
-#Byrne-Systems #blog .content .post .post-description .post-images {
-  *letter-spacing: normal;
-  /* reset IE < 8 */
-  *word-spacing: -0.43em;
-  /* IE < 8: collapse white-space between units */
-  text-rendering: optimizespeed;
-  /* Webkit: fixes text-rendering: optimizeLegibility */
-  /* NOTE:
- * Sets the font stack to fonts known to work properly with the above letter
-  and word spacings. See: https://github.com/yahoo/pure/issues/41/
-
-  The following font stack makes Pure Grids work on all known environments'
-
-  * FreeSans: Ships with many Linux distros, including Ubuntu
-
-  * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
-    Arial to get picked up by the browser, even though neither is available
-    in Chrome OS.
-
-  * Droid Sans: Ships with all versions of Android.
-
-  * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.      */
-  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
-  display: flex;
-  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
-  flex-flow: row wrap;
-  align-content: flex-start;
-  /* Prevents distributing space between rows */
-  word-spacing: -0.43em;
-  padding: 14px 14px 0px 0px;
+#Byrne-Systems #blog .content .post .post-description .post-image {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 16.666%;
+  padding: 20px 0px 20px 10px;
+}
+#Byrne-Systems #blog .content .post .post-description .post-content {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 83.33%;
+  padding: 0px 0px 10px 20px;
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
