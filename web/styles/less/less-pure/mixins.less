@@ -83,48 +83,54 @@
 #fonts {
   .load {
     @font-face {
-    font-family: 'cabin';
-    src: url('../../fonts/cabin/cabin.eot');
-    src: url('../../fonts/cabin/cabin.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/cabin/cabin.woff2') format('woff2'),
-         url('../../fonts/cabin/cabin.woff') format('woff'),
-         url('../../fonts/cabin/cabin.ttf') format('truetype'),
-         url('../../fonts/cabin/cabin.svg#cabin') format('svg');
+      font-family: 'cabin';
+      src: url('../../fonts/cabin/cabin.eot');
+      src: url('../../fonts/cabin/cabin.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/cabin/cabin.woff2') format('woff2'),
+           url('../../fonts/cabin/cabin.woff') format('woff'),
+           url('../../fonts/cabin/cabin.ttf') format('truetype'),
+           url('../../fonts/cabin/cabin.svg#cabin') format('svg');
     }
     @font-face {
-        font-family: 'cornerstone';
-        src: url('../../fonts/cornerstone/cornerstone.eot');
-        src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'),
-             url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'),
-             url('../../fonts/cornerstone/cornerstone.woff') format('woff'),
-             url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'),
-             url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
-        font-weight: normal;
-        font-style: normal;
+      font-family: 'cornerstone';
+      src: url('../../fonts/cornerstone/cornerstone.eot');
+      src: url('../../fonts/cornerstone/cornerstone.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/cornerstone/cornerstone.woff2') format('woff2'),
+           url('../../fonts/cornerstone/cornerstone.woff') format('woff'),
+           url('../../fonts/cornerstone/cornerstone.ttf') format('truetype'),
+           url('../../fonts/cornerstone/cornerstone.svg#cornerstone') format('svg');
     }
     @font-face {
-    font-family: 'droid-mono';
-    src: url('../../fonts/droid-mono/droid-mono.eot');
-    src: url('../../fonts/droid-mono/droid-mono.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/droid-mono/droid-mono.woff') format('woff'),
-         url('../../fonts/droid-mono/droid-mono.ttf') format('truetype'),
-         url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
+      font-family: 'droid-mono';
+      src: url('../../fonts/droid-mono/droid-mono.eot');
+      src: url('../../fonts/droid-mono/droid-mono.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/droid-mono/droid-mono.woff') format('woff'),
+           url('../../fonts/droid-mono/droid-mono.ttf') format('truetype'),
+           url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
     }
     @font-face {
-    font-family: 'open-sans';
-    src: url('../../fonts/open-sans/open-sans.eot');
-    src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/open-sans/open-sans.woff') format('woff'),
-         url('../../fonts/open-sans/open-sans.ttf') format('truetype'),
-         url('../../fonts/open-sans/open-sans.svg#webfont') format('svg');
+      font-family: 'open-sans';
+      src: url('../../fonts/open-sans/open-sans.eot');
+      src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/open-sans/open-sans.woff') format('woff'),
+           url('../../fonts/open-sans/open-sans.ttf') format('truetype'),
+           url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
     }
     @font-face {
-    font-family: 'webfont-icons';
-    src: url('../../fonts/webfont-icons/webfont-icons.eot');
-    src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'),
-         url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'),
-         url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
+      font-family: 'ikaros-sans';
+      src: url('../../fonts/ikaros-sans/ikaros-sans.eot');
+      src: url('../../fonts/ikaros-sans/ikaros-sans.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/ikaros-sans/ikaros-sans.woff') format('woff'),
+           url('../../fonts/ikaros-sans/ikaros-sans.ttf') format('truetype'),
+           url('../../fonts/ikaros-sans/ikaros-sans.svg#ikaros-sans') format('svg');
+    }
+    @font-face {
+      font-family: 'webfont-icons';
+      src: url('../../fonts/webfont-icons/webfont-icons.eot');
+      src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'),
+           url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'),
+           url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
     }
   }
   .face {
@@ -192,7 +198,7 @@
     { color: @athens-gray; }
   }
   .tag-js {
-    @curious-blue: rgb(52, 152, 219);
+    @curious-blue: @javascript;
     background-color: @curious-blue;
     color: white;
     .border(2px, solid, lighten(@curious-blue, 5%), lighten(@curious-blue, 5%), darken(@curious-blue, 5%), darken(@curious-blue, 5%));
@@ -201,7 +207,7 @@
   }
   .tag-yui {
     @scarlet-gum: rgb(100, 15, 108);
-    background-color: @scarlet-gum;
+    background-color: @affair;
     color: white;
     .border(2px, solid, lighten(@scarlet-gum, 5%), lighten(@scarlet-gum, 5%), darken(@scarlet-gum, 5%), darken(@scarlet-gum, 5%));
     &:hover
@@ -209,7 +215,7 @@
   }
   .tag-uncategorized {
     @brandy-punch: rgb(218, 125, 50);
-    background-color: @brandy-punch;
+    background-color: @cinnabar;
     color: white;
     .border(2px, solid, lighten(@brandy-punch, 5%), lighten(@brandy-punch, 5%), darken(@brandy-punch, 5%), darken(@brandy-punch, 5%));
     &:hover

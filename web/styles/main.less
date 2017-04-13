@@ -105,21 +105,24 @@ a
       { #fonts > .face > .droid-mono(normal, 14px, 10px); padding: 10px; background-color: @link-water; .border(1px, solid, white, @right, @bottom, @left);
         span
         { display: inline-block; }
-        .timestamp::before
-        { #fonts > .face > .webfont-icons(normal, 18px, 20px); content: "\e94e"; }
+        .timestamp
+        { padding: 3px 0px 0px 3px;
+          &::before
+          { #fonts > .face > .webfont-icons(normal, 18px, 20px); content: "\e94e"; }
+        }
         .stamp
-        { position: relative; top: -1px; padding-left: 5px; #fonts > .face > .cornerstone(normal, 18px, 20px); }
+        { position: relative; top: -1px; padding-left: 5px; #fonts > .face > .cornerstone(normal, 18px, 20px); color: @azure; }
       }
       .post
       { padding-bottom: 10px;
         .post-header
         { height: 100px; background-color: @athens-gray; text-shadow: none; box-shadow: none; .border(1px, solid, white, @right, @bottom, @left); .border-radius(3px, 3px, 0px, 0px); color: @abbey;
           .post-title
-          { #fonts > .face > .droid-mono(normal, 32px, 0px); text-shadow: 1px 1px 1px black; }
+          { #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
           img
-          { .size(74px, 74px); float: right; }
+          { .size(100px, 100px); float: right; margin-top: -14px; margin-right: -7px; }
           .post-meta
-          { line-height: 20px; padding-top: 4px; padding-left: 12px; #fonts > .face > .droid-mono(normal, 14px, 10px);
+          { padding-top: 4px; padding-left: 12px; #fonts > .face > .droid-mono(normal, 15px, 21px);
             .tag-css
             { .tag > .tag-css; }
             .tag-pure
@@ -131,16 +134,16 @@ a
             .tag-uncategorized
             { .tag > .tag-uncategorized }
             a
-            { color: @bsy-cyan; text-decoration: none;
+            { color: @marino; text-decoration: none;
               &:hover
-              { color: @bsy-blue; }
+              { color: @azure; }
             }
           }
         }
         .post-description
         { background-color: white; padding: 0px 18px; .border(1px, solid, white, @right, @bottom, @left); .border-radius(0px, 0px, 3px, 3px);
           p
-          { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; }
+          { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; color: darken(@boulder, 7%); }
           .post-images
           { .pure-g; padding: 14px 14px 0px 0px; }
         }

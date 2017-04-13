@@ -9,7 +9,7 @@
       <!-- A single blog post -->
       <section class="post">
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Introducing Pure</h2>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
@@ -31,7 +31,7 @@
       </h1>
       <section class="post">
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Everything You Need to Know About Grunt</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-js" href="#">JavaScript</a>
@@ -51,7 +51,7 @@
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Photos from CSSConf and JSConf</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-uncategorized" href="#">Uncategorized</a>
@@ -71,7 +71,7 @@
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">YUI 3.10.2 Released</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-yui" href="#">YUI</a>
@@ -90,7 +90,7 @@
       <!-- A single blog post -->
       <section class="post">
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Introducing Pure</h2>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
@@ -112,7 +112,7 @@
       </h1>
       <section class="post">
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Everything You Need to Know About Grunt</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-js" href="#">JavaScript</a>
@@ -132,7 +132,7 @@
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">Photos from CSSConf and JSConf</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-uncategorized" href="#">Uncategorized</a>
@@ -152,7 +152,7 @@
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
         <header class="post-header">
-          <img class="post-avatar" src="web/images/svg/mobile-blog.svg">
+          <img class="post-avatar" src="web/images/icon_set\svg\code-n-page.svg">
           <h2 class="post-title">YUI 3.10.2 Released</h2>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-yui" href="#">YUI</a>
