@@ -1,0 +1,29 @@
+    <div class="footer">
+      <div class="pure-menu pure-menu-horizontal">
+        <ul>
+          <li class="pure-menu-item">
+            <span class="sym-github"></span>
+            <a href="https://github.com/Justin-Byrne" class="pure-menu-link">Github</a>
+          </li>
+          <li class="pure-menu-item">
+            <span class="sym-gist"></span>
+            <a href="https://gist.github.com/Justin-Byrne" class="pure-menu-link">Gist</a>
+          </li>
+          <li class="pure-menu-item">
+            <span class="sym-deviantart"></span>
+            <a href="http://justinbyrne.deviantart.com/" class="pure-menu-link" alt="">DeviantArt</a>
+          </li>
+          <li class="pure-menu-item">
+            <span class="sym-linkedin"></span>
+            <a href="https://www.linkedin.com/in/justin-byrne/" class="pure-menu-link" alt="">LinkedIn</a>
+          </li>
+          <li class="pure-menu-item">
+            <span class="sym-google-plus"></span>
+            <a href="https://plus.google.com/u/0/+JustinByrne-Personal" class="pure-menu-link" alt="">Google+</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>

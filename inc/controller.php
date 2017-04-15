@@ -18,7 +18,7 @@ require '/../lib/_Framework/template.class.php';
 # Set: Root Directory
 $root = rtrim(dirname(__FILE__), '/inc');
 
-session_start();                                        # Session: start
+// session_start();                                        # Session: start
 
 # ------------------------------------ [ Header ] --------------------------- #
 
@@ -38,8 +38,6 @@ $app    = new Template($root . '/web/views/' . 'app.wad');
 # Load: layout 'bootstrap'
 $layout = new Template($root . '/web/views/layouts/'  . 'html5.wad');
 
-// $_SESSION['Page'] = 'landing';
-
 if (empty($_GET['Page'])) {
   # Load: landing page elements
   $header = new Template($root . '/web/views/pages/landing/' . 'header.wad');
@@ -53,23 +51,65 @@ if (empty($_GET['Page'])) {
   $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
-} else if ($_GET['Page']) {
+} else if ($_GET['Page'] == 'blog') {
   # Load: blog page page elements
   $blog    = new Template($root . '/web/views/pages/blog/' . 'blog.wad');
   $sidebar = new Template($root . '/web/views/pages/blog/' . 'sidebar.wad');
   $content = new Template($root . '/web/views/pages/blog/' . 'content.wad');
+  $footer  = new Template($root . '/web/views/pages/blog/' . 'footer.wad');
 
   ############################################################################
-  ###                       Setup Landing Page                             ###
+  ###                       Setup Blog Page                                ###
   ############################################################################
   $layout->set('header', '');
   $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
   $blog->set('sidebar',                   $sidebar->output());
   $blog->set('content',                   $content->output());
   $layout->set('main',                    $blog->output());
-  $layout->set('footer',                  '');
-}
+  $layout->set('footer',                  $footer->output());
+} else if ($_GET['Page'] == 'projects') {
+  # Load: projects page page elements
+  $projects = new Template($root . '/web/views/pages/projects/' . 'projects.wad');
+  $sidebar  = new Template($root . '/web/views/pages/projects/' . 'sidebar.wad');
+  $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
+  $footer   = new Template($root . '/web/views/pages/projects/' . 'footer.wad');
 
+  ############################################################################
+  ###                       Setup Projects Page                            ###
+  ############################################################################
+  $layout->set('header', '');
+  $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
+  $projects->set('sidebar',               $sidebar->output());
+  $projects->set('content',               $content->output());
+  $layout->set('main',                    $projects->output());
+  $layout->set('footer',                  $footer->output());
+} else if ($_GET['Page'] == 'about') {
+  # Load: about page elements
+  $header = new Template($root . '/web/views/pages/about/' . 'header.wad');
+  $main   = new Template($root . '/web/views/pages/about/' . 'main.wad');
+  $footer = new Template($root . '/web/views/pages/about/' . 'footer.wad');
+
+  ############################################################################
+  ###                       Setup Contact Page                             ###
+  ############################################################################
+  $layout->set('header',                  $header->output());
+  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
+  $layout->set('main',                    $main->output());
+  $layout->set('footer',                  $footer->output());
+} else if ($_GET['Page'] == 'contact') {
+  # Load: landing page elements
+  $header = new Template($root . '/web/views/pages/contact/' . 'header.wad');
+  $main   = new Template($root . '/web/views/pages/contact/' . 'main.wad');
+  $footer = new Template($root . '/web/views/pages/contact/' . 'footer.wad');
+
+  ############################################################################
+  ###                       Setup Landing Page                             ###
+  ############################################################################
+  $layout->set('header',                  $header->output());
+  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
+  $layout->set('main',                    $main->output());
+  $layout->set('footer',                  $footer->output());
+}
 ###############################################################################
 ###                       Finalize Page with Meta Data                      ###
 ###############################################################################

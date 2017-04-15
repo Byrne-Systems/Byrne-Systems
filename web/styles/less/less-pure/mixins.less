@@ -109,14 +109,6 @@
            url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
     }
     @font-face {
-      font-family: 'open-sans';
-      src: url('../../fonts/open-sans/open-sans.eot');
-      src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
-           url('../../fonts/open-sans/open-sans.woff') format('woff'),
-           url('../../fonts/open-sans/open-sans.ttf') format('truetype'),
-           url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
-    }
-    @font-face {
       font-family: 'ikaros-sans';
       src: url('../../fonts/ikaros-sans/ikaros-sans.eot');
       src: url('../../fonts/ikaros-sans/ikaros-sans.eot?#iefix') format('embedded-opentype'),
@@ -125,12 +117,36 @@
            url('../../fonts/ikaros-sans/ikaros-sans.svg#ikaros-sans') format('svg');
     }
     @font-face {
+      font-family: 'lato';
+      src: url('../../fonts/lato/lato.eot');
+      src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/lato/lato.woff') format('woff'),
+           url('../../fonts/lato/lato.ttf') format('truetype'),
+           url('../../fonts/lato/lato.svg#lato') format('svg');
+    }
+    @font-face {
+      font-family: 'open-sans';
+      src: url('../../fonts/open-sans/open-sans.eot');
+      src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/open-sans/open-sans.woff') format('woff'),
+           url('../../fonts/open-sans/open-sans.ttf') format('truetype'),
+           url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
+    }
+    @font-face {
+      font-family: 'roboto';
+      src: url('../../fonts/roboto/roboto.eot');
+      src: url('../../fonts/roboto/roboto.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/roboto/roboto.woff') format('woff'),
+           url('../../fonts/roboto/roboto.ttf') format('truetype'),
+           url('../../fonts/roboto/roboto.svg#roboto') format('svg');
+    }
+    @font-face {
       font-family: 'webfont-icons';
-      src: url('../../fonts/webfont-icons/webfont-icons.eot');
-      src: url('../../fonts/webfont-icons/webfont-icons.eot?#iefix') format('embedded-opentype'),
-           url('../../fonts/webfont-icons/webfont-icons.woff') format('woff'),
-           url('../../fonts/webfont-icons/webfont-icons.ttf') format('truetype'),
-           url('../../fonts/webfont-icons/webfont-icons.svg#webfont') format('svg');
+      src: url('../../fonts/webfont-icons/webicons.eot');
+      src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/webfont-icons/webicons.woff') format('woff'),
+           url('../../fonts/webfont-icons/webicons.ttf') format('truetype'),
+           url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
     }
   }
   .face {
@@ -146,14 +162,14 @@
       font-size: @size;
       line-height: @lineHeight;
     }
-    .droid-mono (@weight: normal, @size: 14px, @lineHeight: 20px) {
-      font-family: "droid-mono";
+    .lato (@weight: normal, @size: 14px, @lineHeight: 20px) {
+      font-family: "lato";
       font-weight: @weight;
       font-size: @size;
       line-height: @lineHeight;
     }
-    .open-sans (@weight: normal, @size: 14px, @lineHeight: 20px) {
-      font-family: "open-sans";
+    .droid-mono (@weight: normal, @size: 14px, @lineHeight: 20px) {
+      font-family: "droid-mono";
       font-weight: @weight;
       font-size: @size;
       line-height: @lineHeight;
@@ -175,10 +191,10 @@
 /* .tag */
 /* -------------------------------------------------------------------------- */
 .tag {
-  #fonts > .face > .cornerstone(normal, 12px, 10px);
+  #fonts > .face > .lato(normal, 12px, 10px);
   border-radius: 4px;
   color: white;
-  padding: 3px 7px;
+  padding: 1px 3px;
   margin-left: 3px;
   text-decoration: none;
   .tag-css {
@@ -223,8 +239,6 @@
   }
 }
 
-
-
 /* .border */
 /* -------------------------------------------------------------------------- */
 .border(@size: 1px, @type: solid, @top, @right, @bottom, @left) {
@@ -232,6 +246,15 @@
   border-right: @size @type @right;
   border-bottom: @size @type @bottom;
   border-left: @size @type @left;
+}
+
+/* .border-r */
+/* -------------------------------------------------------------------------- */
+.border-r(@size: 1px, @type: solid, @color) {
+  border-top: @size @type darken(@color, 3%);
+  border-right: @size @type darken(@color, 12%);
+  border-bottom: @size @type darken(@color, 12%);
+  border-left: @size @type darken(@color, 3%);
 }
 
 /* .border-radius */
