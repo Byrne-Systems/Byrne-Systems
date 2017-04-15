@@ -1,8 +1,8 @@
 <footer>
   <ul>
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="index.php?Page=about">ABOUT</a></li>
+    <li><a href="index.php?Page=projects">PROJECTS</a></li>
     <li><a href="index.php?Page=blog">BLOG</a></li>
-    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="index.php?Page=contact">CONTACT</a></li>
   </ul>
 </footer>
