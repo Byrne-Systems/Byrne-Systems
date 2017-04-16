@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="170px" height="170px" viewBox="0 0 170 170" enable-background="new 0 0 170 170" xml:space="preserve">
+<g id="Deploy">
+	<g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="84.85" y1="2.73" x2="84.871" y2="8.73"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14.1423,14.1423" x1="84.919" y1="22.872" x2="85.09" y2="72.37"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="85.114" y1="79.441" x2="85.135" y2="85.441"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="85.135" y1="85.441" x2="79.917" y2="88.402"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10.3772,10.3772" x1="70.892" y1="93.524" x2="21.254" y2="121.696"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="16.742" y1="124.257" x2="11.524" y2="127.219"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="85.135" y1="85.441" x2="90.35" y2="88.409"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10.4331,10.4331" x1="99.416" y1="93.57" x2="149.285" y2="121.956"/>
+				
+					<line fill="none" stroke="#CBCBCB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="153.818" y1="124.537" x2="159.033" y2="127.505"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#51BB74" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="159.033" y1="44.794" x2="84.85" y2="2.73"/>
+		
+			<line fill="none" stroke="#51BB74" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.85" y1="2.73" x2="11.807" y2="44.794"/>
+	</g>
+	<g id="Logo_5_">
+		<g id="Border__x28_Black_x29__5_" display="none">
+			
+				<image display="inline" overflow="visible" opacity="0.35" enable-background="new    " width="1079" height="1225" xlink:href="../../../../xampp/htdocs/apps/WAFFLE/web/images/svg/C705AC08.png"  transform="matrix(0.1695 0 0 0.1695 -6.5679 -45.7524)">
+			</image>
+			<g display="inline">
+				
+					<image overflow="visible" opacity="0.4" enable-background="new    " width="988" height="1133" xlink:href="../../../../xampp/htdocs/apps/WAFFLE/web/images/svg/C705AC0B.png"  transform="matrix(0.1691 0 0 0.1691 1.2261 -37.7734)">
+				</image>
+				<g>
+					<path fill="#08090B" d="M84.732-32.574l78.084,45.207v90.591l-78.084,45.25l-78.088-45.25V12.633L84.732-32.574 M84.732-33.635
+						c-0.185,0-0.366,0.048-0.536,0.143L6.114,11.713c-0.331,0.191-0.53,0.542-0.53,0.92v90.591c0,0.38,0.2,0.727,0.527,0.92
+						l78.085,45.252c0.169,0.092,0.351,0.139,0.536,0.139s0.366-0.047,0.533-0.139l78.083-45.252c0.329-0.193,0.529-0.54,0.529-0.92
+						V12.633c0-0.378-0.2-0.729-0.529-0.92L85.266-33.492C85.098-33.586,84.917-33.635,84.732-33.635L84.732-33.635z"/>
+				</g>
+			</g>
+		</g>
+		<g id="Center_6_">
+			
+				<radialGradient id="Right_1_" cx="310.4102" cy="-229.27" r="45.4181" gradientTransform="matrix(1 0 0 -1 -226 -144)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#44BED0"/>
+				<stop  offset="0.7" style="stop-color:#3BA7B2"/>
+			</radialGradient>
+			<polygon id="Right_12_" fill="url(#Right_1_)" points="84.732,130.667 84.732,85.118 123.886,63.015 123.886,107.972 			"/>
+			
+				<radialGradient id="Left_1_" cx="311.041" cy="-229.2666" r="45.6179" gradientTransform="matrix(1 0 0 -1 -226 -144)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#44BED0"/>
+				<stop  offset="0.7" style="stop-color:#34919B"/>
+			</radialGradient>
+			<polygon id="Left_12_" fill="url(#Left_1_)" points="84.732,130.667 84.732,85.118 45.808,63.01 45.812,107.972 			"/>
+			
+				<radialGradient id="Top_1_" cx="311.083" cy="-228.9937" r="44.7329" gradientTransform="matrix(1 0 0 -1 -226 -144)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#44BED0"/>
+				<stop  offset="0.7" style="stop-color:#39A3B3"/>
+			</radialGradient>
+			<polygon id="Top_12_" fill="url(#Top_1_)" points="84.732,40.075 45.808,63.01 84.732,85.118 123.886,63.015 			"/>
+		</g>
+		<g id="Inner_5_" display="none">
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="282.6777" y1="-153.3169" x2="291.1108" y2="-167.9233" gradientTransform="matrix(1 0 0 -1 -226 -144)">
+				<stop  offset="0" style="stop-color:#F0F9FB"/>
+				<stop  offset="1" style="stop-color:#BBC4C8"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_1_)" points="84.732,-6.881 28.706,25.665 45.808,35.567 84.732,12.633 			"/>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="329.875" y1="-235.4082" x2="339.2755" y2="-251.6903" gradientTransform="matrix(1 0 0 -1 -226 -144)">
+				<stop  offset="0" style="stop-color:#79A2A3"/>
+				<stop  offset="1" style="stop-color:#99CBCB"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_2_)" points="84.732,123.452 140.965,90.454 123.886,80.524 84.732,103.224 			"/>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="429.707" y1="-384.2148" x2="439.1695" y2="-400.6044" gradientTransform="matrix(0.5 0.866 0.866 -0.5 183.6172 -472.875)">
+				<stop  offset="0" style="stop-color:#79A2A3"/>
+				<stop  offset="1" style="stop-color:#99CBCB"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_3_)" points="28.706,90.515 84.732,123.452 84.732,103.224 45.812,80.524 			"/>
+			
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="382.7949" y1="-302.5322" x2="391.175" y2="-317.0469" gradientTransform="matrix(0.5 0.866 0.866 -0.5 183.4629 -473.4053)">
+				<stop  offset="0" style="stop-color:#F0F9FB"/>
+				<stop  offset="1" style="stop-color:#BBC4C8"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_4_)" points="140.965,25.665 84.732,-6.881 84.749,12.631 123.886,35.574 			"/>
+			
+				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="254.7061" y1="-202.0898" x2="271.8125" y2="-202.0898" gradientTransform="matrix(1 0 0 -1 -226 -144)">
+				<stop  offset="0" style="stop-color:#CAEAF1"/>
+				<stop  offset="1" style="stop-color:#A0B9BF"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_5_)" points="28.706,25.665 28.706,90.515 45.812,80.524 45.808,35.567 			"/>
+			
+				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="613.3398" y1="-202.0596" x2="630.4189" y2="-202.0596" gradientTransform="matrix(-1 0 0 -1 754.3047 -144)">
+				<stop  offset="0" style="stop-color:#CAEAF1"/>
+				<stop  offset="1" style="stop-color:#A0B9BF"/>
+			</linearGradient>
+			<polygon display="inline" fill="url(#SVGID_6_)" points="140.965,25.665 140.965,90.454 123.886,80.524 123.886,35.574 			"/>
+		</g>
+		<g id="Outer_6_" display="none">
+			
+				<radialGradient id="Right_2_" cx="51.5742" cy="60.2896" r="52.2811" fx="48.8471" fy="59.871" gradientTransform="matrix(-0.9397 -0.342 -0.4282 1.1764 235.8379 48.8398)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0.1827" style="stop-color:#304E7E"/>
+				<stop  offset="0.4083" style="stop-color:#2F507F"/>
+				<stop  offset="0.6131" style="stop-color:#325383"/>
+				<stop  offset="0.8092" style="stop-color:#36588D"/>
+				<stop  offset="1" style="stop-color:#3B6098"/>
+			</radialGradient>
+			<polygon id="Right_11_" display="inline" fill="url(#Right_2_)" points="162.816,12.633 140.965,25.665 140.965,90.454 
+				84.732,123.452 84.732,148.474 162.816,103.224 			"/>
+			
+				<radialGradient id="Left_2_" cx="-164.8916" cy="-285.8525" r="49.1261" fx="-167.0487" fy="-289.9026" gradientTransform="matrix(0 -1 -0.8571 0 -237.209 -62.4121)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0.45" style="stop-color:#27446E"/>
+				<stop  offset="1" style="stop-color:#305180"/>
+			</radialGradient>
+			<polygon id="Left_11_" display="inline" fill="url(#Left_2_)" points="6.645,12.633 28.706,25.665 28.706,90.515 84.732,123.452 
+				84.732,148.474 6.645,103.224 			"/>
+			
+				<radialGradient id="Top_2_" cx="392.5127" cy="252.5625" r="54.9482" gradientTransform="matrix(2.000000e-004 1 1.5081 -3.000000e-004 -296.2461 -424.1104)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0.4038" style="stop-color:#33538F"/>
+				<stop  offset="1" style="stop-color:#4169B2"/>
+			</radialGradient>
+			<polygon id="Top_11_" display="inline" fill="url(#Top_2_)" points="28.706,25.665 6.645,12.633 84.732,-32.574 162.816,12.633 
+				140.965,25.665 84.732,-6.881 			"/>
+		</g>
+	</g>
+	
+		<polygon fill="none" stroke="#3689B0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		85.135,85.441 159.033,44.515 159.033,127.505 85.135,167.299 	"/>
+	
+		<polygon fill="none" stroke="#ECE70D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		85.135,85.441 11.807,44.515 11.807,127.505 85.135,167.299 	"/>
+</g>
+</svg>

@@ -3,8 +3,7 @@
  * @version     v0.2
  * @file        less-pure.less
  * @brief       Pure.css v0.6.2 converted into LESS compliant format
- * @author      Justin D. Byrne <justin@byrne-systems.com>
- * @author      Byrne-Systems <http://www.byrne-systems.com>
+ * @austhor      Byrne-Systems <http://www.byrne-systems.com>
  * @copyright   LGPL v3.0
  * @copyright   2017
  */
@@ -2863,5 +2862,280 @@ a {
 }
 #Byrne-Systems #projects .footer .pure-menu .sym-google-plus::before {
   content: "\f0d5";
+}
+#Byrne-Systems #about header {
+  height: 48px;
+}
+#Byrne-Systems #about header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+#Byrne-Systems #about .details {
+  *letter-spacing: normal;
+  /* reset IE < 8 */
+  *word-spacing: -0.43em;
+  /* IE < 8: collapse white-space between units */
+  text-rendering: optimizespeed;
+  /* Webkit: fixes text-rendering: optimizeLegibility */
+  /* NOTE:
+ * Sets the font stack to fonts known to work properly with the above letter
+  and word spacings. See: https://github.com/yahoo/pure/issues/41/
+
+  The following font stack makes Pure Grids work on all known environments'
+
+  * FreeSans: Ships with many Linux distros, including Ubuntu
+
+  * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
+    Arial to get picked up by the browser, even though neither is available
+    in Chrome OS.
+
+  * Droid Sans: Ships with all versions of Android.
+
+  * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.      */
+  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+  display: flex;
+  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
+  flex-flow: row wrap;
+  align-content: flex-start;
+  /* Prevents distributing space between rows */
+  word-spacing: -0.43em;
+  text-align: justify;
+  padding-top: 20px;
+}
+#Byrne-Systems #about .details h1 {
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #373075;
+  padding-left: 20px;
+}
+#Byrne-Systems #about .details .intro {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .intro .content {
+  padding: 0px 20px;
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+}
+#Byrne-Systems #about .details .author {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+  font-size: 21px;
+  line-height: 25px;
+}
+#Byrne-Systems #about .details .author .content {
+  padding: 0px 20px;
+  line-height: 40px;
+}
+#Byrne-Systems #about .details .author img {
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 64px;
+  float: right;
+}
+#Byrne-Systems #about .details .author ul {
+  line-height: 40px;
+}
+#Byrne-Systems #about .details .credentials {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+  font-size: 21px;
+  line-height: 25px;
+}
+#Byrne-Systems #about .details .credentials ul {
+  line-height: 40px;
+}
+#Byrne-Systems #about .details .d3 {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding-top: 20px;
+}
+#Byrne-Systems #about .details .d3 div {
+  max-width: 100%;
+}
+#Byrne-Systems #about .details .d3 .content {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems #about .details .d3 .design {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .d3 .design div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .d3 .design .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .d3 .develop {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .d3 .develop div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .d3 .develop .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .d3 .deploy {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .d3 .deploy div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .d3 .deploy .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .r3 {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding: 10px;
+}
+#Byrne-Systems #about .details .r3 div {
+  max-width: 100%;
+}
+#Byrne-Systems #about .details .r3 .content {
+  font-family: "lato";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems #about .details .r3 .refine {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .r3 .refine div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .r3 .refine .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .r3 .refactor {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .r3 .refactor div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .r3 .refactor .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .r3 .reiterate {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .r3 .reiterate div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .r3 .reiterate .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about footer {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,15 +1,99 @@
-<div class="video-wrapper">
-  <div class="video-container">
-    <div class="filter"></div>
-    <div class="logo">
-      <img src="web/images/logo.png">
+  <div class="details">
+    <div class="intro">
+      <h1>About</h1>
+      <p class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet. Donec ullamcorper nec lorem non auctor. Proin sollicitudin lorem justo, vitae tincidunt eros elementum ac. Mauris fermentum massa lorem, sit amet scelerisque leo vehicula ut. Nunc pretium maximus nisl semper pellentesque.
+      </p>
     </div>
-    <video autoplay loop class="fillWidth">
-      <source src="web/mov/Hello-World.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      <source src="web/mov/Hello-World.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-    <div class="poster hidden">
-      <img src="web/images/Hello-World.jpg" alt="Hello-World">
+    <div class="author">
+      <h1>Justin Byrne</h1>
+      <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+      </p>
+      <img src="web/images/avatar.png">
+      <h1>Credentials</h1>
+      <ul>
+        <li class="listed-item">Item 1</li>
+        <li class="listed-item">Item 2</li>
+        <li class="listed-item">Item 3</li>
+        <li class="listed-item">Item 4</li>
+        <li class="listed-item">Item 5</li>
+      </ul>
+    </div>
+    <div class="credentials">
+      <h1>Programming Languages</h1>
+      <ul>
+        <li class="listed-item">Item 1</li>
+        <li class="listed-item">Item 2</li>
+        <li class="listed-item">Item 3</li>
+        <li class="listed-item">Item 4</li>
+        <li class="listed-item">Item 5</li>
+      </ul>
+      <h1>Services Offered</h1>
+      <ul>
+        <li class="listed-item">Item 1</li>
+        <li class="listed-item">Item 2</li>
+        <li class="listed-item">Item 3</li>
+        <li class="listed-item">Item 4</li>
+        <li class="listed-item">Item 5</li>
+      </ul>
+    </div>
+    <div class="d3">
+      <div class="design">
+        <div>
+          <h1>Design</h1>
+        </div>
+        <img src="web/images/svg/design.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
+      <div class="develop">
+        <div>
+          <h1>Develop</h1>
+        </div>
+        <img src="web/images/svg/develop.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
+      <div class="deploy">
+        <div>
+          <h1>Deploy</h1>
+        </div>
+        <img src="web/images/svg/deploy.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
+    </div>
+    <div class="r3">
+      <div class="refine">
+        <div>
+          <h1>Refine</h1>
+        </div>
+        <img src="web/images/svg/refine.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
+      <div class="refactor">
+        <div>
+          <h1>Refactor</h1>
+        </div>
+        <img src="web/images/svg/refactor.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
+      <div class="reiterate">
+        <div>
+          <h1>Reiterate</h1>
+        </div>
+        <img src="web/images/svg/reiterate.svg">
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+        </p>
+      </div>
     </div>
   </div>
-</div>

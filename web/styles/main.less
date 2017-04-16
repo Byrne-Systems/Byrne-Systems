@@ -64,7 +64,8 @@ a
   }
 
   /* Blog Page */
-  #blog {
+  #blog
+  {
     overflow-x: hidden;
 
     /* Sidebar */
@@ -179,7 +180,8 @@ a
   }
 
   /* Projects Page */
-  #projects {
+  #projects
+  {
     overflow-x: hidden;
 
     /* Sidebar */
@@ -291,5 +293,97 @@ a
         { content: "\f0d5"; }
       }
     }
+  }
+
+  #about
+  {
+    header
+    { height: 48px;
+      img
+      { .pure-img; margin: 0 auto; padding-bottom: 20px; }
+    }
+
+    .details
+    { .pure-g; text-align: justify; padding-top: 20px;
+      h1
+      { #fonts > .face > .cornerstone(normal, 28px, 40px); color: darken(@gigas, 10%); padding-left: 20px; }
+      .intro
+      { .pure-u-1-3;
+        .content
+        { padding: 0px 20px; #fonts > .face > .cabin(normal, 24px, 40px); }
+      }
+      .author
+      { .pure-u-1-3; font-size: 21px; line-height: 25px;
+        .content
+        { padding: 0px 20px; line-height: 40px; }
+        img
+        { .size(128px, 128px); display: inline-block; margin-right: 20px; border-radius: 64px; float: right; }
+        ul
+        { line-height: 40px; }
+      }
+      .credentials
+      { .pure-u-1-3; font-size: 21px; line-height: 25px;
+        ul
+        { line-height: 40px; }
+      }
+      .d3
+      { .pure-u-1; word-spacing: inherit; text-align: center; padding-top: 20px;
+        div
+        { max-width: 100%; }
+        .content
+        { #fonts > .face > .cabin(normal, 24px, 46px); }
+        .design
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+        .develop
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+        .deploy
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+      }
+      .r3
+      { .pure-u-1; word-spacing: inherit; text-align: center; padding: 10px;
+        div
+        { max-width: 100%; }
+        .content
+        { #fonts > .face > .lato(normal, 24px, 46px); }
+        .refine
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+        .refactor
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+        .reiterate
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+        }
+      }
+    }
+    footer
+    { position: relative; }
   }
 }

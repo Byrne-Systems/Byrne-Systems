@@ -1,4 +1,4 @@
-<header>
-  Byrne-Systems Copyright © 2017
-  <button>Login</button>
-</header>
+<div id="about">
+  <header>
+    Byrne-Systems Copyright © 2017
+  </header>
