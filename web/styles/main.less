@@ -5,8 +5,6 @@
  * @author  Byrne-Systems <http://www.byrne-systems.com>
  */
 
-
-
 *
 { box-sizing: border-box; }
 
@@ -306,25 +304,78 @@ a
     .details
     { .pure-g; text-align: justify; padding-top: 20px;
       h1
-      { #fonts > .face > .cornerstone(normal, 28px, 40px); color: darken(@gigas, 10%); padding-left: 20px; }
-      .intro
-      { .pure-u-1-3;
+      { #fonts > .face > .cornerstone(normal, 28px, 40px); color: darken(@gigas, 10%); margin: 0px 20px; border-bottom: 3px solid @abbey; }
+        .intro
+        { .pure-u-1-3;
         .content
         { padding: 0px 20px; #fonts > .face > .cabin(normal, 24px, 40px); }
       }
+
+      h2
+      { margin: 0px 22px 2px 0px; #fonts > .face > .cornerstone(normal, 24px, 34px); color: darken(@gigas, 10%); border-bottom: 2px solid @abbey; }
+
       .author
-      { .pure-u-1-3; font-size: 21px; line-height: 25px;
+      { .pure-u-1-3; font-size: 21px;
         .content
         { padding: 0px 20px; line-height: 40px; }
         img
-        { .size(128px, 128px); display: inline-block; margin-right: 20px; border-radius: 64px; float: right; }
+        { .size(128px, 128px); display: inline-block; margin-right: 20px; border-radius: 64px; float: right; border: 3px solid white; box-shadow: 0px 0px 16px @gray; }
         ul
         { line-height: 40px; }
       }
       .credentials
-      { .pure-u-1-3; font-size: 21px; line-height: 25px;
+      { .pure-u-1-3; font-size: 18px; line-height: 25px;
         ul
-        { line-height: 40px; }
+        { line-height: 34px; list-style-type: none;
+          ul
+          { padding-left: 19px; list-style-type: disc; }
+          span
+          { display: inline-block; margin-top: 8px; padding-right: 7px; #fonts > .face > .webfont-icons(normal, 28px, 10px); float: left; }
+          .sym-markup::before
+          { content: "\f121"; color: darken(@cerulean, 14%); }
+          .sym-multiparadigm::before
+          { content: "\f1b3"; color: darken(@cerulean, 14%); }
+          .sym-cli::before
+          { content: "\f120"; color: darken(@cerulean, 14%); }
+          .sym-data::before
+          { content: "\e800"; color: darken(@cerulean, 14%); }
+          .sym-presentation::before
+          { content: "\e806"; color: darken(@cerulean, 14%); }
+        }
+      }
+      .services
+      { .pure-u-1; word-spacing: inherit; text-align: center; padding-top: 20px;
+        div
+        { max-width: 100%; }
+        .content
+        { #fonts > .face > .cabin(normal, 24px, 46px); }
+        .branding
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+          ul
+          { #fonts > .face > .cabin(normal, 20px, 30px); list-style-type: none; }
+        }
+        .digital
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+          ul
+          { #fonts > .face > .cabin(normal, 20px, 32px); list-style-type: none; }
+        }
+        .print
+        { .pure-u-1-3;
+          div
+          { height: 53px; line-height: 50px; }
+          .content
+          { padding: 0 20px; text-align: justify; }
+          ul
+          { #fonts > .face > .cabin(normal, 20px, 30px); list-style-type: none; }
+        }
       }
       .d3
       { .pure-u-1; word-spacing: inherit; text-align: center; padding-top: 20px;
@@ -383,6 +434,7 @@ a
         }
       }
     }
+
     footer
     { position: relative; }
   }

@@ -2,41 +2,122 @@
     <div class="intro">
       <h1>About</h1>
       <p class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet. Donec ullamcorper nec lorem non auctor. Proin sollicitudin lorem justo, vitae tincidunt eros elementum ac. Mauris fermentum massa lorem, sit amet scelerisque leo vehicula ut. Nunc pretium maximus nisl semper pellentesque.
+        Byrne-Systems is a small web-firm based out of Southern California. We specialize in
+        developing web-applications for businesses, non-profit organizations, civic institutions,
+        and for privatized purposes. Byrne-System’s CWO (Chief Web Officer) draws from a wide-set
+        of programming languages and techniques to recommend or introduce the right tool for the job.
+        Our mission here is to encourage the growth and advancement of technology through the
+        development and utilization of computer applications and systems.
       </p>
     </div>
     <div class="author">
       <h1>Justin Byrne</h1>
       <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
-      </p>
+          Graduating Magna Cum Laude, with a Bachelors of Science in Web-Application Development &
+          System's Administration, alongside 20 years of experience in Information Technology,
+          and 10 years in programming, software architecture or architectural patterns, and systems
+          makes Justin Byrne an ideal candidate for working on your next project.
       <img src="web/images/avatar.png">
       <h1>Credentials</h1>
       <ul>
-        <li class="listed-item">Item 1</li>
-        <li class="listed-item">Item 2</li>
-        <li class="listed-item">Item 3</li>
-        <li class="listed-item">Item 4</li>
-        <li class="listed-item">Item 5</li>
+        <li>Bachelors of Science in Web-Application Development & Administration</li>
+        <li>Graduated Magna Cum Laude (3.8 GPA)</li>
+        <li>Member of Sigma Alpha Pi (Honor Society)</li>
+        <li>20 Years I.T. Experience</li>
       </ul>
     </div>
+
     <div class="credentials">
       <h1>Programming Languages</h1>
       <ul>
-        <li class="listed-item">Item 1</li>
-        <li class="listed-item">Item 2</li>
-        <li class="listed-item">Item 3</li>
-        <li class="listed-item">Item 4</li>
-        <li class="listed-item">Item 5</li>
+        <li class="markup">
+          <span class="sym-markup"></span>
+          <h2>Markup</h2>
+        </li>
+        <ul>
+          <li>XML</li>
+          <li>XHTML 4.01</li>
+          <li>HTML5</li>
+        </ul>
+        <li class="multiparadigm">
+          <span class="sym-multiparadigm"></span>
+          <h2>Multiparadigm</h2>
+        </li>
+        <ul>
+          <li>PHP</li>
+          <li>Perl</li>
+          <li>Java</li>
+          <li>C#</li>
+          <li>JavaScript</li>
+        </ul>
+        <li class="cli">
+          <span class="sym-cli"></span>
+          <h2>CLI</h2>
+        </li>
+        <ul>
+          <li>BASH</li>
+          <li>4DOS</li>
+          <li>Git</li>
+        </ul>
+        <li class="data">
+          <span class="sym-data"></span>
+          <h2>Data-Oriented</h2>
+        </li>
+        <ul>
+          <li>SQL</li>
+        </ul>
+        <li class="presentation">
+          <span class="sym-presentation"></span>
+          <h2>Presentation</h2>
+        </li>
+        <ul>
+          <li>CSS</li>
+          <li>LESS</li>
+        </ul>
       </ul>
-      <h1>Services Offered</h1>
-      <ul>
-        <li class="listed-item">Item 1</li>
-        <li class="listed-item">Item 2</li>
-        <li class="listed-item">Item 3</li>
-        <li class="listed-item">Item 4</li>
-        <li class="listed-item">Item 5</li>
-      </ul>
+    </div>
+
+    <div class="services">
+      <div class="branding">
+        <div>
+          <h1>Branding</h1>
+        </div>
+        <img src="web/images/svg/branding.svg">
+        <ul>
+          <li>Naming</li>
+          <li>Brand Creation</li>
+          <li>Logo Development</li>
+          <li>Graphic Illustration</li>
+        </ul>
+      </div>
+      <div class="digital">
+        <div>
+          <h1>Digital</h1>
+        </div>
+        <img src="web/images/svg/digital.svg">
+        <ul>
+          <li>Website Design & Development</li>
+          <li>Application Development</li>
+          <li>Mobile Application Development</li>
+          <li>Content Management System</li>
+          <li>E-Commerce</li>
+          <li>Hosting & Registration</li>
+        </ul>
+      </div>
+      <div class="print">
+        <div>
+          <h1>Print</h1>
+        </div>
+        <img src="web/images/svg/print.svg">
+        <ul>
+          <li>Packaging Design</li>
+          <li>Brochures</li>
+          <li>Posters</li>
+          <li>Illustration</li>
+          <li>Business Cards</li>
+          <li>Kiosk & Signage</li>
+        </ul>
+      </div>
     </div>
     <div class="d3">
       <div class="design">

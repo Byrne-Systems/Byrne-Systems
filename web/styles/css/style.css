@@ -3,7 +3,7 @@
  * @version     v0.2
  * @file        less-pure.less
  * @brief       Pure.css v0.6.2 converted into LESS compliant format
- * @austhor      Byrne-Systems <http://www.byrne-systems.com>
+ * @author      Byrne-Systems <http://www.byrne-systems.com>
  * @copyright   LGPL v3.0
  * @copyright   2017
  */
@@ -2911,7 +2911,8 @@ a {
   font-size: 28px;
   line-height: 40px;
   color: #373075;
-  padding-left: 20px;
+  margin: 0px 20px;
+  border-bottom: 3px solid #4b4f56;
 }
 #Byrne-Systems #about .details .intro {
   display: inline-block;
@@ -2931,6 +2932,15 @@ a {
   font-size: 24px;
   line-height: 40px;
 }
+#Byrne-Systems #about .details h2 {
+  margin: 0px 22px 2px 0px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #373075;
+  border-bottom: 2px solid #4b4f56;
+}
 #Byrne-Systems #about .details .author {
   display: inline-block;
   *display: inline;
@@ -2942,7 +2952,6 @@ a {
   text-rendering: auto;
   width: 33.33333%;
   font-size: 21px;
-  line-height: 25px;
 }
 #Byrne-Systems #about .details .author .content {
   padding: 0px 20px;
@@ -2955,6 +2964,8 @@ a {
   margin-right: 20px;
   border-radius: 64px;
   float: right;
+  border: 3px solid white;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
 }
 #Byrne-Systems #about .details .author ul {
   line-height: 40px;
@@ -2969,11 +2980,152 @@ a {
   vertical-align: top;
   text-rendering: auto;
   width: 33.33333%;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
 }
 #Byrne-Systems #about .details .credentials ul {
-  line-height: 40px;
+  line-height: 34px;
+  list-style-type: none;
+}
+#Byrne-Systems #about .details .credentials ul ul {
+  padding-left: 19px;
+  list-style-type: disc;
+}
+#Byrne-Systems #about .details .credentials ul span {
+  display: inline-block;
+  margin-top: 8px;
+  padding-right: 7px;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 10px;
+  float: left;
+}
+#Byrne-Systems #about .details .credentials ul .sym-markup::before {
+  content: "\f121";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .credentials ul .sym-multiparadigm::before {
+  content: "\f1b3";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .credentials ul .sym-cli::before {
+  content: "\f120";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .credentials ul .sym-data::before {
+  content: "\e800";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .credentials ul .sym-presentation::before {
+  content: "\e806";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .services {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding-top: 20px;
+}
+#Byrne-Systems #about .details .services div {
+  max-width: 100%;
+}
+#Byrne-Systems #about .details .services .content {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems #about .details .services .branding {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .services .branding div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .services .branding .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .services .branding ul {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+}
+#Byrne-Systems #about .details .services .digital {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .services .digital div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .services .digital .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .services .digital ul {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  list-style-type: none;
+}
+#Byrne-Systems #about .details .services .print {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems #about .details .services .print div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems #about .details .services .print .content {
+  padding: 0 20px;
+  text-align: justify;
+}
+#Byrne-Systems #about .details .services .print ul {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
 }
 #Byrne-Systems #about .details .d3 {
   display: inline-block;
