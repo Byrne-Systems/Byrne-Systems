@@ -15,8 +15,8 @@
       <p class="content">
           Graduating Magna Cum Laude, with a Bachelors of Science in Web-Application Development &
           System's Administration, alongside 20 years of experience in Information Technology,
-          and 10 years in programming, software architecture or architectural patterns, and systems
-          makes Justin Byrne an ideal candidate for working on your next project.
+          and 10 years in programming, software architecture and/or design patterns, and systems analysis
+          makes Justin Byrne an ideal candidate for your next project.
       <img src="web/images/avatar.png">
       <h1>Credentials</h1>
       <ul>
@@ -35,48 +35,129 @@
           <h2>Markup</h2>
         </li>
         <ul>
-          <li>XML</li>
-          <li>XHTML 4.01</li>
-          <li>HTML5</li>
+          <li>
+            XML
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            XHTML 4.01
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            HTML5
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
         </ul>
         <li class="multiparadigm">
           <span class="sym-multiparadigm"></span>
           <h2>Multiparadigm</h2>
         </li>
         <ul>
-          <li>PHP</li>
-          <li>Perl</li>
-          <li>Java</li>
-          <li>C#</li>
-          <li>JavaScript</li>
+          <li>
+            PHP
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            Perl
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            Java
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            C#
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            JavaScript
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
         </ul>
         <li class="cli">
           <span class="sym-cli"></span>
           <h2>CLI</h2>
         </li>
         <ul>
-          <li>BASH</li>
-          <li>4DOS</li>
-          <li>Git</li>
+          <li>
+            BASH
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            4DOS
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            Git
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
         </ul>
         <li class="data">
           <span class="sym-data"></span>
           <h2>Data-Oriented</h2>
         </li>
         <ul>
-          <li>SQL</li>
+          <li>
+            SQL
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
         </ul>
         <li class="presentation">
           <span class="sym-presentation"></span>
           <h2>Presentation</h2>
         </li>
         <ul>
-          <li>CSS</li>
-          <li>LESS</li>
+          <li>
+            CSS
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
+          <li>
+            LESS
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+            <span class="sym-plus"></span>
+          </li>
         </ul>
       </ul>
     </div>
-
+    <div class="services-head">
+      Services Offered
+    </div>
     <div class="services">
       <div class="branding">
         <div>
@@ -119,6 +200,9 @@
         </ul>
       </div>
     </div>
+    <div class="services-head">
+      Our Development Lifecycle
+    </div>
     <div class="d3">
       <div class="design">
         <div>
@@ -126,7 +210,8 @@
         </div>
         <img src="web/images/svg/design.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          The initial phase of development, where your idea is drafted, understood,
+          and planned; logistically.
         </p>
       </div>
       <div class="develop">
@@ -135,7 +220,8 @@
         </div>
         <img src="web/images/svg/develop.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          Your project's actual development begins here; strategically working off of
+          its drafted design.
         </p>
       </div>
       <div class="deploy">
@@ -144,9 +230,13 @@
         </div>
         <img src="web/images/svg/deploy.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          Once your project is complete it then makes it to the final stage of development,
+          deployment; or integration.
         </p>
       </div>
+    </div>
+    <div class="services-head">
+      Our Development Process
     </div>
     <div class="r3">
       <div class="refine">
@@ -155,7 +245,8 @@
         </div>
         <img src="web/images/svg/refine.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          Throughout the development lifecycle, your project will be refined until the most efficient
+          model is available.
         </p>
       </div>
       <div class="refactor">
@@ -164,7 +255,8 @@
         </div>
         <img src="web/images/svg/refactor.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          The project will be reworked to incorporate fixes and new (more efficient) methods
+          of accomplishing the final goal.
         </p>
       </div>
       <div class="reiterate">
@@ -173,7 +265,8 @@
         </div>
         <img src="web/images/svg/reiterate.svg">
         <p class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis convallis lobortis. Vestibulum ullamcorper velit vitae sem mattis dapibus. Mauris cursus orci quis velit fringilla, ac porttitor mauris imperdiet.
+          Once the new solution(s) are satisfactory, the first two phases repeat throughout the
+          whole developmental process.
         </p>
       </div>
     </div>

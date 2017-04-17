@@ -2912,7 +2912,7 @@ a {
   line-height: 40px;
   color: #373075;
   margin: 0px 20px;
-  border-bottom: 3px solid #4b4f56;
+  border-bottom: 3px solid #373075;
 }
 #Byrne-Systems #about .details .intro {
   display: inline-block;
@@ -2939,7 +2939,7 @@ a {
   font-size: 24px;
   line-height: 34px;
   color: #373075;
-  border-bottom: 2px solid #4b4f56;
+  border-bottom: 2px solid #373075;
 }
 #Byrne-Systems #about .details .author {
   display: inline-block;
@@ -2991,6 +2991,17 @@ a {
   padding-left: 19px;
   list-style-type: disc;
 }
+#Byrne-Systems #about .details .credentials ul ul li > .sym-plus {
+  color: #027d8f;
+  float: none;
+}
+#Byrne-Systems #about .details .credentials ul ul li > .sym-plus::before {
+  content: "\e805";
+  color: #028ea3;
+}
+#Byrne-Systems #about .details .credentials ul ul li > .sym-plus:first-child {
+  padding-left: 3px;
+}
 #Byrne-Systems #about .details .credentials ul span {
   display: inline-block;
   margin-top: 8px;
@@ -3002,7 +3013,7 @@ a {
   font-variant: normal;
   text-transform: none;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 10px;
   float: left;
 }
@@ -3024,6 +3035,26 @@ a {
 }
 #Byrne-Systems #about .details .credentials ul .sym-presentation::before {
   content: "\e806";
+  color: #027d8f;
+}
+#Byrne-Systems #about .details .services-head {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  margin: 0 20px;
+  word-spacing: inherit;
+  text-align: center;
+  border-bottom: 3px solid #027d8f;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
   color: #027d8f;
 }
 #Byrne-Systems #about .details .services {
@@ -3066,7 +3097,7 @@ a {
 }
 #Byrne-Systems #about .details .services .branding .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .services .branding ul {
   font-family: "cabin";
@@ -3092,7 +3123,7 @@ a {
 }
 #Byrne-Systems #about .details .services .digital .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .services .digital ul {
   font-family: "cabin";
@@ -3118,7 +3149,7 @@ a {
 }
 #Byrne-Systems #about .details .services .print .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .services .print ul {
   font-family: "cabin";
@@ -3167,7 +3198,7 @@ a {
 }
 #Byrne-Systems #about .details .d3 .design .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .d3 .develop {
   display: inline-block;
@@ -3186,7 +3217,7 @@ a {
 }
 #Byrne-Systems #about .details .d3 .develop .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .d3 .deploy {
   display: inline-block;
@@ -3205,7 +3236,7 @@ a {
 }
 #Byrne-Systems #about .details .d3 .deploy .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .r3 {
   display: inline-block;
@@ -3241,13 +3272,16 @@ a {
   text-rendering: auto;
   width: 33.33333%;
 }
+#Byrne-Systems #about .details .r3 .refine h1 {
+  margin: 0 20px 0 10px;
+}
 #Byrne-Systems #about .details .r3 .refine div {
   height: 53px;
   line-height: 50px;
 }
 #Byrne-Systems #about .details .r3 .refine .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .r3 .refactor {
   display: inline-block;
@@ -3266,7 +3300,7 @@ a {
 }
 #Byrne-Systems #about .details .r3 .refactor .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about .details .r3 .reiterate {
   display: inline-block;
@@ -3279,13 +3313,16 @@ a {
   text-rendering: auto;
   width: 33.33333%;
 }
+#Byrne-Systems #about .details .r3 .reiterate h1 {
+  margin: 0 10px 0 20px;
+}
 #Byrne-Systems #about .details .r3 .reiterate div {
   height: 53px;
   line-height: 50px;
 }
 #Byrne-Systems #about .details .r3 .reiterate .content {
   padding: 0 20px;
-  text-align: justify;
+  text-align: center;
 }
 #Byrne-Systems #about footer {
   position: relative;
