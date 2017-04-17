@@ -25,7 +25,6 @@
         <input type="text" name="subject">
         <span class="message"></span>
         <input type="text" name="message">
-
       </form>
     </div>
   </div>
