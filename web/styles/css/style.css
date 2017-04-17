@@ -2863,6 +2863,9 @@ a {
 #Byrne-Systems #projects .footer .pure-menu .sym-google-plus::before {
   content: "\f0d5";
 }
+#Byrne-Systems #about {
+  background-color: #f6f7f9;
+}
 #Byrne-Systems #about header {
   height: 48px;
 }
@@ -2906,13 +2909,19 @@ a {
   padding-top: 20px;
 }
 #Byrne-Systems #about .details h1 {
+  margin: 0px 20px;
+  padding-left: 10px;
+  padding-top: 3px;
   font-family: "cornerstone";
   font-weight: normal;
   font-size: 28px;
   line-height: 40px;
+  border-top: 1px solid #dedcf1;
+  border-right: 1px solid #b2addd;
+  border-bottom: 1px solid #827bc8;
+  border-left: 1px solid #b2addd;
+  background-color: #e9ebee;
   color: #373075;
-  margin: 0px 20px;
-  border-bottom: 3px solid #373075;
 }
 #Byrne-Systems #about .details .intro {
   display: inline-block;
@@ -3071,6 +3080,9 @@ a {
   text-align: center;
   padding-top: 20px;
 }
+#Byrne-Systems #about .details .services img {
+  padding-top: 20px;
+}
 #Byrne-Systems #about .details .services div {
   max-width: 100%;
 }
@@ -3105,6 +3117,7 @@ a {
   font-size: 20px;
   line-height: 30px;
   list-style-type: none;
+  padding: 0 10px;
 }
 #Byrne-Systems #about .details .services .digital {
   display: inline-block;
@@ -3131,6 +3144,7 @@ a {
   font-size: 20px;
   line-height: 32px;
   list-style-type: none;
+  padding: 0 10px;
 }
 #Byrne-Systems #about .details .services .print {
   display: inline-block;
@@ -3157,6 +3171,7 @@ a {
   font-size: 20px;
   line-height: 30px;
   list-style-type: none;
+  padding: 0 10px;
 }
 #Byrne-Systems #about .details .d3 {
   display: inline-block;
@@ -3172,11 +3187,14 @@ a {
   text-align: center;
   padding-top: 20px;
 }
+#Byrne-Systems #about .details .d3 img {
+  padding-top: 20px;
+}
 #Byrne-Systems #about .details .d3 div {
   max-width: 100%;
 }
 #Byrne-Systems #about .details .d3 .content {
-  font-family: "cabin";
+  font-family: "lato";
   font-weight: normal;
   font-size: 24px;
   line-height: 46px;
@@ -3251,6 +3269,9 @@ a {
   word-spacing: inherit;
   text-align: center;
   padding: 10px;
+}
+#Byrne-Systems #about .details .r3 img {
+  padding-top: 20px;
 }
 #Byrne-Systems #about .details .r3 div {
   max-width: 100%;

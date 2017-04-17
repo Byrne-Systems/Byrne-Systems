@@ -1,15 +1,31 @@
-<div class="video-wrapper">
-  <div class="video-container">
-    <div class="filter"></div>
-    <div class="logo">
-      <img src="web/images/logo.png">
+  <div class="contact-head">
+    <h1>Contact</h1>
+    <span class="tagline">
+      Please feel free to contact me anytime via any of the below methods:
+    </span>
+  </div>
+  <div class="contact-info">
+    <div class="addresses">
+      <ul class="heading">
+        <li>Justin D. Byrne</li>
+        <li>Long Beach, CA</li>
+      </ul>
+      <ul class="info">
+        <li>justin@byrne-systems.com</li>
+        <li>714.397.6726</li>
+      </ul>
     </div>
-    <video autoplay loop class="fillWidth">
-      <source src="web/mov/Hello-World.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      <source src="web/mov/Hello-World.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-    <div class="poster hidden">
-      <img src="web/images/Hello-World.jpg" alt="Hello-World">
+    <div class="contact-form">
+      <form role="form" action="inc/init.php">
+        <span class="name">Name:</span>
+        <input type="text" name="name">
+        <span class="email">Email:</span>
+        <input type="text" name="email">
+        <span class="subject"></span>
+        <input type="text" name="subject">
+        <span class="message"></span>
+        <input type="text" name="message">
+
+      </form>
     </div>
   </div>
-</div>
