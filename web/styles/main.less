@@ -11,24 +11,20 @@
 a
 { text-decoration: none; }
 
+html {
+  background-color: white;
+  overflow-x: hidden;
+}
+
 #fonts > .load;
 
 #Byrne-Systems
 { /* Landing Page */
-  .coverr;
 
   /* Desktop */
   @media (max-width: 1920px)
   { header
-    { height: 46px; padding: 14px 14px 0 14px; background-color: @abbey; color: @haze; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
-      button
-      { display: inline-block; position: absolute; right: 10px; margin-top: -6px; padding: 6px 8px; background-color: @abbey; color: @haze; border: 1px solid #000; border-radius: 3px;
-        &:hover
-        { background-color: @nevada; color: @twilight; }
-        &:active
-        { background-color: @masla; color: @affair; }
-      }
-    }
+    { min-width: 100%; position: absolute; height: 46px; padding: 14px 14px 0 14px; background-color: @abbey; color: lighten(@abbey, 28%); border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px); z-index: 2; }
 
     .logo
     { .pure-img; max-width: 80%; display: inline-block; position: relative; padding-top: 147px; min-width: 100%; height: auto; text-align: center; z-index: 2; margin: 0 auto;
@@ -42,13 +38,16 @@ a
       { max-width: 66.666%; }
     }
 
-    .video-wrapper
-    { overflow-x: hidden !important; overflow-y: hidden !important; }
+    #bg
+    { position: relative; top: -410px; left: 0px; }
+
+    .tagline
+    { display: block; #fonts > .face > .cabin(normal, 26px, 40px); color: lighten(@abbey, 49%); text-shadow: -1px 1px 2px black; }
 
     footer
-    { display: block; position: fixed; bottom: 0; min-width: 100%; height: 77px; padding: 14px 14px 0 14px; background-color: @abbey; color: white; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .droid-mono(normal, 14px, 20px);
+    { display: block; position: fixed; bottom: 0; min-width: 100%; height: 77px; padding: 14px 14px 0 14px; background-color: @abbey; color: white; border-bottom: 1px solid #000; text-shadow: 0 -1px #000; box-shadow: 1px 0px 2px #000; #fonts > .face > .lato(normal, 18px, 20px); border-top: 1px solid #000; box-shadow: -1px 0px 2px #000;
       ul
-      { list-style-type: none; margin: 0 auto; padding: 0; width: 300px;
+      { list-style-type: none; margin: 0 auto; padding: 0; width: 355px;
         li
         { display: inline; padding-right: 14px;
           a
@@ -63,9 +62,7 @@ a
 
   /* Blog Page */
   #blog
-  {
-    overflow-x: hidden;
-
+  { overflow-x: hidden;
     /* Sidebar */
     .sidebar
     { .pure-u-1; .pure-u-1-4; position: fixed; top: 0; bottom: 0; background-color: @azure; border-right: 1px solid black;
@@ -116,13 +113,13 @@ a
       .post
       { padding-bottom: 10px;
         .post-header
-        { height: 100px; background-color: lighten(@cerulean, 49%);; color: @abbey; text-shadow: none; box-shadow: none; .border-radius(3px, 3px, 0px, 0px); .border-r(1px, solid, @athens-gray);
+        { height: 100px; background-color: lighten(@cerulean, 49%); color: @abbey; text-shadow: none; box-shadow: none; .border-radius(3px, 3px, 0px, 0px); .border-r(1px, solid, @athens-gray);
           .post-title
-          { #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
+          { display: inline-block; margin: 28px 0px 14px 14px; #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
           img
-          { .size(64px, 64px); float: right; }
+          { .size(64px, 64px); margin: 14px 14px 0px 0px; float: right; }
           .post-meta
-          { padding-top: 4px; padding-left: 12px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
+          { padding-left: 28px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
             .tag-css
             { .tag > .tag-css; }
             .tag-pure
@@ -179,9 +176,7 @@ a
 
   /* Projects Page */
   #projects
-  {
-    overflow-x: hidden;
-
+  { overflow-x: hidden;
     /* Sidebar */
     .sidebar
     { .pure-u-1; .pure-u-1-4; position: fixed; top: 0; bottom: 0; background-color: darken(@cerulean, 7%); border-right: 1px solid darken(@cerulean, 7%);
@@ -234,11 +229,11 @@ a
         .post-header
         { height: 100px; background-color: lighten(@cerulean, 53%); color: @abbey; text-shadow: none; box-shadow: none; .border-radius(3px, 3px, 0px, 0px); .border-r(1px, solid, @athens-gray);
           .post-title
-          { #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
+          { display: inline-block; margin: 28px 0px 14px 14px; #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
           img
-          { .size(64px, 64px); float: right; }
+          { .size(64px, 64px); margin: 14px 14px 0px 0px; float: right; }
           .post-meta
-          { padding-top: 4px; padding-left: 12px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
+          { padding-left: 28px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
             .tag-css
             { .tag > .tag-css; }
             .tag-pure
@@ -302,7 +297,7 @@ a
     }
 
     .details
-    { .pure-g; text-align: justify; padding-top: 20px;
+    { .pure-g; text-align: justify; padding-top: 70px;
       h1
       { margin: 0px 20px; padding-left: 10px; padding-top: 3px; #fonts > .face > .cornerstone(normal, 28px, 40px); .border(1px, solid, lighten(@gigas, 48%), lighten(@gigas, 35%), lighten(@gigas, 21%), lighten(@gigas, 35%)); background-color: @athens-gray; color: darken(@gigas, 10%); box-shadow: 0px 0px 5px lighten(@abbey, 28%); border-radius: 3px; }
         .intro
@@ -456,5 +451,38 @@ a
 
     footer
     { position: relative; }
+  }
+
+  #contact
+  { header
+    { position: absolute; top: 0px; }
+    .contact-head
+    { h1
+      { display: block; margin-top: 90px; padding: 20px 0px 0px 30px; #fonts > .face > .cornerstone(normal, 77px, 0px); }
+      .tagline
+      { padding-left: 30px; #fonts > .face > .lato(normal, 28px, 0px); }
+    }
+    .contact-info
+    { padding-top: 30px;
+      .addresses
+      { .pure-u-1-2; display: inline-block;
+        ul
+        { .size(361px, 361px); margin: 24px auto; padding: 74px 0px 0px 0px; text-align: center; list-style-type: none; #fonts > .face > .cabin(normal, 28px, 45px); .border-r(1px, solid, white); border-radius: 181px; box-shadow: 0px 0px 7px black; background-color: @athens-light; }
+        hr
+        { size: 1px; }
+      }
+      .contact-form
+      { .pure-u-1-2; display: inline-block; float: right; line-height: 40px;
+        input, textarea
+        { display: block; }
+        h1
+        { margin: 0px 20px; margin-left: -14px; margin-top: 21px; padding-left: 10px; padding-top: 3px; #fonts > .face > .cornerstone(normal, 28px, 40px); .border(1px, solid, lighten(@gigas, 48%), lighten(@gigas, 35%), lighten(@gigas, 21%), lighten(@gigas, 35%)); background-color: @athens-gray; color: @abbey; box-shadow: 0px 0px 5px lighten(@abbey, 28%); border-radius: 3px;
+          &::before
+          { #fonts > .face > .webfont-icons(normal, 28px, 0px); content: '\f1d9'; padding-right: 14px; color: gray; }
+        }
+        .submit-btn
+        { .flat-button(@athens-gray); margin-top: 14px; }
+      }
+    }
   }
 }

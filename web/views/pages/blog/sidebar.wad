@@ -1,14 +1,16 @@
 <div class="sidebar">
   <div class="header">
     <img class="brand" src="/web/images/byrne-systems_logo.png">
-    <h2 class="tagline">Developing Tools & Systems to Encourage Growth & Advancement</h2>
+    <h2 class="tagline">
+      Developing Tools & Systems to Encourage Growth & Advancement
+    </h2>
     <nav class="nav">
       <ul class="nav-list">
         <li>
-          <a href="index.php?Page=about">
+          <a href="index.php?Page=projects">
             <span class="button">
-              <span class="about"></span>
-              About
+              <span class="projects"></span>
+              Projects
             </span>
           </a>
         </li>
@@ -21,10 +23,10 @@
           </a>
         </li>
         <li>
-          <a href="index.php?Page=projects">
+          <a href="index.php?Page=about">
             <span class="button">
-              <span class="projects"></span>
-              Projects
+              <span class="about"></span>
+              About
             </span>
           </a>
         </li>

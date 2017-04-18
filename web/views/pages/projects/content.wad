@@ -8,13 +8,13 @@
       </h1>
       <!-- A single blog post -->
       <section class="post">
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Byrne-Systems Projects Page</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Byrne-Systems Projects Page</span>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
           </p>
-        </header>
+        </div>
         <div class="post-description">
           <article>
             <img class="post-image" src="web/images/mock-image_126x126.png">
@@ -34,13 +34,13 @@
         <span class="stamp">4/11/2017 @ 10:54pm</span>
       </h1>
       <section class="post">
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Everything You Need to Know About Grunt</span>
             <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-js" href="#">JavaScript</a>
           </p>
-        </header>
+        </div>
         <div class="post-description">
           <article>
             <p>
@@ -55,15 +55,15 @@
           <span class="timestamp"></span>
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Photos from CSSConf and JSConf</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Photos from CSSConf and JSConf</span>
           <article>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-uncategorized" href="#">Uncategorized</a>
           </p>
           </article>
-        </header>
+        </div>
                 <div class="post-description">
           <article>
             <img class="post-image" src="web/images/mock-image_126x126.png">
@@ -81,13 +81,13 @@
           <span class="timestamp"></span>
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">YUI 3.10.2 Released</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">YUI 3.10.2 Released</span>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-yui" href="#">YUI</a>
           </p>
-          </header>
+          </div>
           <div class="post-description">
           <article>
             <img class="post-image" src="web/images/mock-image_126x126.png">
@@ -103,13 +103,13 @@
       </h1>
       <!-- A single blog post -->
       <section class="post">
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Introducing Pure</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Introducing Pure</span>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
           </p>
-        </header>
+        </div>
 
         <div class="post-description">
           <p>
@@ -125,13 +125,13 @@
         <span class="stamp">4/11/2017 @ 10:54pm</span>
       </h1>
       <section class="post">
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Everything You Need to Know About Grunt</span>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-js" href="#">JavaScript</a>
           </p>
-        </header>
+        </div>
 
         <div class="post-description">
           <p>
@@ -145,13 +145,13 @@
           <span class="timestamp"></span>
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">Photos from CSSConf and JSConf</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">Photos from CSSConf and JSConf</span>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-uncategorized" href="#">Uncategorized</a>
           </p>
-        </header>
+        </div>
         <div class="post-description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -165,13 +165,13 @@
           <span class="timestamp"></span>
           <span class="stamp">4/11/2017 @ 10:54pm</span>
         </h1>
-        <header class="post-header">
-          <img class="post-avatar" src="web/images/post-projects.png">
-          <h2 class="post-title">YUI 3.10.2 Released</h2>
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">YUI 3.10.2 Released</span>
           <p class="post-meta">
             By <a class="post-author" href="#">Justin D. Byrne</a> under <a class="tag tag-yui" href="#">YUI</a>
           </p>
-          </header>
+          </div>
           <div class="post-description">
             <p>
               We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.

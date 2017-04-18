@@ -677,6 +677,8 @@ template {
 /* ------------------------------------------------------------------ */
 /* Paddings */
 /* ------------------------------------------------------------------ */
+/* Background Size */
+/* ------------------------------------------------------------------ */
 /* Fonts */
 /* -------------------------------------------------------------------------- */
 @font-face {
@@ -708,11 +710,6 @@ template {
   font-family: 'open-sans';
   src: url('../../fonts/open-sans/open-sans.eot');
   src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
-}
-@font-face {
-  font-family: 'roboto';
-  src: url('../../fonts/roboto/roboto.eot');
-  src: url('../../fonts/roboto/roboto.eot?#iefix') format('embedded-opentype'), url('../../fonts/roboto/roboto.woff') format('woff'), url('../../fonts/roboto/roboto.ttf') format('truetype'), url('../../fonts/roboto/roboto.svg#roboto') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
@@ -795,49 +792,6 @@ template {
 /* -------------------------------------------------------------------------- */
 /* .size */
 /* -------------------------------------------------------------------------- */
-/* Coverr */
-/* -------------------------------------------------------------------------- */
-.coverr .video-wrapper {
-  border-right: none;
-  border-left: none;
-  position: relative;
-}
-.coverr .no-video .video-container video,
-.coverr .touch .video-container video {
-  display: none;
-}
-.coverr .no-video .video-container .poster,
-.coverr .touch .video-container .poster {
-  display: block !important;
-}
-.coverr .video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #000;
-}
-.coverr .video-container .poster img {
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-}
-.coverr .video-container .filter {
-  z-index: 100;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%;
-}
-.coverr .video-container video {
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-}
-.coverr .video-container video.fillWidth {
-  width: 100%;
-}
 /*!
  * @file    buttons-core.less
  * @brief   Pure's core button styles
@@ -1925,6 +1879,10 @@ a.pure-button-selected {
 a {
   text-decoration: none;
 }
+html {
+  background-color: white;
+  overflow-x: hidden;
+}
 @font-face {
   font-family: 'cabin';
   src: url('../../fonts/cabin/cabin.eot');
@@ -1956,11 +1914,6 @@ a {
   src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'), url('../../fonts/open-sans/open-sans.woff') format('woff'), url('../../fonts/open-sans/open-sans.ttf') format('truetype'), url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
 }
 @font-face {
-  font-family: 'roboto';
-  src: url('../../fonts/roboto/roboto.eot');
-  src: url('../../fonts/roboto/roboto.eot?#iefix') format('embedded-opentype'), url('../../fonts/roboto/roboto.woff') format('woff'), url('../../fonts/roboto/roboto.ttf') format('truetype'), url('../../fonts/roboto/roboto.svg#roboto') format('svg');
-}
-@font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
   src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
@@ -1971,53 +1924,14 @@ a {
   /* Blog Page */
   /* Projects Page */
 }
-#Byrne-Systems .video-wrapper {
-  border-right: none;
-  border-left: none;
-  position: relative;
-}
-#Byrne-Systems .no-video .video-container video,
-#Byrne-Systems .touch .video-container video {
-  display: none;
-}
-#Byrne-Systems .no-video .video-container .poster,
-#Byrne-Systems .touch .video-container .poster {
-  display: block !important;
-}
-#Byrne-Systems .video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #000;
-}
-#Byrne-Systems .video-container .poster img {
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-}
-#Byrne-Systems .video-container .filter {
-  z-index: 100;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%;
-}
-#Byrne-Systems .video-container video {
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-}
-#Byrne-Systems .video-container video.fillWidth {
-  width: 100%;
-}
 @media (max-width: 1920px) {
   #Byrne-Systems header {
+    min-width: 100%;
+    position: absolute;
     height: 46px;
     padding: 14px 14px 0 14px;
     background-color: #4b4f56;
-    color: #f6f7f7;
+    color: #91969f;
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
     box-shadow: 1px 0px 2px #000;
@@ -2025,25 +1939,7 @@ a {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-  }
-  #Byrne-Systems header button {
-    display: inline-block;
-    position: absolute;
-    right: 10px;
-    margin-top: -6px;
-    padding: 6px 8px;
-    background-color: #4b4f56;
-    color: #f6f7f7;
-    border: 1px solid #000;
-    border-radius: 3px;
-  }
-  #Byrne-Systems header button:hover {
-    background-color: #646e75;
-    color: #e8d1dc;
-  }
-  #Byrne-Systems header button:active {
-    background-color: #3f3d3c;
-    color: #6d479c;
+    z-index: 2;
   }
   #Byrne-Systems .logo {
     max-width: 100%;
@@ -2063,9 +1959,19 @@ a {
   #Byrne-Systems .logo img {
     max-width: 66.666%;
   }
-  #Byrne-Systems .video-wrapper {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+  #Byrne-Systems #bg {
+    position: relative;
+    top: -410px;
+    left: 0px;
+  }
+  #Byrne-Systems .tagline {
+    display: block;
+    font-family: "cabin";
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #cacdd1;
+    text-shadow: -1px 1px 2px black;
   }
   #Byrne-Systems footer {
     display: block;
@@ -2079,16 +1985,18 @@ a {
     border-bottom: 1px solid #000;
     text-shadow: 0 -1px #000;
     box-shadow: 1px 0px 2px #000;
-    font-family: "droid-mono";
+    font-family: "lato";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
+    border-top: 1px solid #000;
+    box-shadow: -1px 0px 2px #000;
   }
   #Byrne-Systems footer ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    width: 300px;
+    width: 355px;
   }
   #Byrne-Systems footer ul li {
     display: inline;
@@ -2295,6 +2203,8 @@ a {
   border-left: 1px solid #d5d9de;
 }
 #Byrne-Systems #blog .content .post .post-header .post-title {
+  display: inline-block;
+  margin: 28px 0px 14px 14px;
   font-family: "droid-mono";
   font-weight: normal;
   font-size: 24px;
@@ -2304,11 +2214,11 @@ a {
 #Byrne-Systems #blog .content .post .post-header img {
   width: 64px;
   height: 64px;
+  margin: 14px 14px 0px 0px;
   float: right;
 }
 #Byrne-Systems #blog .content .post .post-header .post-meta {
-  padding-top: 4px;
-  padding-left: 12px;
+  padding-left: 28px;
   font-family: "lato";
   font-weight: normal;
   font-size: 15px;
@@ -2671,6 +2581,8 @@ a {
   border-left: 1px solid #d5d9de;
 }
 #Byrne-Systems #projects .content .post .post-header .post-title {
+  display: inline-block;
+  margin: 28px 0px 14px 14px;
   font-family: "droid-mono";
   font-weight: normal;
   font-size: 24px;
@@ -2680,11 +2592,11 @@ a {
 #Byrne-Systems #projects .content .post .post-header img {
   width: 64px;
   height: 64px;
+  margin: 14px 14px 0px 0px;
   float: right;
 }
 #Byrne-Systems #projects .content .post .post-header .post-meta {
-  padding-top: 4px;
-  padding-left: 12px;
+  padding-left: 28px;
   font-family: "lato";
   font-weight: normal;
   font-size: 15px;
@@ -2906,7 +2818,7 @@ a {
   /* Prevents distributing space between rows */
   word-spacing: -0.43em;
   text-align: justify;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 #Byrne-Systems #about .details h1 {
   margin: 0px 20px;
@@ -3350,5 +3262,132 @@ a {
 }
 #Byrne-Systems #about footer {
   position: relative;
+}
+#Byrne-Systems #contact header {
+  position: absolute;
+  top: 0px;
+}
+#Byrne-Systems #contact .contact-head h1 {
+  display: block;
+  margin-top: 90px;
+  padding: 20px 0px 0px 30px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 77px;
+  line-height: 0px;
+}
+#Byrne-Systems #contact .contact-head .tagline {
+  padding-left: 30px;
+  font-family: "lato";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 0px;
+}
+#Byrne-Systems #contact .contact-info {
+  padding-top: 30px;
+}
+#Byrne-Systems #contact .contact-info .addresses {
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 50%;
+  display: inline-block;
+}
+#Byrne-Systems #contact .contact-info .addresses ul {
+  width: 361px;
+  height: 361px;
+  margin: 24px auto;
+  padding: 74px 0px 0px 0px;
+  text-align: center;
+  list-style-type: none;
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+  border-top: 1px solid #ededed;
+  border-right: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  border-left: 1px solid #ededed;
+  border-radius: 181px;
+  box-shadow: 0px 0px 7px black;
+  background-color: #f6f7f9;
+}
+#Byrne-Systems #contact .contact-info .addresses hr {
+  size: 1px;
+}
+#Byrne-Systems #contact .contact-info .contact-form {
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 50%;
+  display: inline-block;
+  float: right;
+  line-height: 40px;
+}
+#Byrne-Systems #contact .contact-info .contact-form input,
+#Byrne-Systems #contact .contact-info .contact-form textarea {
+  display: block;
+}
+#Byrne-Systems #contact .contact-info .contact-form h1 {
+  margin: 0px 20px;
+  margin-left: -14px;
+  margin-top: 21px;
+  padding-left: 10px;
+  padding-top: 3px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  border-top: 1px solid #dedcf1;
+  border-right: 1px solid #b2addd;
+  border-bottom: 1px solid #827bc8;
+  border-left: 1px solid #b2addd;
+  background-color: #e9ebee;
+  color: #4b4f56;
+  box-shadow: 0px 0px 5px #91969f;
+  border-radius: 3px;
+}
+#Byrne-Systems #contact .contact-info .contact-form h1::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 0px;
+  content: '\f1d9';
+  padding-right: 14px;
+  color: gray;
+}
+#Byrne-Systems #contact .contact-info .contact-form .submit-btn {
+  display: block;
+  background-color: #dde1e5;
+  border-top: 1px solid #d5d9de;
+  border-right: 1px solid #adb4bf;
+  border-bottom: 1px solid #adb4bf;
+  border-left: 1px solid #d5d9de;
+  padding: 7px 14px 7px 14px;
+  border-radius: 3px;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+  margin-top: 14px;
+}
+#Byrne-Systems #contact .contact-info .contact-form .submit-btn:hover {
+  background-color: #d5d9de;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset 1px 1px #e0e3e7;
+}
+#Byrne-Systems #contact .contact-info .contact-form .submit-btn:active {
+  background-color: #ccd1d8;
 }
 /*# sourceMappingURL=style.css.map */

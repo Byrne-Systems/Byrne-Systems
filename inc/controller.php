@@ -48,7 +48,6 @@ if (empty($_GET['Page'])) {
   ###                       Setup Landing Page                             ###
   ############################################################################
   $layout->set('header',                  $header->output());
-  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 } else if ($_GET['Page'] == 'blog') {
@@ -62,7 +61,6 @@ if (empty($_GET['Page'])) {
   ###                       Setup Blog Page                                ###
   ############################################################################
   $layout->set('header', '');
-  $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
   $blog->set('sidebar',                   $sidebar->output());
   $blog->set('content',                   $content->output());
   $layout->set('main',                    $blog->output());
@@ -78,7 +76,6 @@ if (empty($_GET['Page'])) {
   ###                       Setup Projects Page                            ###
   ############################################################################
   $layout->set('header', '');
-  $layout->set('favicon',                 $sidebar->favicon($root . '/web/images/fav/cube.fav'));
   $projects->set('sidebar',               $sidebar->output());
   $projects->set('content',               $content->output());
   $layout->set('main',                    $projects->output());
@@ -93,7 +90,6 @@ if (empty($_GET['Page'])) {
   ###                       Setup Contact Page                             ###
   ############################################################################
   $layout->set('header',                  $header->output());
-  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 } else if ($_GET['Page'] == 'contact') {
@@ -106,10 +102,22 @@ if (empty($_GET['Page'])) {
   ###                       Setup Landing Page                             ###
   ############################################################################
   $layout->set('header',                  $header->output());
-  $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
+  $layout->set('main',                    $main->output());
+  $layout->set('footer',                  $footer->output());
+} else if ($_GET['Page'] == '404') {
+  # Load: landing page elements
+  $header = new Template($root . '/web/views/pages/404/' . 'header.wad');
+  $main   = new Template($root . '/web/views/pages/404/' . 'main.wad');
+  $footer = new Template($root . '/web/views/pages/404/' . 'footer.wad');
+
+  ############################################################################
+  ###                       Setup Landing Page                             ###
+  ############################################################################
+  $layout->set('header',                  $header->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 }
+
 ###############################################################################
 ###                       Finalize Page with Meta Data                      ###
 ###############################################################################
@@ -118,7 +126,7 @@ if (empty($_GET['Page'])) {
 $layout->set('file_notes',              $notes->output());
 $layout->set('title',                   'Byrne-Systems | Web-Application Design & Development');
 $layout->set('meta_tags',               $meta->output());
-// $layout->set('favicon',                 $header->favicon($root . '/web/images/fav/cube.fav'));
+$layout->set('favicon',                 $layout->favicon($root . '/web/images/fav/cube.fav'));
 $layout->set('styles',                  $styles->output());
 $layout->set('wrapper',                 'Byrne-Systems');
 $layout->set('script',                  $script->output());
