@@ -1,31 +1,7 @@
-  <div class="contact-head">
-    <h1>Contact</h1>
-    <span class="tagline">
-      Please feel free to contact me anytime via any of the below methods:
-    </span>
+<div class="main">
+  <div class="guinea-pig">
+    <div class="error">404</div>
+    <div class="tagline">Oops! Who let the Guinea Pig out?</div>
+    <img src="web/images/svg/guinea-pig.svg">
   </div>
-  <div class="contact-info">
-    <div class="addresses">
-      <ul class="info">
-        <li>Justin D. Byrne</li>
-        <li>Long Beach, CA</li>
-        <hr>
-        <li>justin@byrne-systems.com</li>
-        <li>714.397.6726</li>
-      </ul>
-    </div>
-    <div class="contact-form">
-      <form role="form" class="pure-form" action="inc/init.php">
-        <h1>Email:</h1>
-        <span class="name">Name:</span>
-        <input type="text" name="name">
-        <span class="email">Email:</span>
-        <input type="text" name="email">
-        <span class="subject">Subject:</span>
-        <input type="text" name="subject">
-        <span class="message">Message:</span>
-        <textarea rows="4" cols="50" name="message"></textarea>
-        <input type="submit" class="submit-btn" name="submit">
-      </form>
-    </div>
-  </div>
+</div>

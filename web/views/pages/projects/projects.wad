@@ -1,4 +1,4 @@
-<div id="projects" class="pure-g">
+<div class="projects">
     [!sidebar]
     [!content]
 </div>

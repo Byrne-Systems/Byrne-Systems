@@ -699,12 +699,12 @@ template {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
 /* .tag */
 /* -------------------------------------------------------------------------- */
@@ -1913,7 +1913,7 @@ a {
   text-decoration: none;
 }
 html {
-  background-color: #302a66;
+  background-color: #f6f7f9;
 }
 @font-face {
   font-family: 'cabin';
@@ -1933,17 +1933,32 @@ html {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
 #Byrne-Systems {
-  /* 404 Page */
+  background-color: #f6f7f9;
 }
-#Byrne-Systems .main {
+#Byrne-Systems header {
+  min-width: 100%;
+  height: 46px;
+  padding: 14px 14px 0 14px;
+  background-color: #4b4f56;
+  color: #91969f;
+  border-bottom: 1px solid #000;
+  text-shadow: 0 -1px #000;
+  box-shadow: 1px 0px 2px #000;
+  font-family: "droid-mono";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  z-index: 2;
+}
+#Byrne-Systems .details {
   *letter-spacing: normal;
   /* reset IE < 8 */
   *word-spacing: -0.43em;
@@ -1972,8 +1987,150 @@ html {
   align-content: flex-start;
   /* Prevents distributing space between rows */
   word-spacing: -0.43em;
+  text-align: justify;
+  padding-top: 28px;
 }
-#Byrne-Systems .main .guinea-pig {
+#Byrne-Systems .details h1 {
+  margin: 0px 20px;
+  padding-left: 10px;
+  padding-top: 3px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  border-top: 1px solid #dedcf1;
+  border-right: 1px solid #b2addd;
+  border-bottom: 1px solid #827bc8;
+  border-left: 1px solid #b2addd;
+  background-color: #e9ebee;
+  color: #373075;
+  box-shadow: 0px 0px 5px #91969f;
+  border-radius: 3px;
+}
+#Byrne-Systems .details .intro {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .intro .content {
+  padding: 0px 20px;
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+}
+#Byrne-Systems .details h2 {
+  margin: 0px 22px 2px 0px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #373075;
+  border-bottom: 2px solid #373075;
+}
+#Byrne-Systems .details .author {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+  font-size: 21px;
+}
+#Byrne-Systems .details .author .content {
+  padding: 0px 20px;
+  line-height: 40px;
+}
+#Byrne-Systems .details .author img {
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 64px;
+  float: right;
+  border: 3px solid white;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+}
+#Byrne-Systems .details .author ul {
+  line-height: 40px;
+}
+#Byrne-Systems .details .credentials {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+  font-size: 18px;
+  line-height: 25px;
+}
+#Byrne-Systems .details .credentials ul {
+  line-height: 34px;
+  list-style-type: none;
+}
+#Byrne-Systems .details .credentials ul ul {
+  padding-left: 19px;
+  list-style-type: disc;
+}
+#Byrne-Systems .details .credentials ul ul li > .sym-plus {
+  color: #027d8f;
+  float: none;
+}
+#Byrne-Systems .details .credentials ul ul li > .sym-plus::before {
+  content: "\e805";
+  color: #028ea3;
+}
+#Byrne-Systems .details .credentials ul ul li > .sym-plus:first-child {
+  padding-left: 3px;
+}
+#Byrne-Systems .details .credentials ul span {
+  display: inline-block;
+  margin-top: 8px;
+  padding-right: 7px;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 10px;
+  float: left;
+}
+#Byrne-Systems .details .credentials ul .sym-markup::before {
+  content: "\f121";
+  color: #027d8f;
+}
+#Byrne-Systems .details .credentials ul .sym-multiparadigm::before {
+  content: "\f1b3";
+  color: #027d8f;
+}
+#Byrne-Systems .details .credentials ul .sym-cli::before {
+  content: "\f120";
+  color: #027d8f;
+}
+#Byrne-Systems .details .credentials ul .sym-data::before {
+  content: "\e800";
+  color: #027d8f;
+}
+#Byrne-Systems .details .credentials ul .sym-presentation::before {
+  content: "\e806";
+  color: #027d8f;
+}
+#Byrne-Systems .details .services-head {
   display: inline-block;
   *display: inline;
   /* IE < 8: fake inline-block */
@@ -1983,24 +2140,370 @@ html {
   vertical-align: top;
   text-rendering: auto;
   width: 100%;
+  margin: 0 20px;
+  word-spacing: inherit;
+  text-align: center;
+  border-bottom: 3px solid #027d8f;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #027d8f;
+}
+#Byrne-Systems .details .services {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding-top: 20px;
+}
+#Byrne-Systems .details .services img {
+  padding-top: 20px;
+}
+#Byrne-Systems .details .services div {
+  max-width: 100%;
+}
+#Byrne-Systems .details .services .content {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems .details .services .branding {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .services .branding div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .services .branding .content {
+  padding: 0 20px;
   text-align: center;
 }
-#Byrne-Systems .main .guinea-pig .error {
-  margin-top: 184px;
-  font-family: "lato";
+#Byrne-Systems .details .services .branding ul {
+  font-family: "cabin";
   font-weight: normal;
-  font-size: 200px;
-  line-height: 40px;
-  text-shadow: 0px 1px 3px black;
-  color: #e2e0f2;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 0 10px;
 }
-#Byrne-Systems .main .guinea-pig .tagline {
-  padding-top: 60px;
+#Byrne-Systems .details .services .digital {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .services .digital div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .services .digital .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .services .digital ul {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  list-style-type: none;
+  padding: 0 10px;
+}
+#Byrne-Systems .details .services .print {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .services .print div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .services .print .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .services .print ul {
+  font-family: "cabin";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 0 10px;
+}
+#Byrne-Systems .details .d3 {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding-top: 20px;
+}
+#Byrne-Systems .details .d3 img {
+  padding-top: 20px;
+}
+#Byrne-Systems .details .d3 div {
+  max-width: 100%;
+}
+#Byrne-Systems .details .d3 .content {
   font-family: "lato";
   font-weight: normal;
-  font-size: 40px;
-  line-height: 100px;
-  text-shadow: 0px 1px 3px black;
-  color: #827bc8;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems .details .d3 .design {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .d3 .design div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .d3 .design .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .d3 .develop {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .d3 .develop div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .d3 .develop .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .d3 .deploy {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .d3 .deploy div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .d3 .deploy .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .r3 {
+  margin-top: 14px;
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 100%;
+  word-spacing: inherit;
+  text-align: center;
+  padding: 10px;
+}
+#Byrne-Systems .details .r3 img {
+  padding-top: 20px;
+}
+#Byrne-Systems .details .r3 div {
+  max-width: 100%;
+}
+#Byrne-Systems .details .r3 .content {
+  font-family: "lato";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 46px;
+}
+#Byrne-Systems .details .r3 .refine {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .r3 .refine h1 {
+  margin: 0 20px 0 10px;
+}
+#Byrne-Systems .details .r3 .refine div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .r3 .refine .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .r3 .refactor {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .r3 .refactor div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .r3 .refactor .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems .details .r3 .reiterate {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 33.33333%;
+}
+#Byrne-Systems .details .r3 .reiterate h1 {
+  margin: 0 10px 0 20px;
+}
+#Byrne-Systems .details .r3 .reiterate div {
+  height: 53px;
+  line-height: 50px;
+}
+#Byrne-Systems .details .r3 .reiterate .content {
+  padding: 0 20px;
+  text-align: center;
+}
+#Byrne-Systems footer {
+  display: block;
+  position: relative;
+  bottom: 0;
+  min-width: 100%;
+  height: 77px;
+  padding: 14px 14px 0 14px;
+  background-color: #4b4f56;
+  color: white;
+  border-bottom: 1px solid #000;
+  text-shadow: 0 -1px #000;
+  box-shadow: 1px 0px 2px #000;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  border-top: 1px solid #000;
+  box-shadow: -1px 0px 2px #000;
+}
+#Byrne-Systems footer ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 360px;
+}
+#Byrne-Systems footer ul li {
+  display: inline;
+  padding-right: 14px;
+}
+#Byrne-Systems footer ul li span {
+  display: block;
+  background-color: #41454b;
+  border-top: 1px solid #3a3d43;
+  border-right: 1px solid #191a1d;
+  border-bottom: 1px solid #191a1d;
+  border-left: 1px solid #3a3d43;
+  padding: 7px 14px 7px 14px;
+  border-radius: 3px;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+  display: inline-block;
+}
+#Byrne-Systems footer ul li span:hover {
+  background-color: #3a3d43;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset 1px 1px #44474e;
+}
+#Byrne-Systems footer ul li span:active {
+  background-color: #33363b;
+}
+#Byrne-Systems footer ul li span:hover {
+  color: #d67528;
+}
+#Byrne-Systems footer ul li a {
+  color: #f6f7f7;
+}
+#Byrne-Systems footer ul li a:hover {
+  color: #d67528;
+}
+#Byrne-Systems footer ul li .projects::before {
+  content: '\f1b2';
+}
+#Byrne-Systems footer ul li .blog::before {
+  content: '\f10d';
+}
+#Byrne-Systems footer ul li .about::before {
+  content: '\f0e5';
+}
+#Byrne-Systems footer ul li .contact::before {
+  content: '\f1d9';
 }
 /*# sourceMappingURL=style.css.map */

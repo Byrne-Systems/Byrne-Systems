@@ -1,0 +1,135 @@
+/*!
+ * @file    main.less
+ * @brief   Main styles for the index.html; Test Page
+ * @author  Justin D. Byrne <justin@byrne-systems.com>
+ * @author  Byrne-Systems <http://www.byrne-systems.com>
+ */
+
+*
+{ box-sizing: border-box; }
+
+a
+{ text-decoration: none; }
+
+html {
+  background-color: darken(@cerulean, 7%);
+}
+
+#fonts > .load;
+
+#Byrne-Systems
+{ /* Projects Page */
+  .projects
+  { .pure-g; overflow-x: hidden;
+
+    /* Sidebar */
+    .sidebar
+    { .pure-u-1; .pure-u-1-4; position: fixed; top: 0; bottom: 0; border-right: 1px solid darken(@cerulean, 7%); z-index: 0;
+      .brand
+      { .pure-img; }
+      .tagline
+      { color: @haze; #fonts > .face > .droid-mono(normal, 16px, 32px); text-align: center; text-shadow: 1px 1px 3px black; }
+      .nav
+      { .nav-list
+        { width: 120px; margin: 0 auto; padding: 0; list-style-type: none;
+          .button
+          { .flat-button(darken(@cerulean, 7%)); margin-bottom: 7px; color: darken(@cerulean, 33%); #fonts > .face > .cabin(normal, 18px, 20px); font-weight: 600;
+            span
+            { display: inline-block; padding-right: 3px; #fonts > .face > .webfont-icons(normal, 18px, 20px); }
+            .about::before
+            { content: "\f0e5"; }
+            .blog::before
+            { content: "\f10e"; }
+            .projects::before
+            { content: "\f1b2"; }
+            .contact::before
+            { content: "\f1d9"; }
+          }
+          .button::before
+          { position: relative; top: 24px; left: 12px;}
+        }
+      }
+      .header
+      { margin: 60% 2em 0; top: auto; }
+    }
+
+    /* Content */
+    .content
+    { .pure-u-1; .pure-u-3-4; margin-left: 25%; padding: 32px 48px 32px; background-color: white; color: black; border-left: 1px solid @nepal; box-shadow: 2px 0px 3px black;
+      .content-subhead
+      { #fonts > .face > .droid-mono(normal, 14px, 10px); padding: 10px; background-color: darken(@cerulean, 7%);
+        .border-r(1px, solid, @link-water);
+        span
+        { display: inline-block; }
+        .timestamp
+        { padding: 3px 0px 0px 3px; color: @athens-gray;
+          &::before
+          { #fonts > .face > .webfont-icons(normal, 18px, 20px); content: "\e804"; }
+        }
+        .stamp
+        { position: relative; top: -1px; padding-left: 3px; #fonts > .face > .cornerstone(normal, 16px, 20px); color: white; }
+      }
+      .post
+      { padding-bottom: 10px;
+        .post-header
+        { height: 100px; background-color: lighten(@cerulean, 53%); color: @abbey; text-shadow: none; box-shadow: none; .border-radius(3px, 3px, 0px, 0px); .border-r(1px, solid, @athens-gray);
+          .post-title
+          { display: inline-block; margin: 28px 0px 14px 14px; #fonts > .face > .droid-mono(normal, 24px, 0px); text-shadow: 1px 1px 1px black; }
+          img
+          { .size(64px, 64px); margin: 14px 14px 0px 0px; float: right; }
+          .post-meta
+          { padding-left: 28px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
+            .tag-css
+            { .tag > .tag-css; }
+            .tag-pure
+            { .tag > .tag-pure; }
+            .tag-js
+            { .tag > .tag-js; }
+            .tag-yui
+            { .tag > .tag-yui; }
+            .tag-uncategorized
+            { .tag > .tag-uncategorized }
+            a
+            { color: @marino; text-decoration: none;
+              &:hover
+              { color: @azure; }
+            }
+          }
+        }
+        .post-description
+        { background-color: @athens-light; padding: 0px 18px; .border-radius(0px, 0px, 3px, 3px); .border-r(1px, solid, white);
+          p
+          { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; color: darken(@boulder, 7%); }
+          .post-image
+          { .pure-u-1-6; padding: 20px 0px; }
+          .post-content
+          { .pure-u-5-6; padding: 0px 0px 10px 20px; float: right; }
+        }
+      }
+    }
+
+    /* Footer */
+    .footer
+    { .pure-u-1; background-color: @abbey; .border-r(1px, solid, @abbey); z-index: 1;
+      .pure-menu
+      { margin-left: 24%; padding: 7px 0px;
+        .pure-menu-item
+        { background-color: @bridesmaid; border-radius: 3px; .border-r(1px, solid, @abbey); #fonts > .face > .droid-mono(normal, 14px, 24px); }
+        a
+        { display: inline-block; padding-left: 7px; }
+        span
+        { #fonts > .face > .webfont-icons(normal, 14px, 24px); padding-left: 14px; color: @abbey; }
+        .sym-github::before
+        { content: "\f113"; }
+        .sym-gist::before
+        { content: "\f1d3"; }
+        .sym-deviantart::before
+        { content: "\f1bd"; }
+        .sym-linkedin::before
+        { content: "\f0e1"; }
+        .sym-google-plus::before
+        { content: "\f0d5"; }
+      }
+    }
+  }
+}

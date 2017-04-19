@@ -699,12 +699,12 @@ template {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
 /* .tag */
 /* -------------------------------------------------------------------------- */
@@ -1913,7 +1913,7 @@ a {
   text-decoration: none;
 }
 html {
-  background-color: #302a66;
+  background-color: white;
 }
 @font-face {
   font-family: 'cabin';
@@ -1933,48 +1933,48 @@ html {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
-#Byrne-Systems {
-  /* 404 Page */
+#Byrne-Systems header {
+  min-width: 100%;
+  height: 46px;
+  padding: 14px 14px 0 14px;
+  background-color: #4b4f56;
+  color: #91969f;
+  border-bottom: 1px solid #000;
+  text-shadow: 0 -1px #000;
+  box-shadow: 1px 0px 2px #000;
+  font-family: "droid-mono";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  z-index: 2;
 }
-#Byrne-Systems .main {
-  *letter-spacing: normal;
-  /* reset IE < 8 */
-  *word-spacing: -0.43em;
-  /* IE < 8: collapse white-space between units */
-  text-rendering: optimizespeed;
-  /* Webkit: fixes text-rendering: optimizeLegibility */
-  /* NOTE:
- * Sets the font stack to fonts known to work properly with the above letter
-  and word spacings. See: https://github.com/yahoo/pure/issues/41/
-
-  The following font stack makes Pure Grids work on all known environments'
-
-  * FreeSans: Ships with many Linux distros, including Ubuntu
-
-  * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
-    Arial to get picked up by the browser, even though neither is available
-    in Chrome OS.
-
-  * Droid Sans: Ships with all versions of Android.
-
-  * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.      */
-  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
-  display: flex;
-  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
-  flex-flow: row wrap;
-  align-content: flex-start;
-  /* Prevents distributing space between rows */
-  word-spacing: -0.43em;
+#Byrne-Systems .contact-head h1 {
+  display: block;
+  margin-top: 49px;
+  padding: 20px 0px 0px 30px;
+  font-family: "cornerstone";
+  font-weight: normal;
+  font-size: 77px;
+  line-height: 0px;
 }
-#Byrne-Systems .main .guinea-pig {
-  display: inline-block;
+#Byrne-Systems .contact-head .tagline {
+  padding-left: 30px;
+  font-family: "lato";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 0px;
+}
+#Byrne-Systems .contact-info {
+  padding-top: 30px;
+}
+#Byrne-Systems .contact-info .addresses {
   *display: inline;
   /* IE < 8: fake inline-block */
   zoom: 1;
@@ -1982,25 +1982,176 @@ html {
   word-spacing: normal;
   vertical-align: top;
   text-rendering: auto;
-  width: 100%;
+  width: 50%;
+  display: inline-block;
+}
+#Byrne-Systems .contact-info .addresses ul {
+  width: 361px;
+  height: 361px;
+  margin: 24px auto;
+  padding: 74px 0px 0px 0px;
   text-align: center;
-}
-#Byrne-Systems .main .guinea-pig .error {
-  margin-top: 184px;
-  font-family: "lato";
+  list-style-type: none;
+  font-family: "cabin";
   font-weight: normal;
-  font-size: 200px;
+  font-size: 28px;
+  line-height: 45px;
+  border-top: 1px solid #ededed;
+  border-right: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  border-left: 1px solid #ededed;
+  border-radius: 181px;
+  box-shadow: 0px 0px 7px black;
+  background-color: #f6f7f9;
+}
+#Byrne-Systems .contact-info .addresses hr {
+  size: 1px;
+}
+#Byrne-Systems .contact-info .contact-form {
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  width: 50%;
+  display: inline-block;
+  float: right;
   line-height: 40px;
-  text-shadow: 0px 1px 3px black;
-  color: #e2e0f2;
 }
-#Byrne-Systems .main .guinea-pig .tagline {
-  padding-top: 60px;
-  font-family: "lato";
+#Byrne-Systems .contact-info .contact-form input,
+#Byrne-Systems .contact-info .contact-form textarea {
+  display: block;
+}
+#Byrne-Systems .contact-info .contact-form h1 {
+  margin: 0px 20px;
+  margin-left: -14px;
+  margin-top: 21px;
+  padding-left: 10px;
+  padding-top: 3px;
+  font-family: "cornerstone";
   font-weight: normal;
-  font-size: 40px;
-  line-height: 100px;
-  text-shadow: 0px 1px 3px black;
-  color: #827bc8;
+  font-size: 28px;
+  line-height: 40px;
+  border-top: 1px solid #dedcf1;
+  border-right: 1px solid #b2addd;
+  border-bottom: 1px solid #827bc8;
+  border-left: 1px solid #b2addd;
+  background-color: #e9ebee;
+  color: #4b4f56;
+  box-shadow: 0px 0px 5px #91969f;
+  border-radius: 3px;
+}
+#Byrne-Systems .contact-info .contact-form h1::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 0px;
+  content: '\f1d9';
+  padding-right: 14px;
+  color: gray;
+}
+#Byrne-Systems .contact-info .contact-form .submit-btn {
+  display: block;
+  background-color: #dde1e5;
+  border-top: 1px solid #d5d9de;
+  border-right: 1px solid #adb4bf;
+  border-bottom: 1px solid #adb4bf;
+  border-left: 1px solid #d5d9de;
+  padding: 7px 14px 7px 14px;
+  border-radius: 3px;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+  margin-top: 14px;
+}
+#Byrne-Systems .contact-info .contact-form .submit-btn:hover {
+  background-color: #d5d9de;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset 1px 1px #e0e3e7;
+}
+#Byrne-Systems .contact-info .contact-form .submit-btn:active {
+  background-color: #ccd1d8;
+}
+#Byrne-Systems footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  height: 77px;
+  padding: 14px 14px 0 14px;
+  background-color: #4b4f56;
+  color: white;
+  border-bottom: 1px solid #000;
+  text-shadow: 0 -1px #000;
+  box-shadow: 1px 0px 2px #000;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webfont-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  border-top: 1px solid #000;
+  box-shadow: -1px 0px 2px #000;
+}
+#Byrne-Systems footer ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 360px;
+}
+#Byrne-Systems footer ul li {
+  display: inline;
+  padding-right: 14px;
+}
+#Byrne-Systems footer ul li span {
+  display: block;
+  background-color: #41454b;
+  border-top: 1px solid #3a3d43;
+  border-right: 1px solid #191a1d;
+  border-bottom: 1px solid #191a1d;
+  border-left: 1px solid #3a3d43;
+  padding: 7px 14px 7px 14px;
+  border-radius: 3px;
+  text-shadow: 0.75px 0.75px 0.25px rgba(128, 128, 128, 0.85);
+  vertical-align: top;
+  display: inline-block;
+}
+#Byrne-Systems footer ul li span:hover {
+  background-color: #3a3d43;
+  box-shadow: 1px 1px #4d4d4d;
+  box-shadow: inset 1px 1px #44474e;
+}
+#Byrne-Systems footer ul li span:active {
+  background-color: #33363b;
+}
+#Byrne-Systems footer ul li span:hover {
+  color: #d67528;
+}
+#Byrne-Systems footer ul li a {
+  color: #f6f7f7;
+}
+#Byrne-Systems footer ul li a:hover {
+  color: #d67528;
+}
+#Byrne-Systems footer ul li .projects::before {
+  content: '\f1b2';
+}
+#Byrne-Systems footer ul li .blog::before {
+  content: '\f10d';
+}
+#Byrne-Systems footer ul li .about::before {
+  content: '\f0e5';
+}
+#Byrne-Systems footer ul li .contact::before {
+  content: '\f1d9';
 }
 /*# sourceMappingURL=style.css.map */
