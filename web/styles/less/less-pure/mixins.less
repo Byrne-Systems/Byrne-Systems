@@ -118,28 +118,12 @@
            url('../../fonts/droid-mono/droid-mono.svg#droid-mono') format('svg');
     }
     @font-face {
-      font-family: 'ikaros-sans';
-      src: url('../../fonts/ikaros-sans/ikaros-sans.eot');
-      src: url('../../fonts/ikaros-sans/ikaros-sans.eot?#iefix') format('embedded-opentype'),
-           url('../../fonts/ikaros-sans/ikaros-sans.woff') format('woff'),
-           url('../../fonts/ikaros-sans/ikaros-sans.ttf') format('truetype'),
-           url('../../fonts/ikaros-sans/ikaros-sans.svg#ikaros-sans') format('svg');
-    }
-    @font-face {
       font-family: 'lato';
       src: url('../../fonts/lato/lato.eot');
       src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'),
            url('../../fonts/lato/lato.woff') format('woff'),
            url('../../fonts/lato/lato.ttf') format('truetype'),
            url('../../fonts/lato/lato.svg#lato') format('svg');
-    }
-    @font-face {
-      font-family: 'open-sans';
-      src: url('../../fonts/open-sans/open-sans.eot');
-      src: url('../../fonts/open-sans/open-sans.eot?#iefix') format('embedded-opentype'),
-           url('../../fonts/open-sans/open-sans.woff') format('woff'),
-           url('../../fonts/open-sans/open-sans.ttf') format('truetype'),
-           url('../../fonts/open-sans/open-sans.svg#open-sans') format('svg');
     }
     @font-face {
       font-family: 'webfont-icons';
@@ -272,4 +256,57 @@
 .size(@width, @height) {
   width: @width;
   height: @height;
+}
+
+/* .coverr */
+/* -------------------------------------------------------------------------- */
+.coverr {
+  .video-wrapper {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
 }

@@ -1,5 +1,8 @@
 <!-- jQuery 3.2.0 Core API -->
 <script type='text/javascript' src='web/js/jquery-3.2.0.min.js'></script>
 
+<!-- Coverr API -->
+<script type='text/javascript' src='web/js/coverr.js'></script>
+
 <!-- Developer: functions -->
 <script type="text/javascript" src="/web/js/functions.js"></script>

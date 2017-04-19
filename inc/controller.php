@@ -25,7 +25,7 @@ $root = rtrim(dirname(__FILE__), '/inc');
 # Load: ancillary (or contributory) views
 $notes  = new Template($root . '/web/views/meta/' . 'notes.wad');
 $meta   = new Template($root . '/web/views/meta/' . 'meta.wad');
-$styles = new Template($root . '/web/views/meta/' . 'style-sheets.wad');
+// $styles = new Template($root . '/web/views/meta/' . 'styles.wad');             // (Deprecated) for adaptive design
 $script = new Template($root . '/web/views/meta/' . 'script.wad');
 
 ###############################################################################
@@ -43,11 +43,13 @@ if (empty($_GET['Page'])) {
   $header = new Template($root . '/web/views/pages/landing/' . 'header.wad');
   $main   = new Template($root . '/web/views/pages/landing/' . 'main.wad');
   $footer = new Template($root . '/web/views/pages/landing/' . 'footer.wad');
+  $styles = new Template($root . '/web/views/pages/landing/' . 'styles.wad');
 
-  ############################################################################
-  ###                       Setup Landing Page                             ###
-  ############################################################################
+  #############################################################################
+  ###                       Setup Landing Page                              ###
+  #############################################################################
   $layout->set('header',                  $header->output());
+  $layout->set('styles',                  $styles->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 } else if ($_GET['Page'] == 'blog') {
@@ -72,9 +74,9 @@ if (empty($_GET['Page'])) {
   $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
   $footer   = new Template($root . '/web/views/pages/projects/' . 'footer.wad');
 
-  ############################################################################
-  ###                       Setup Projects Page                            ###
-  ############################################################################
+  #############################################################################
+  ###                       Setup Projects Page                             ###
+  #############################################################################
   $layout->set('header', '');
   $projects->set('sidebar',               $sidebar->output());
   $projects->set('content',               $content->output());
@@ -86,33 +88,33 @@ if (empty($_GET['Page'])) {
   $main   = new Template($root . '/web/views/pages/about/' . 'main.wad');
   $footer = new Template($root . '/web/views/pages/about/' . 'footer.wad');
 
-  ############################################################################
-  ###                       Setup Contact Page                             ###
-  ############################################################################
+  #############################################################################
+  ###                       Setup Contact Page                              ###
+  #############################################################################
   $layout->set('header',                  $header->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 } else if ($_GET['Page'] == 'contact') {
-  # Load: landing page elements
+  # Load: about page elements
   $header = new Template($root . '/web/views/pages/contact/' . 'header.wad');
   $main   = new Template($root . '/web/views/pages/contact/' . 'main.wad');
   $footer = new Template($root . '/web/views/pages/contact/' . 'footer.wad');
 
-  ############################################################################
-  ###                       Setup Landing Page                             ###
-  ############################################################################
+  #############################################################################
+  ###                       Setup Landing Page                              ###
+  #############################################################################
   $layout->set('header',                  $header->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 } else if ($_GET['Page'] == '404') {
-  # Load: landing page elements
+  # Load: 404 page elements
   $header = new Template($root . '/web/views/pages/404/' . 'header.wad');
   $main   = new Template($root . '/web/views/pages/404/' . 'main.wad');
   $footer = new Template($root . '/web/views/pages/404/' . 'footer.wad');
 
-  ############################################################################
-  ###                       Setup Landing Page                             ###
-  ############################################################################
+  #############################################################################
+  ###                       Setup Landing Page                              ###
+  #############################################################################
   $layout->set('header',                  $header->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
@@ -122,12 +124,12 @@ if (empty($_GET['Page'])) {
 ###                       Finalize Page with Meta Data                      ###
 ###############################################################################
 
-# Set: tags inside layout 'bootstrap'
+# Set: tags inside layout the chosen layout
 $layout->set('file_notes',              $notes->output());
 $layout->set('title',                   'Byrne-Systems | Web-Application Design & Development');
 $layout->set('meta_tags',               $meta->output());
 $layout->set('favicon',                 $layout->favicon($root . '/web/images/fav/cube.fav'));
-$layout->set('styles',                  $styles->output());
+// $layout->set('styles',                  $styles->output());                     // (Deprecated) in favor for adaptive web
 $layout->set('wrapper',                 'Byrne-Systems');
 $layout->set('script',                  $script->output());
 

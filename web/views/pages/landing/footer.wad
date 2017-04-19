@@ -1,9 +1,25 @@
   <footer>
     <ul>
-      <li><a href="index.php?Page=projects">PROJECTS</a></li>
-      <li><a href="index.php?Page=blog">BLOG</a></li>
-      <li><a href="index.php?Page=about">ABOUT</a></li>
-      <li><a href="index.php?Page=contact">CONTACT</a></li>
+      <li>
+        <a href="index.php?Page=projects">
+          <span class="projects"></span>
+        </a>
+      </li>
+      <li>
+        <a href="index.php?Page=blog">
+          <span class="blog"></span>
+        </a>
+      </li>
+      <li>
+        <a href="index.php?Page=about">
+          <span class="about"></span>
+        </a>
+      </li>
+      <li>
+        <a href="index.php?Page=contact">
+          <span class="contact"></span>
+        </a>
+      </li>
     </ul>
   </footer>
 </div><!-- #Byrne-Systems -->

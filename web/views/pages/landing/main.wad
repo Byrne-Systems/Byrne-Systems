@@ -1,9 +1,19 @@
-  <div class="logo">
+<div class="video-wrapper">
+  <div class="video-container">
+    <div class="logo">
       <img src="web/images/logo.png">
       <span class="tagline">
         Developing Tools & Systems to Encourage Growth & Advancement
       </span>
+    </div>
+    <div class="filter"></div>
+    <video autoplay loop class="fillWidth">
+      <source src="../../web/mov/Hello-World.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      <source src="../../web/mov/Hello-World.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
+    <div class="poster hidden">
+        <img src="../../web/mov/Hello-World.jpg" alt="Hello-World">
+    </div>
   </div>
-  <div id="bg">
-    <img src="web/images/hello-world.png">
-  </div>
+</div>
+
