@@ -24,9 +24,14 @@ class testBootstrap extends \PHPUnit_Framework_TestCase {
      */
     public function setUp()
     {
-        $assets         = 'C:/xampp/htdocs/lib/_Framework/tests/assets/';       # Location: of vital assets for unit testing
-        $this->fav_dir  = 'C:/xampp/htdocs/web/images/fav/';                    # Location: of favicon(s)
-        $this->template = new Template($assets . 'testTemplate.wad');           # Instantiate: new template with a phony template file
+        # Location: of vital assets for unit testing
+        $assets = 'C:/xampp/htdocs/apps/Byrne-Systems/lib/_Framework/tests/assets/';
+
+        # Location: of favicon(s)
+        $this->fav_dir = 'C:/xampp/htdocs/apps/Byrne-Systems/web/images/fav/';
+
+        # Instantiate: new template with a phony template file
+        $this->template = new Template($assets . 'testTemplate.wad');
     }
 
     /**

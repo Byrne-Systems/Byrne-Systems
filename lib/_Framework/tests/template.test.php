@@ -22,8 +22,11 @@ class testTemplate extends \PHPUnit_Framework_TestCase {
 
     public function setUp()
     {
-        $assets = 'C:/xampp/htdocs/lib/_Framework/tests/assets/';                                # Location: of vital assets for unit testing
-        $this->template = new Template($assets . 'testTemplate.wad');                               # Instantiate: new Template object
+        # Location: of vital assets for unit testing
+        $assets = 'C:/xampp/htdocs/apps/Byrne-Systems/lib/_Framework/tests/assets/';
+
+        # Instantiate: new Template object
+        $this->template = new Template($assets . 'testTemplate.wad');
     }
 
     /**
@@ -33,8 +36,11 @@ class testTemplate extends \PHPUnit_Framework_TestCase {
      */
     public function test_template_set_N_output_methods()
     {
-        $this->template->set('test', 'Application Test');                                           # Set: tag 'test' to 'Application Test'
-        $this->assertEquals('Application Test', $this->template->output());                         # @assertEquals
+        # Set: tag 'test' to 'Application Test'
+        $this->template->set('test', 'Application Test');
+
+        # @assertEquals
+        $this->assertEquals('Application Test', $this->template->output());
     }
 
     /**
@@ -42,7 +48,8 @@ class testTemplate extends \PHPUnit_Framework_TestCase {
      */
     public function test_Merge_Templates()
     {
-        $assets = 'C:/xampp/htdocs/lib/_Framework/tests/assets/';                                # Location: of vital assets for unit testing
+        # Location: of vital assets for unit testing
+        $assets = 'C:/xampp/htdocs/apps/Byrne-Systems/lib/_Framework/tests/assets/';
 
         // Generate: an array holding various user's attributes
         $users = array(
@@ -69,19 +76,26 @@ class testTemplate extends \PHPUnit_Framework_TestCase {
             $users_templates[] = $row;
         }
 
-        $users_contents = Template::merge($users_templates);                                        # Merge: template's together
+        # Merge: template's together
+        $users_contents = Template::merge($users_templates);
 
-        $users_list = new Template($assets . 'list_users.wad');                                     # Instantiate: new template
+        # Instantiate: new template
+        $users_list = new Template($assets . 'list_users.wad');
 
-        $users_list->set('users', $users_contents);                                                 # Set: the '$user_contents' within the '$users_list' (Object)
+        # Set: the '$user_contents' within the '$users_list' (Object)
+        $users_list->set('users', $users_contents);
 
-        $layout = new Template($assets . 'layout.wad');                                             # Instantiate: new template
+        # Instantiate: new template
+        $layout = new Template($assets . 'layout.wad');
 
-        $layout->set('title', 'Users');                                                             # Set: the 'title' of the '$layout' template with "Users"
+        # Set: the 'title' of the '$layout' template with "Users"
+        $layout->set('title', 'Users');
 
-        $layout->set('content', $users_list->output());                                             # Set: the 'content' of the '$users_list' template with the parsed content of '$users_list'
+        # Set: the 'content' of the '$users_list' template with the parsed content of '$users_list'
+        $layout->set('content', $users_list->output());
 
-        $expected = file_get_contents($assets . 'page.html');                                       # Get: expected file contents of the 'page.html' file
+        # Get: expected file contents of the 'page.html' file
+        $expected = file_get_contents($assets . 'page.html');
 
         // Assert: both $expected and asserted context(s) with preg_split, to negate any addition (or added) carriage returns...
         $this->assertEquals(preg_split('/\r\n|\r|\n/',$expected), preg_split('/\r\n|\r|\n/', $layout->output()));
