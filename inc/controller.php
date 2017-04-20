@@ -13,7 +13,9 @@ namespace WAFFLE\Controller;
 use WAFFLE\Controller;                                  # Primary: controller for index.php
 use WAFFLE\Framework\Engines\Template;                  # Template: engine developed to substitute special WAFFLE tags while publishing a clean HTML document
 
+
 require '/../lib/_Framework/template.class.php';
+require '/../inc/functions.php';
 
 # Set: Root Directory
 $root = rtrim(dirname(__FILE__), '/inc');
@@ -38,7 +40,7 @@ $app    = new Template($root . '/web/views/' . 'app.wad');
 # Load: layout 'bootstrap'
 $layout = new Template($root . '/web/views/layouts/'  . 'html5.wad');
 
-if (empty($_GET['Page'])) {
+if (empty($_GET['page'])) {
 
   # Load: landing page elements
   $header = new Template($root . '/web/views/pages/landing/' . 'header.wad');
@@ -54,45 +56,7 @@ if (empty($_GET['Page'])) {
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 
-} else if ($_GET['Page'] == 'blog') {
-
-  # Load: blog page page elements
-  $styles  = new Template($root . '/web/views/pages/blog/' . 'styles.wad');
-  $blog    = new Template($root . '/web/views/pages/blog/' . 'blog.wad');
-  $sidebar = new Template($root . '/web/views/pages/blog/' . 'sidebar.wad');
-  $content = new Template($root . '/web/views/pages/blog/' . 'content.wad');
-  $footer  = new Template($root . '/web/views/pages/blog/' . 'footer.wad');
-
-  ############################################################################
-  ###                       Setup Blog Page                                ###
-  ############################################################################
-  $layout->set('header', '');
-  $layout->set('styles',                  $styles->output());
-  $blog->set('sidebar',                   $sidebar->output());
-  $blog->set('content',                   $content->output());
-  $layout->set('main',                    $blog->output());
-  $layout->set('footer',                  $footer->output());
-
-} else if ($_GET['Page'] == 'projects') {
-
-  # Load: projects page page elements
-  $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
-  $projects = new Template($root . '/web/views/pages/projects/' . 'projects.wad');
-  $sidebar  = new Template($root . '/web/views/pages/projects/' . 'sidebar.wad');
-  $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
-  $footer   = new Template($root . '/web/views/pages/projects/' . 'footer.wad');
-
-  #############################################################################
-  ###                       Setup Projects Page                             ###
-  #############################################################################
-  $layout->set('header', '');
-  $layout->set('styles',                  $styles->output());
-  $projects->set('sidebar',               $sidebar->output());
-  $projects->set('content',               $content->output());
-  $layout->set('main',                    $projects->output());
-  $layout->set('footer',                  $footer->output());
-
-} else if ($_GET['Page'] == 'about') {
+} else if ($_GET['page'] == 'about') {
 
   # Load: about page elements
   $header = new Template($root . '/web/views/pages/about/' . 'header.wad');
@@ -108,7 +72,26 @@ if (empty($_GET['Page'])) {
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 
-} else if ($_GET['Page'] == 'contact') {
+} else if ($_GET['page'] == 'blog') {
+
+  # Load: blog page page elements
+  $styles  = new Template($root . '/web/views/pages/blog/' . 'styles.wad');
+  $blog    = new Template($root . '/web/views/pages/blog/' . 'blog.wad');
+  $sidebar = new Template($root . '/web/views/pages/blog/' . 'sidebar.wad');
+  $content = new Template($root . '/web/views/pages/blog/' . 'content.wad');
+  $footer  = new Template($root . '/web/views/pages/blog/' . 'footer.wad');
+
+  #############################################################################
+  ###                       Setup Blog Page                                 ###
+  #############################################################################
+  $layout->set('header', '');
+  $layout->set('styles',                  $styles->output());
+  $blog->set('sidebar',                   $sidebar->output());
+  $blog->set('content',                   $content->output());
+  $layout->set('main',                    $blog->output());
+  $layout->set('footer',                  $footer->output());
+
+} else if ($_GET['page'] == 'contact') {
 
   # Load: contact page elements
   $header = new Template($root . '/web/views/pages/contact/' . 'header.wad');
@@ -124,16 +107,52 @@ if (empty($_GET['Page'])) {
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
 
-} else if ($_GET['Page'] == '404') {
+} else if ($_GET['page'] == 'projects') {
+
+  # Load: projects page page elements
+  $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
+  $projects = new Template($root . '/web/views/pages/projects/' . 'projects.wad');
+  $sidebar  = new Template($root . '/web/views/pages/projects/' . 'sidebar.wad');
+
+  # Loop: content with Article class in functions.php
+  $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
+
+  $footer   = new Template($root . '/web/views/pages/projects/' . 'footer.wad');
+
+  #############################################################################
+  ###                       Setup Projects Page                             ###
+  #############################################################################
+  $layout->set('header', '');
+  $layout->set('styles',                  $styles->output());
+  $projects->set('sidebar',               $sidebar->output());
+  $projects->set('content',               $content->output());
+  $layout->set('main',                    $projects->output());
+  $layout->set('footer',                  $footer->output());
+
+} else if ($_GET['page'] == '404') {
 
   # Load: 404 page elements
-  $header = new Template($root . '/web/views/pages/404/' . 'header.wad');
   $styles = new Template($root . '/web/views/pages/404/' . 'styles.wad');
   $main   = new Template($root . '/web/views/pages/404/' . 'main.wad');
-  $footer = new Template($root . '/web/views/pages/404/' . 'footer.wad');
 
   #############################################################################
   ###                       Setup 404 Page                                  ###
+  #############################################################################
+  $layout->set('header',                  '');
+  $layout->set('styles',                  $styles->output());
+  $layout->set('main',                    $main->output());
+  $layout->set('footer',                  '');
+
+} else if ($_GET['page'] == 'debug') {
+
+  # Load: debug page elements
+  $header = new Template($root . '/web/views/pages/debug/' . 'header.wad');
+  $styles = new Template($root . '/web/views/pages/debug/' . 'styles.wad');
+  $main   = new Template($root . '/web/views/pages/debug/' . 'main.wad');
+  $footer = new Template($root . '/web/views/pages/debug/' . 'footer.wad');
+
+  #############################################################################
+  ###                       Setup Debug Page                                ###
   #############################################################################
   $layout->set('header',                  $header->output());
   $layout->set('styles',                  $styles->output());
@@ -143,7 +162,7 @@ if (empty($_GET['Page'])) {
 }
 
 ###############################################################################
-###                       Finalize Page with Meta Data                      ###
+###                       Finalize Page with Shared Meta Data               ###
 ###############################################################################
 
 # Set: tags inside layout the chosen layout

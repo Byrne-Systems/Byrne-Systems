@@ -24,7 +24,8 @@ require_once 'preload.class.php';
  *
  * Templating engine that generates HTML files utilizing WAFFLE's view's, or ".wad" files
  */
-class Template extends Preload {
+class Template extends Preload
+{
     /**
      * Template filename to load, and eventually parse via this template engine
      *

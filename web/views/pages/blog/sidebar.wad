@@ -7,7 +7,7 @@
     <nav class="nav">
       <ul class="nav-list">
         <li>
-          <a href="index.php?Page=projects">
+          <a href="index.php?page=projects">
             <span class="button">
               <span class="projects"></span>
               Projects
@@ -15,7 +15,7 @@
           </a>
         </li>
         <li>
-          <a href="index.php?Page=blog">
+          <a href="index.php?page=blog">
             <span class="button">
               <span class="blog"></span>
               Blog
@@ -23,7 +23,7 @@
           </a>
         </li>
         <li>
-          <a href="index.php?Page=about">
+          <a href="index.php?page=about">
             <span class="button">
               <span class="about"></span>
               About
@@ -31,7 +31,7 @@
           </a>
         </li>
         <li>
-          <a href="index.php?Page=contact">
+          <a href="index.php?page=contact">
             <span class="button">
               <span class="contact"></span>
               Contact

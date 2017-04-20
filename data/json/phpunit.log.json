@@ -13,258 +13,11 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #0 (array(null, null, null, null, null, null), 'error')"
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #0 (array(NULL, NULL, NULL, NULL, NULL, NULL), 'error')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #0 (array(null, null, null, null, null, null), 'error')",
-    "status": "pass",
-    "time": 0.0080001354217529,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #1 (array('device-width', null, null, null, null, null), '<meta name=\"viewport\" content...idth\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #1 (array('device-width', null, null, null, null, null), '<meta name=\"viewport\" content...idth\">')",
-    "status": "pass",
-    "time": 0.0049998760223389,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #2 (array(null, 'device-height', null, null, null, null), '<meta name=\"viewport\" content...ight\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #2 (array(null, 'device-height', null, null, null, null), '<meta name=\"viewport\" content...ight\">')",
-    "status": "pass",
-    "time": 0.0050008296966553,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #3 (array(null, null, 1, null, null, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #3 (array(null, null, 1, null, null, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.0049998760223389,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #4 (array(null, null, null, 1, null, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #4 (array(null, null, null, 1, null, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.0050010681152344,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #5 (array(null, null, null, null, 1, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #5 (array(null, null, null, null, 1, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #6 (array(null, null, null, null, 2, null), '<meta name=\"viewport\" content...le=2\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #6 (array(null, null, null, null, 2, null), '<meta name=\"viewport\" content...le=2\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #7 (array(null, null, null, null, null, 'no'), '<meta name=\"viewport\" content...e=no\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #7 (array(null, null, null, null, null, 'no'), '<meta name=\"viewport\" content...e=no\">')",
-    "status": "pass",
-    "time": 0.0060000419616699,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #8 (array(null, null, null, null, null, 'yes'), '<meta name=\"viewport\" content...=yes\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #8 (array(null, null, null, null, null, 'yes'), '<meta name=\"viewport\" content...=yes\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #9 (array('device-width', 'device-height', null, null, null, null), '<meta name=\"viewport\" content...ight\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #9 (array('device-width', 'device-height', null, null, null, null), '<meta name=\"viewport\" content...ight\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #10 (array('device-width', null, 1, null, null, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #10 (array('device-width', null, 1, null, null, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.0060000419616699,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #11 (array('device-width', null, 1.5, null, null, null), '<meta name=\"viewport\" content...=1.5\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #11 (array('device-width', null, 1.5, null, null, null), '<meta name=\"viewport\" content...=1.5\">')",
-    "status": "pass",
-    "time": 0.0060009956359863,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #12 (array('device-width', null, 2, null, null, null), '<meta name=\"viewport\" content...le=2\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #12 (array('device-width', null, 2, null, null, null), '<meta name=\"viewport\" content...le=2\">')",
-    "status": "pass",
-    "time": 0.0060000419616699,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #13 (array('device-width', null, null, 1, null, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #13 (array('device-width', null, null, 1, null, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.0050010681152344,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #14 (array('device-width', null, null, 2, null, null), '<meta name=\"viewport\" content...le=2\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #14 (array('device-width', null, null, 2, null, null), '<meta name=\"viewport\" content...le=2\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #15 (array('device-width', null, null, 1, 1, null), '<meta name=\"viewport\" content...le=1\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #15 (array('device-width', null, null, 1, 1, null), '<meta name=\"viewport\" content...le=1\">')",
-    "status": "pass",
-    "time": 0.0060009956359863,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #16 (array('device-width', null, null, 1, 2, null), '<meta name=\"viewport\" content...le=2\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #16 (array('device-width', null, null, 1, 2, null), '<meta name=\"viewport\" content...le=2\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #17 (array('device-width', null, null, 1, 1, 'no'), '<meta name=\"viewport\" content...e=no\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #17 (array('device-width', null, null, 1, 1, 'no'), '<meta name=\"viewport\" content...e=no\">')",
-    "status": "pass",
-    "time": 0.005000114440918,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #18 (array('device-width', null, null, 1, 1, 'yes'), '<meta name=\"viewport\" content...=yes\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #18 (array('device-width', null, null, 1, 1, 'yes'), '<meta name=\"viewport\" content...=yes\">')",
-    "status": "pass",
-    "time": 0.0070011615753174,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #19 (array('device-width', null, null, null, 1, 'no'), '<meta name=\"viewport\" content...e=no\">')"
-}{
-    "event": "test",
-    "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #19 (array('device-width', null, null, null, 1, 'no'), '<meta name=\"viewport\" content...e=no\">')",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #0 (array(NULL, NULL, NULL, NULL, NULL, NULL), 'error')",
     "status": "pass",
     "time": 0.0059998035430908,
     "trace": [],
@@ -273,39 +26,286 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #20 (array('device-width', null, null, null, 1, 'yes'), '<meta name=\"viewport\" content...=yes\">')"
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #1 (array('device-width', NULL, NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #20 (array('device-width', null, null, null, 1, 'yes'), '<meta name=\"viewport\" content...=yes\">')",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #1 (array('device-width', NULL, NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width\">')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #21 (array('device-width', null, null, null, null, 'no'), '<meta name=\"viewport\" content...e=no\">')"
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #2 (array(NULL, 'device-height', NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"height=device-height\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #21 (array('device-width', null, null, null, null, 'no'), '<meta name=\"viewport\" content...e=no\">')",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #2 (array(NULL, 'device-height', NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"height=device-height\">')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #22 (array('device-width', null, null, null, null, 'yes'), '<meta name=\"viewport\" content...=yes\">')"
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #3 (array(NULL, NULL, 1, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"initial-scale=1\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_viewport",
-    "test": "UnitTests\\testBootstrap::test_viewport with data set #22 (array('device-width', null, null, null, null, 'yes'), '<meta name=\"viewport\" content...=yes\">')",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #3 (array(NULL, NULL, 1, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"initial-scale=1\">')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #4 (array(NULL, NULL, NULL, 1, NULL, NULL), '<meta name=\"viewport\" content=\"minimum-scale=1\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #4 (array(NULL, NULL, NULL, 1, NULL, NULL), '<meta name=\"viewport\" content=\"minimum-scale=1\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #5 (array(NULL, NULL, NULL, NULL, 1, NULL), '<meta name=\"viewport\" content=\"maximum-scale=1\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #5 (array(NULL, NULL, NULL, NULL, 1, NULL), '<meta name=\"viewport\" content=\"maximum-scale=1\">')",
+    "status": "pass",
+    "time": 0.0010011196136475,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #6 (array(NULL, NULL, NULL, NULL, 2, NULL), '<meta name=\"viewport\" content=\"maximum-scale=2\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #6 (array(NULL, NULL, NULL, NULL, 2, NULL), '<meta name=\"viewport\" content=\"maximum-scale=2\">')",
+    "status": "pass",
+    "time": 0.0019998550415039,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #7 (array(NULL, NULL, NULL, NULL, NULL, 'no'), '<meta name=\"viewport\" content=\"user-scalable=no\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #7 (array(NULL, NULL, NULL, NULL, NULL, 'no'), '<meta name=\"viewport\" content=\"user-scalable=no\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #8 (array(NULL, NULL, NULL, NULL, NULL, 'yes'), '<meta name=\"viewport\" content=\"user-scalable=yes\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #8 (array(NULL, NULL, NULL, NULL, NULL, 'yes'), '<meta name=\"viewport\" content=\"user-scalable=yes\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #9 (array('device-width', 'device-height', NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, height=device-height\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #9 (array('device-width', 'device-height', NULL, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, height=device-height\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #10 (array('device-width', NULL, 1, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #10 (array('device-width', NULL, 1, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #11 (array('device-width', NULL, 1.5, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.5\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #11 (array('device-width', NULL, 1.5, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.5\">')",
+    "status": "pass",
+    "time": 0.0019998550415039,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #12 (array('device-width', NULL, 2, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=2\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #12 (array('device-width', NULL, 2, NULL, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, initial-scale=2\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #13 (array('device-width', NULL, NULL, 1, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #13 (array('device-width', NULL, NULL, 1, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #14 (array('device-width', NULL, NULL, 2, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=2\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #14 (array('device-width', NULL, NULL, 2, NULL, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=2\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #15 (array('device-width', NULL, NULL, 1, 1, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #15 (array('device-width', NULL, NULL, 1, 1, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #16 (array('device-width', NULL, NULL, 1, 2, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=2\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #16 (array('device-width', NULL, NULL, 1, 2, NULL), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=2\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #17 (array('device-width', NULL, NULL, 1, 1, 'no'), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #17 (array('device-width', NULL, NULL, 1, 1, 'no'), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no\">')",
+    "status": "pass",
+    "time": 0.0020008087158203,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #18 (array('device-width', NULL, NULL, 1, 1, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=yes\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #18 (array('device-width', NULL, NULL, 1, 1, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=yes\">')",
+    "status": "pass",
+    "time": 0.0010001659393311,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #19 (array('device-width', NULL, NULL, NULL, 1, 'no'), '<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1, user-scalable=no\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #19 (array('device-width', NULL, NULL, NULL, 1, 'no'), '<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1, user-scalable=no\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #20 (array('device-width', NULL, NULL, NULL, 1, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1, user-scalable=yes\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #20 (array('device-width', NULL, NULL, NULL, 1, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1, user-scalable=yes\">')",
+    "status": "pass",
+    "time": 0,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #21 (array('device-width', NULL, NULL, NULL, NULL, 'no'), '<meta name=\"viewport\" content=\"width=device-width, user-scalable=no\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #21 (array('device-width', NULL, NULL, NULL, NULL, 'no'), '<meta name=\"viewport\" content=\"width=device-width, user-scalable=no\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #22 (array('device-width', NULL, NULL, NULL, NULL, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, user-scalable=yes\">')"
+}{
+    "event": "test",
+    "suite": "UnitTests\\testBootstrap::test_viewport",
+    "test": "UnitTests\\testBootstrap::test_viewport with data set #22 (array('device-width', NULL, NULL, NULL, NULL, 'yes'), '<meta name=\"viewport\" content=\"width=device-width, user-scalable=yes\">')",
+    "status": "pass",
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -322,33 +322,33 @@
     "suite": "UnitTests\\testBootstrap::test_container",
     "test": "UnitTests\\testBootstrap::test_container with data set #0 ('content', 'fixed', '<div class=\"container\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #1 ('content', 'fluid', '<div class=\"container-fluid\">...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_container with data set #1 ('content', 'fluid', '<div class=\"container-fluid\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #1 ('content', 'fluid', '<div class=\"container-fluid\">...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_container with data set #1 ('content', 'fluid', '<div class=\"container-fluid\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #2 ('content', 'fluid', '<div class=\"container-fluid\">...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_container with data set #2 ('content', 'fluid', '<div class=\"container-fluid\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #2 ('content', 'fluid', '<div class=\"container-fluid\">...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_container with data set #2 ('content', 'fluid', '<div class=\"container-fluid\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -361,20 +361,20 @@
     "suite": "UnitTests\\testBootstrap::test_container",
     "test": "UnitTests\\testBootstrap::test_container with data set #3 ('content', '', 'error')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #4 ('content', null, 'error')"
+    "test": "UnitTests\\testBootstrap::test_container with data set #4 ('content', NULL, 'error')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_container",
-    "test": "UnitTests\\testBootstrap::test_container with data set #4 ('content', null, 'error')",
+    "test": "UnitTests\\testBootstrap::test_container with data set #4 ('content', NULL, 'error')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -391,7 +391,7 @@
     "suite": "UnitTests\\testBootstrap::test_row",
     "test": "UnitTests\\testBootstrap::test_row with data set #0 ('content', '<div class=\"row\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -402,663 +402,663 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #0 (1, 'xs', 'content', null, '<div class=\"col-xs-1\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #0 (1, 'xs', 'content', NULL, '<div class=\"col-xs-1\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #0 (1, 'xs', 'content', null, '<div class=\"col-xs-1\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #0 (1, 'xs', 'content', NULL, '<div class=\"col-xs-1\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #1 (1, 'sm', 'content', null, '<div class=\"col-sm-1\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #1 (1, 'sm', 'content', NULL, '<div class=\"col-sm-1\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #1 (1, 'sm', 'content', null, '<div class=\"col-sm-1\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #1 (1, 'sm', 'content', NULL, '<div class=\"col-sm-1\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #2 (1, 'md', 'content', null, '<div class=\"col-md-1\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #2 (1, 'md', 'content', NULL, '<div class=\"col-md-1\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #2 (1, 'md', 'content', null, '<div class=\"col-md-1\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #2 (1, 'md', 'content', NULL, '<div class=\"col-md-1\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0020010471343994,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #3 (1, 'lg', 'content', null, '<div class=\"col-lg-1\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #3 (1, 'lg', 'content', NULL, '<div class=\"col-lg-1\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #3 (1, 'lg', 'content', null, '<div class=\"col-lg-1\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #3 (1, 'lg', 'content', NULL, '<div class=\"col-lg-1\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #4 (1, 'xs', 'content', null, '<div class=\"col-xs-1\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #4 (1, 'xs', 'content', NULL, '<div class=\"col-xs-1\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #4 (1, 'xs', 'content', null, '<div class=\"col-xs-1\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #4 (1, 'xs', 'content', NULL, '<div class=\"col-xs-1\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #5 (2, 'xs', 'content', null, '<div class=\"col-xs-2\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #5 (2, 'xs', 'content', NULL, '<div class=\"col-xs-2\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #5 (2, 'xs', 'content', null, '<div class=\"col-xs-2\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #5 (2, 'xs', 'content', NULL, '<div class=\"col-xs-2\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #6 (3, 'xs', 'content', null, '<div class=\"col-xs-3\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #6 (3, 'xs', 'content', NULL, '<div class=\"col-xs-3\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #6 (3, 'xs', 'content', null, '<div class=\"col-xs-3\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #6 (3, 'xs', 'content', NULL, '<div class=\"col-xs-3\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #7 (4, 'xs', 'content', null, '<div class=\"col-xs-4\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #7 (4, 'xs', 'content', NULL, '<div class=\"col-xs-4\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #7 (4, 'xs', 'content', null, '<div class=\"col-xs-4\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #7 (4, 'xs', 'content', NULL, '<div class=\"col-xs-4\">content<\/div>')",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #8 (5, 'xs', 'content', null, '<div class=\"col-xs-5\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #8 (5, 'xs', 'content', NULL, '<div class=\"col-xs-5\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #8 (5, 'xs', 'content', null, '<div class=\"col-xs-5\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #8 (5, 'xs', 'content', NULL, '<div class=\"col-xs-5\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #9 (6, 'xs', 'content', null, '<div class=\"col-xs-6\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #9 (6, 'xs', 'content', NULL, '<div class=\"col-xs-6\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #9 (6, 'xs', 'content', null, '<div class=\"col-xs-6\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #9 (6, 'xs', 'content', NULL, '<div class=\"col-xs-6\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #10 (7, 'xs', 'content', null, '<div class=\"col-xs-7\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #10 (7, 'xs', 'content', NULL, '<div class=\"col-xs-7\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #10 (7, 'xs', 'content', null, '<div class=\"col-xs-7\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #10 (7, 'xs', 'content', NULL, '<div class=\"col-xs-7\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #11 (8, 'xs', 'content', null, '<div class=\"col-xs-8\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #11 (8, 'xs', 'content', NULL, '<div class=\"col-xs-8\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #11 (8, 'xs', 'content', null, '<div class=\"col-xs-8\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #11 (8, 'xs', 'content', NULL, '<div class=\"col-xs-8\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #12 (9, 'xs', 'content', null, '<div class=\"col-xs-9\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #12 (9, 'xs', 'content', NULL, '<div class=\"col-xs-9\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #12 (9, 'xs', 'content', null, '<div class=\"col-xs-9\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #12 (9, 'xs', 'content', NULL, '<div class=\"col-xs-9\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #13 (10, 'xs', 'content', null, '<div class=\"col-xs-10\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #13 (10, 'xs', 'content', NULL, '<div class=\"col-xs-10\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #13 (10, 'xs', 'content', null, '<div class=\"col-xs-10\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #13 (10, 'xs', 'content', NULL, '<div class=\"col-xs-10\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #14 (11, 'xs', 'content', null, '<div class=\"col-xs-11\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #14 (11, 'xs', 'content', NULL, '<div class=\"col-xs-11\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #14 (11, 'xs', 'content', null, '<div class=\"col-xs-11\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #14 (11, 'xs', 'content', NULL, '<div class=\"col-xs-11\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #15 (12, 'xs', 'content', null, '<div class=\"col-xs-12\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #15 (12, 'xs', 'content', NULL, '<div class=\"col-xs-12\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #15 (12, 'xs', 'content', null, '<div class=\"col-xs-12\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #15 (12, 'xs', 'content', NULL, '<div class=\"col-xs-12\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #16 (2, 'sm', 'content', null, '<div class=\"col-sm-2\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #16 (2, 'sm', 'content', NULL, '<div class=\"col-sm-2\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #16 (2, 'sm', 'content', null, '<div class=\"col-sm-2\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #16 (2, 'sm', 'content', NULL, '<div class=\"col-sm-2\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #17 (3, 'sm', 'content', null, '<div class=\"col-sm-3\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #17 (3, 'sm', 'content', NULL, '<div class=\"col-sm-3\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #17 (3, 'sm', 'content', null, '<div class=\"col-sm-3\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #17 (3, 'sm', 'content', NULL, '<div class=\"col-sm-3\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #18 (4, 'sm', 'content', null, '<div class=\"col-sm-4\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #18 (4, 'sm', 'content', NULL, '<div class=\"col-sm-4\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #18 (4, 'sm', 'content', null, '<div class=\"col-sm-4\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #18 (4, 'sm', 'content', NULL, '<div class=\"col-sm-4\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #19 (5, 'sm', 'content', null, '<div class=\"col-sm-5\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #19 (5, 'sm', 'content', NULL, '<div class=\"col-sm-5\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #19 (5, 'sm', 'content', null, '<div class=\"col-sm-5\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #19 (5, 'sm', 'content', NULL, '<div class=\"col-sm-5\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #20 (6, 'sm', 'content', null, '<div class=\"col-sm-6\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #20 (6, 'sm', 'content', NULL, '<div class=\"col-sm-6\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #20 (6, 'sm', 'content', null, '<div class=\"col-sm-6\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #20 (6, 'sm', 'content', NULL, '<div class=\"col-sm-6\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #21 (7, 'sm', 'content', null, '<div class=\"col-sm-7\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #21 (7, 'sm', 'content', NULL, '<div class=\"col-sm-7\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #21 (7, 'sm', 'content', null, '<div class=\"col-sm-7\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #21 (7, 'sm', 'content', NULL, '<div class=\"col-sm-7\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #22 (8, 'sm', 'content', null, '<div class=\"col-sm-8\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #22 (8, 'sm', 'content', NULL, '<div class=\"col-sm-8\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #22 (8, 'sm', 'content', null, '<div class=\"col-sm-8\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #22 (8, 'sm', 'content', NULL, '<div class=\"col-sm-8\">content<\/div>')",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #23 (9, 'sm', 'content', null, '<div class=\"col-sm-9\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #23 (9, 'sm', 'content', NULL, '<div class=\"col-sm-9\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #23 (9, 'sm', 'content', null, '<div class=\"col-sm-9\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #23 (9, 'sm', 'content', NULL, '<div class=\"col-sm-9\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #24 (10, 'sm', 'content', null, '<div class=\"col-sm-10\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #24 (10, 'sm', 'content', NULL, '<div class=\"col-sm-10\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #24 (10, 'sm', 'content', null, '<div class=\"col-sm-10\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #24 (10, 'sm', 'content', NULL, '<div class=\"col-sm-10\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #25 (11, 'sm', 'content', null, '<div class=\"col-sm-11\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #25 (11, 'sm', 'content', NULL, '<div class=\"col-sm-11\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #25 (11, 'sm', 'content', null, '<div class=\"col-sm-11\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #25 (11, 'sm', 'content', NULL, '<div class=\"col-sm-11\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #26 (12, 'sm', 'content', null, '<div class=\"col-sm-12\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #26 (12, 'sm', 'content', NULL, '<div class=\"col-sm-12\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #26 (12, 'sm', 'content', null, '<div class=\"col-sm-12\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #26 (12, 'sm', 'content', NULL, '<div class=\"col-sm-12\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #27 (2, 'md', 'content', null, '<div class=\"col-md-2\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #27 (2, 'md', 'content', NULL, '<div class=\"col-md-2\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #27 (2, 'md', 'content', null, '<div class=\"col-md-2\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #27 (2, 'md', 'content', NULL, '<div class=\"col-md-2\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010011196136475,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #28 (3, 'md', 'content', null, '<div class=\"col-md-3\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #28 (3, 'md', 'content', NULL, '<div class=\"col-md-3\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #28 (3, 'md', 'content', null, '<div class=\"col-md-3\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #28 (3, 'md', 'content', NULL, '<div class=\"col-md-3\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #29 (4, 'md', 'content', null, '<div class=\"col-md-4\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #29 (4, 'md', 'content', NULL, '<div class=\"col-md-4\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #29 (4, 'md', 'content', null, '<div class=\"col-md-4\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #29 (4, 'md', 'content', NULL, '<div class=\"col-md-4\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #30 (5, 'md', 'content', null, '<div class=\"col-md-5\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #30 (5, 'md', 'content', NULL, '<div class=\"col-md-5\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #30 (5, 'md', 'content', null, '<div class=\"col-md-5\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #30 (5, 'md', 'content', NULL, '<div class=\"col-md-5\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #31 (6, 'md', 'content', null, '<div class=\"col-md-6\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #31 (6, 'md', 'content', NULL, '<div class=\"col-md-6\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #31 (6, 'md', 'content', null, '<div class=\"col-md-6\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #31 (6, 'md', 'content', NULL, '<div class=\"col-md-6\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #32 (7, 'md', 'content', null, '<div class=\"col-md-7\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #32 (7, 'md', 'content', NULL, '<div class=\"col-md-7\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #32 (7, 'md', 'content', null, '<div class=\"col-md-7\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #32 (7, 'md', 'content', NULL, '<div class=\"col-md-7\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #33 (8, 'md', 'content', null, '<div class=\"col-md-8\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #33 (8, 'md', 'content', NULL, '<div class=\"col-md-8\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #33 (8, 'md', 'content', null, '<div class=\"col-md-8\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #33 (8, 'md', 'content', NULL, '<div class=\"col-md-8\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #34 (9, 'md', 'content', null, '<div class=\"col-md-9\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #34 (9, 'md', 'content', NULL, '<div class=\"col-md-9\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #34 (9, 'md', 'content', null, '<div class=\"col-md-9\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #34 (9, 'md', 'content', NULL, '<div class=\"col-md-9\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #35 (10, 'md', 'content', null, '<div class=\"col-md-10\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #35 (10, 'md', 'content', NULL, '<div class=\"col-md-10\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #35 (10, 'md', 'content', null, '<div class=\"col-md-10\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #35 (10, 'md', 'content', NULL, '<div class=\"col-md-10\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #36 (11, 'md', 'content', null, '<div class=\"col-md-11\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #36 (11, 'md', 'content', NULL, '<div class=\"col-md-11\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #36 (11, 'md', 'content', null, '<div class=\"col-md-11\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #36 (11, 'md', 'content', NULL, '<div class=\"col-md-11\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #37 (12, 'md', 'content', null, '<div class=\"col-md-12\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #37 (12, 'md', 'content', NULL, '<div class=\"col-md-12\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #37 (12, 'md', 'content', null, '<div class=\"col-md-12\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #37 (12, 'md', 'content', NULL, '<div class=\"col-md-12\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #38 (2, 'lg', 'content', null, '<div class=\"col-lg-2\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #38 (2, 'lg', 'content', NULL, '<div class=\"col-lg-2\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #38 (2, 'lg', 'content', null, '<div class=\"col-lg-2\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #38 (2, 'lg', 'content', NULL, '<div class=\"col-lg-2\">content<\/div>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #39 (3, 'lg', 'content', null, '<div class=\"col-lg-3\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #39 (3, 'lg', 'content', NULL, '<div class=\"col-lg-3\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #39 (3, 'lg', 'content', null, '<div class=\"col-lg-3\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #39 (3, 'lg', 'content', NULL, '<div class=\"col-lg-3\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #40 (4, 'lg', 'content', null, '<div class=\"col-lg-4\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #40 (4, 'lg', 'content', NULL, '<div class=\"col-lg-4\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #40 (4, 'lg', 'content', null, '<div class=\"col-lg-4\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #40 (4, 'lg', 'content', NULL, '<div class=\"col-lg-4\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #41 (5, 'lg', 'content', null, '<div class=\"col-lg-5\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #41 (5, 'lg', 'content', NULL, '<div class=\"col-lg-5\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #41 (5, 'lg', 'content', null, '<div class=\"col-lg-5\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #41 (5, 'lg', 'content', NULL, '<div class=\"col-lg-5\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #42 (6, 'lg', 'content', null, '<div class=\"col-lg-6\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #42 (6, 'lg', 'content', NULL, '<div class=\"col-lg-6\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #42 (6, 'lg', 'content', null, '<div class=\"col-lg-6\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #42 (6, 'lg', 'content', NULL, '<div class=\"col-lg-6\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #43 (7, 'lg', 'content', null, '<div class=\"col-lg-7\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #43 (7, 'lg', 'content', NULL, '<div class=\"col-lg-7\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #43 (7, 'lg', 'content', null, '<div class=\"col-lg-7\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #43 (7, 'lg', 'content', NULL, '<div class=\"col-lg-7\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #44 (8, 'lg', 'content', null, '<div class=\"col-lg-8\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #44 (8, 'lg', 'content', NULL, '<div class=\"col-lg-8\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #44 (8, 'lg', 'content', null, '<div class=\"col-lg-8\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #44 (8, 'lg', 'content', NULL, '<div class=\"col-lg-8\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #45 (9, 'lg', 'content', null, '<div class=\"col-lg-9\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #45 (9, 'lg', 'content', NULL, '<div class=\"col-lg-9\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #45 (9, 'lg', 'content', null, '<div class=\"col-lg-9\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #45 (9, 'lg', 'content', NULL, '<div class=\"col-lg-9\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #46 (10, 'lg', 'content', null, '<div class=\"col-lg-10\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #46 (10, 'lg', 'content', NULL, '<div class=\"col-lg-10\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #46 (10, 'lg', 'content', null, '<div class=\"col-lg-10\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #46 (10, 'lg', 'content', NULL, '<div class=\"col-lg-10\">content<\/div>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #47 (11, 'lg', 'content', null, '<div class=\"col-lg-11\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #47 (11, 'lg', 'content', NULL, '<div class=\"col-lg-11\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #47 (11, 'lg', 'content', null, '<div class=\"col-lg-11\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #47 (11, 'lg', 'content', NULL, '<div class=\"col-lg-11\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #48 (12, 'lg', 'content', null, '<div class=\"col-lg-12\">content<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #48 (12, 'lg', 'content', NULL, '<div class=\"col-lg-12\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #48 (12, 'lg', 'content', null, '<div class=\"col-lg-12\">content<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #48 (12, 'lg', 'content', NULL, '<div class=\"col-lg-12\">content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #49 (1, 'xs', 'content', '.control-group', '<div class=\"col-xs-1 control-...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #49 (1, 'xs', 'content', '.control-group', '<div class=\"col-xs-1 control-group\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #49 (1, 'xs', 'content', '.control-group', '<div class=\"col-xs-1 control-...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #49 (1, 'xs', 'content', '.control-group', '<div class=\"col-xs-1 control-group\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #50 (1, 'xs', 'content', array('.control-group', '.second'), '<div class=\"col-xs-1 control-...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_column with data set #50 (1, 'xs', 'content', array('.control-group', '.second'), '<div class=\"col-xs-1 control-group second\">content<\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_column",
-    "test": "UnitTests\\testBootstrap::test_column with data set #50 (1, 'xs', 'content', array('.control-group', '.second'), '<div class=\"col-xs-1 control-...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_column with data set #50 (1, 'xs', 'content', array('.control-group', '.second'), '<div class=\"col-xs-1 control-group second\">content<\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1069,65 +1069,65 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #0 ('header', 'Header of Panel', 'Body of Panel', null, '<div class=\"panel panel-defau...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_panel with data set #0 ('header', 'Header of Panel', 'Body of Panel', NULL, '<div class=\"panel panel-default\"><div class=\"panel-heading\">Header of Panel<\/div><div class=\"panel-body\">Body of Panel<\/div><\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #0 ('header', 'Header of Panel', 'Body of Panel', null, '<div class=\"panel panel-defau...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_panel with data set #0 ('header', 'Header of Panel', 'Body of Panel', NULL, '<div class=\"panel panel-default\"><div class=\"panel-heading\">Header of Panel<\/div><div class=\"panel-body\">Body of Panel<\/div><\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #1 ('header', 'Header of Panel', 'Body of Panel', '.form-group', '<div class=\"panel panel-defau...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_panel with data set #1 ('header', 'Header of Panel', 'Body of Panel', '.form-group', '<div class=\"panel panel-default\"><div class=\"panel-heading\">Header of Panel<\/div><div class=\"panel-body form-group\">Body of Panel<\/div><\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #1 ('header', 'Header of Panel', 'Body of Panel', '.form-group', '<div class=\"panel panel-defau...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_panel with data set #1 ('header', 'Header of Panel', 'Body of Panel', '.form-group', '<div class=\"panel panel-default\"><div class=\"panel-heading\">Header of Panel<\/div><div class=\"panel-body form-group\">Body of Panel<\/div><\/div>')",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #2 ('footer', 'Footer of Panel', 'Body of Panel', null, '<div class=\"panel panel-defau...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_panel with data set #2 ('footer', 'Footer of Panel', 'Body of Panel', NULL, '<div class=\"panel panel-default\"><div class=\"panel-body\">Body of Panel<\/div><div class=\"panel-footer\">Footer of Panel<\/div><\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #2 ('footer', 'Footer of Panel', 'Body of Panel', null, '<div class=\"panel panel-defau...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_panel with data set #2 ('footer', 'Footer of Panel', 'Body of Panel', NULL, '<div class=\"panel panel-default\"><div class=\"panel-body\">Body of Panel<\/div><div class=\"panel-footer\">Footer of Panel<\/div><\/div>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #3 ('footer', 'Footer of Panel', 'Body of Panel', array('.form-group', '.control'), '<div class=\"panel panel-defau...<\/div>')"
+    "test": "UnitTests\\testBootstrap::test_panel with data set #3 ('footer', 'Footer of Panel', 'Body of Panel', array('.form-group', '.control'), '<div class=\"panel panel-default\"><div class=\"panel-body form-group control\">Body of Panel<\/div><div class=\"panel-footer\">Footer of Panel<\/div><\/div>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #3 ('footer', 'Footer of Panel', 'Body of Panel', array('.form-group', '.control'), '<div class=\"panel panel-defau...<\/div>')",
+    "test": "UnitTests\\testBootstrap::test_panel with data set #3 ('footer', 'Footer of Panel', 'Body of Panel', array('.form-group', '.control'), '<div class=\"panel panel-default\"><div class=\"panel-body form-group control\">Body of Panel<\/div><div class=\"panel-footer\">Footer of Panel<\/div><\/div>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #4 ('foote', 'Footer of Panel', 'Body of Panel', null, 'error')"
+    "test": "UnitTests\\testBootstrap::test_panel with data set #4 ('foote', 'Footer of Panel', 'Body of Panel', NULL, 'error')"
 }{
     "event": "test",
     "suite": "UnitTests\\testBootstrap::test_panel",
-    "test": "UnitTests\\testBootstrap::test_panel with data set #4 ('foote', 'Footer of Panel', 'Body of Panel', null, 'error')",
+    "test": "UnitTests\\testBootstrap::test_panel with data set #4 ('foote', 'Footer of Panel', 'Body of Panel', NULL, 'error')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1142,26 +1142,26 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #0 ('file', 'file created[ Sunday 5th of J... PM ] ', 'file')"
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #0 ('file', 'file created[ Wednesday 19th of April 2017 01:40:56 PM ] ', 'file')"
 }{
     "event": "test",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #0 ('file', 'file created[ Sunday 5th of J... PM ] ', 'file')",
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #0 ('file', 'file created[ Wednesday 19th of April 2017 01:40:56 PM ] ', 'file')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #1 ('data', 'data log created[ Sunday 5th ... PM ] ', 'log')"
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #1 ('data', 'data log created[ Wednesday 19th of April 2017 01:40:56 PM ] ', 'log')"
 }{
     "event": "test",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #1 ('data', 'data log created[ Sunday 5th ... PM ] ', 'log')",
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #1 ('data', 'data log created[ Wednesday 19th of April 2017 01:40:56 PM ] ', 'log')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1174,7 +1174,7 @@
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
     "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #2 ('json', array('zero', 'one', 'two', 'three'), 'json')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1187,7 +1187,7 @@
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
     "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #3 ('json', array('zero', 'one', 'two', 'three'), 'json')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1200,7 +1200,7 @@
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
     "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #4 ('json', array('zero', 'one', 'two', 'three'), 'json')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1213,7 +1213,7 @@
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
     "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #5 ('json', array('0', '1', '2', '3'), 'json')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1226,20 +1226,20 @@
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
     "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #6 ('json', array(array(true, 'bottom'), false, '!', 3), 'json')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #7 ('json', array('Byrne-Systems', 'Justin D. Byrne', 'just@byrne-systems.com', 'http:\/\/www.byrne-systems.com', '[ Sunday 5th of June 2016 05:... PM ] '), 'json')"
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #7 ('json', array('Byrne-Systems', 'Justin D. Byrne', 'just@byrne-systems.com', 'http:\/\/www.byrne-systems.com', '[ Wednesday 19th of April 2017 01:40:56 PM ] '), 'json')"
 }{
     "event": "test",
     "suite": "UnitTests\\testFile::test_write_method_with_legal_values",
-    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #7 ('json', array('Byrne-Systems', 'Justin D. Byrne', 'just@byrne-systems.com', 'http:\/\/www.byrne-systems.com', '[ Sunday 5th of June 2016 05:... PM ] '), 'json')",
+    "test": "UnitTests\\testFile::test_write_method_with_legal_values with data set #7 ('json', array('Byrne-Systems', 'Justin D. Byrne', 'just@byrne-systems.com', 'http:\/\/www.byrne-systems.com', '[ Wednesday 19th of April 2017 01:40:56 PM ] '), 'json')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1256,7 +1256,7 @@
     "suite": "UnitTests\\testFile::test_write_method_with_illegal_values",
     "test": "UnitTests\\testFile::test_write_method_with_illegal_values with data set #0 ('file', 'file not created', '')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
@@ -1271,52 +1271,52 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #0 ('test', 'home', 'HOME', 'homepage', '#home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')"
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #0 ('test', 'home', 'HOME', 'homepage', '#home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" id=\"home\">HOME<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #0 ('test', 'home', 'HOME', 'homepage', '#home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')",
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #0 ('test', 'home', 'HOME', 'homepage', '#home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" id=\"home\">HOME<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #1 ('test', 'home', 'HOME', 'homepage', '.home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')"
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #1 ('test', 'home', 'HOME', 'homepage', '.home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" class=\"home\">HOME<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #1 ('test', 'home', 'HOME', 'homepage', '.home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')",
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #1 ('test', 'home', 'HOME', 'homepage', '.home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" class=\"home\">HOME<\/a>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #2 ('test', 'home', 'HOME', 'homepage', '_home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')"
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #2 ('test', 'home', 'HOME', 'homepage', '_home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" target=\"home\">HOME<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #2 ('test', 'home', 'HOME', 'homepage', '_home', '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')",
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #2 ('test', 'home', 'HOME', 'homepage', '_home', '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" target=\"home\">HOME<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #3 ('test', 'home', 'HOME', 'homepage', array('.home', ',page'), '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')"
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #3 ('test', 'home', 'HOME', 'homepage', array('.home', ',page'), '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" class=\"home page\">HOME<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_anchor_method",
-    "test": "UnitTests\\testHTML::test_anchor_method with data set #3 ('test', 'home', 'HOME', 'homepage', array('.home', ',page'), '<a href=\"http:\/\/www.byrne-sys...ME<\/a>')",
+    "test": "UnitTests\\testHTML::test_anchor_method with data set #3 ('test', 'home', 'HOME', 'homepage', array('.home', ',page'), '<a href=\"http:\/\/www.byrne-systems.com\/home\" title=\"homepage\" class=\"home page\">HOME<\/a>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1327,13 +1327,13 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_favicon",
-    "test": "UnitTests\\testHTML::test_favicon with data set #0 ('C:\/xampp\/htdocs\/web\/images\/fa...be.fav', '<link href=\"data:image\/x-icon...on\" \/>')"
+    "test": "UnitTests\\testHTML::test_favicon with data set #0 ('C:\/xampp\/htdocs\/apps\/Byrne-Systems\/web\/images\/fav\/cube.fav', '<link href=\"data:image\/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==\" type=\"image\/x-icon\" rel=\"favicon\" \/>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_favicon",
-    "test": "UnitTests\\testHTML::test_favicon with data set #0 ('C:\/xampp\/htdocs\/web\/images\/fa...be.fav', '<link href=\"data:image\/x-icon...on\" \/>')",
+    "test": "UnitTests\\testHTML::test_favicon with data set #0 ('C:\/xampp\/htdocs\/apps\/Byrne-Systems\/web\/images\/fav\/cube.fav', '<link href=\"data:image\/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==\" type=\"image\/x-icon\" rel=\"favicon\" \/>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1344,26 +1344,26 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_link",
-    "test": "UnitTests\\testHTML::test_link with data set #0 ('fancy.css', 'alternate stylesheet', null, false, '<link href=\"fancy.css\" rel=\"a...et\" \/>')"
+    "test": "UnitTests\\testHTML::test_link with data set #0 ('fancy.css', 'alternate stylesheet', NULL, false, '<link href=\"fancy.css\" rel=\"alternate stylesheet\" \/>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_link",
-    "test": "UnitTests\\testHTML::test_link with data set #0 ('fancy.css', 'alternate stylesheet', null, false, '<link href=\"fancy.css\" rel=\"a...et\" \/>')",
+    "test": "UnitTests\\testHTML::test_link with data set #0 ('fancy.css', 'alternate stylesheet', NULL, false, '<link href=\"fancy.css\" rel=\"alternate stylesheet\" \/>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_link",
-    "test": "UnitTests\\testHTML::test_link with data set #1 ('base64,AAABAAEAEBAAAAEAIABoBA...8AAA==', 'icon', 'image\/x-icon', false, '<link href=\"data:image\/x-icon...on\" \/>')"
+    "test": "UnitTests\\testHTML::test_link with data set #1 ('base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==', 'icon', 'image\/x-icon', false, '<link href=\"data:image\/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==\" type=\"image\/x-icon\" rel=\"icon\" \/>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_link",
-    "test": "UnitTests\\testHTML::test_link with data set #1 ('base64,AAABAAEAEBAAAAEAIABoBA...8AAA==', 'icon', 'image\/x-icon', false, '<link href=\"data:image\/x-icon...on\" \/>')",
+    "test": "UnitTests\\testHTML::test_link with data set #1 ('base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==', 'icon', 'image\/x-icon', false, '<link href=\"data:image\/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUSxPgFEs35thON+bYThPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBRLC+AUSy\/gFEs\/4BRLP+bYTj\/m2E4\/5thOL+bYTgvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFEsD4BRLI+AUSz\/gFEs\/4NXMv+fiF7\/tJdo\/55nPv+bYTj\/m2E4\/5thOI+bYTgPAAAAAAAAAAAAAAAAgFEsb4BRLO+AUSz\/gFEs\/5d6Uf+2sYT\/vr+R\/83NmP\/Gv4z\/rYlc\/5thOP+bYTj\/m2E475thOG8AAAAAAAAAAIBRLP+AUSz\/i2U+\/66jd\/++v5H\/u7yL\/6yoYv+\/umn\/y8qS\/83NmP\/AsoD\/p3xQ\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/9TRqf++v5H\/s7Bz\/5+WPv+bkTP\/sqc6\/7WrRf\/CvnT\/zc2Y\/97ctP+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/1c6d\/5uRM\/+bkTP\/m5Ez\/7KnOv+ypzr\/sqc6\/9\/Zqf\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/8erK\/9vTpP+bkTP\/m5Ez\/5uRM\/+ypzr\/sqc6\/7KnOv\/l3bL\/9vDa\/5thOP+bYTj\/AAAAAAAAAACAUSz\/gFEs\/\/Hqyv\/b06T\/m5Ez\/56TNP+1pzv\/wbI+\/7OoOv+ypzr\/5d2y\/\/bw2v+bYTj\/m2E4\/wAAAAAAAAAAgFEs\/4BRLP\/x6sr\/29Ok\/66hOf\/Mu0L\/0L5D\/9C+Q\/\/OvEL\/va89\/+Xdsv\/28Nr\/m2E4\/5thOP8AAAAAAAAAAIBRLP+AUSz\/9vHe\/\/v47\/\/q4q7\/0sFN\/9C+Q\/\/QvkP\/0sJO\/+vmuP\/8\/v\/\/+ffu\/5thOP+bYTj\/AAAAAAAAAACDUi3\/nF41\/7+DXv\/o1ML\/+\/jv\/\/j05P\/l25n\/49qV\/\/n68\/\/8\/v\/\/6djO\/7+EYf+nZTr\/nGE4\/wAAAAAAAAAAq2Y6f7JpPe+yaT3\/smk9\/8iVdP\/x5tj\/+\/jv\/\/v8+\/\/y6+b\/yZd5\/7JpPf+yaT3\/smk9769oPH8AAAAAAAAAAAAAAACyaT0Psmk9n7JpPf+yaT3\/tnFI\/9awlv\/Wspv\/tnJJ\/7JpPf+yaT3\/smk9n7JpPQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT0vsmk9v7JpPf+yaT3\/smk9\/7JpPf+yaT2\/smk9LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyaT1Psmk937JpPd+yaT1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/n8AAPgfAADgBwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD4HwAA\/n8AAA==\" type=\"image\/x-icon\" rel=\"icon\" \/>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1374,130 +1374,130 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #0 ('mail@server.com', 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #0 ('mail@server.com', 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #0 ('mail@server.com', 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #0 ('mail@server.com', 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #1 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail01@server...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #1 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail01@server.com,mail02@server.com,mail03@server.com?cc=mailcc@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #1 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail01@server...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #1 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), 'mailcc@server.com', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail01@server.com,mail02@server.com,mail03@server.com?cc=mailcc@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #2 ('mail@server.com', array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #2 ('mail@server.com', array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc01@server.com,mailcc02@server.com,mailcc03@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #2 ('mail@server.com', array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #2 ('mail@server.com', array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc01@server.com,mailcc02@server.com,mailcc03@server.com&amp;bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #3 ('mail@server.com', 'mailcc@server.com', array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #3 ('mail@server.com', 'mailcc@server.com', array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;bcc=mailbcc01@server.com,mailbcc02@server.com,mailbcc03@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #3 ('mail@server.com', 'mailcc@server.com', array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #3 ('mail@server.com', 'mailcc@server.com', array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;bcc=mailbcc01@server.com,mailbcc02@server.com,mailbcc03@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #4 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail01@server...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #4 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail01@server.com,mail02@server.com,mail03@server.com?cc=mailcc01@server.com,mailcc02@server.com,mailcc03@server.com&amp;bcc=mailbcc01@server.com,mailbcc02@server.com,mailbcc03@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #4 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail01@server...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #4 (array('mail01@server.com', 'mail02@server.com', 'mail03@server.com'), array('mailcc01@server.com', 'mailcc02@server.com', 'mailcc03@server.com'), array('mailbcc01@server.com', 'mailbcc02@server.com', 'mailbcc03@server.com'), 'subject', 'body', 'content', '<a href=\"mailto:mail01@server.com,mail02@server.com,mail03@server.com?cc=mailcc01@server.com,mailcc02@server.com,mailcc03@server.com&amp;bcc=mailbcc01@server.com,mailbcc02@server.com,mailbcc03@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #5 ('mail@server.com', '', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #5 ('mail@server.com', '', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #5 ('mail@server.com', '', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #5 ('mail@server.com', '', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #6 ('mail@server.com', 'mailcc@server.com', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #6 ('mail@server.com', 'mailcc@server.com', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #6 ('mail@server.com', 'mailcc@server.com', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #6 ('mail@server.com', 'mailcc@server.com', '', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?cc=mailcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #7 ('mail@server.com', '', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #7 ('mail@server.com', '', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #7 ('mail@server.com', '', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #7 ('mail@server.com', '', 'mailbcc@server.com', 'subject', 'body', 'content', '<a href=\"mailto:mail@server.com?bcc=mailbcc@server.com&amp;subject=subject&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #8 ('mail@server.com', '', '', 'subject of the email', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #8 ('mail@server.com', '', '', 'subject of the email', 'body', 'content', '<a href=\"mailto:mail@server.com?subject=subject%20of%20the%20email&amp;body=body\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #8 ('mail@server.com', '', '', 'subject of the email', 'body', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #8 ('mail@server.com', '', '', 'subject of the email', 'body', 'content', '<a href=\"mailto:mail@server.com?subject=subject%20of%20the%20email&amp;body=body\">content<\/a>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #9 ('mail@server.com', '', '', 'subject', 'body of email', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')"
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #9 ('mail@server.com', '', '', 'subject', 'body of email', 'content', '<a href=\"mailto:mail@server.com?subject=subject&amp;body=body%20of%20email\">content<\/a>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_mailto_method",
-    "test": "UnitTests\\testHTML::test_mailto_method with data set #9 ('mail@server.com', '', '', 'subject', 'body of email', 'content', '<a href=\"mailto:mail@server.c...nt<\/a>')",
+    "test": "UnitTests\\testHTML::test_mailto_method with data set #9 ('mail@server.com', '', '', 'subject', 'body of email', 'content', '<a href=\"mailto:mail@server.com?subject=subject&amp;body=body%20of%20email\">content<\/a>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1510,7 +1510,7 @@
     "suite": "UnitTests\\testHTML::test_mailto_method",
     "test": "UnitTests\\testHTML::test_mailto_method with data set #10 ('', '', '', 'subject', 'body of email', 'content', '')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -1521,78 +1521,78 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #0 ('!Content-Type', 'text\/html; charset=UTF-8', '<meta http-equiv=\"Content-Typ...TF-8\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #0 ('!Content-Type', 'text\/html; charset=UTF-8', '<meta http-equiv=\"Content-Type\" content=\"text\/html; charset=UTF-8\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #0 ('!Content-Type', 'text\/html; charset=UTF-8', '<meta http-equiv=\"Content-Typ...TF-8\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #0 ('!Content-Type', 'text\/html; charset=UTF-8', '<meta http-equiv=\"Content-Type\" content=\"text\/html; charset=UTF-8\">')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #1 ('!window-target', '_top', '<meta http-equiv=\"window-targ..._top\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #1 ('!window-target', '_top', '<meta http-equiv=\"window-target\" content=\"_top\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #1 ('!window-target', '_top', '<meta http-equiv=\"window-targ..._top\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #1 ('!window-target', '_top', '<meta http-equiv=\"window-target\" content=\"_top\">')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #2 ('!default-style', 'css\/style.css', '<meta http-equiv=\"default-sty....css\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #2 ('!default-style', 'css\/style.css', '<meta http-equiv=\"default-style\" content=\"css\/style.css\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #2 ('!default-style', 'css\/style.css', '<meta http-equiv=\"default-sty....css\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #2 ('!default-style', 'css\/style.css', '<meta http-equiv=\"default-style\" content=\"css\/style.css\">')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #3 ('generator', 'Sublime Text 3', '<meta name=\"generator\" conten...xt 3\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #3 ('generator', 'Sublime Text 3', '<meta name=\"generator\" content=\"Sublime Text 3\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #3 ('generator', 'Sublime Text 3', '<meta name=\"generator\" conten...xt 3\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #3 ('generator', 'Sublime Text 3', '<meta name=\"generator\" content=\"Sublime Text 3\">')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #4 ('robots', 'index, follow', '<meta name=\"robots\" content=\"...llow\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #4 ('robots', 'index, follow', '<meta name=\"robots\" content=\"index, follow\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #4 ('robots', 'index, follow', '<meta name=\"robots\" content=\"...llow\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #4 ('robots', 'index, follow', '<meta name=\"robots\" content=\"index, follow\">')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #5 ('copyright', 'Byrne-Systems', '<meta name=\"copyright\" conten...tems\">')"
+    "test": "UnitTests\\testHTML::test_meta_method with data set #5 ('copyright', 'Byrne-Systems', '<meta name=\"copyright\" content=\"Byrne-Systems\">')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_meta_method",
-    "test": "UnitTests\\testHTML::test_meta_method with data set #5 ('copyright', 'Byrne-Systems', '<meta name=\"copyright\" conten...tems\">')",
+    "test": "UnitTests\\testHTML::test_meta_method with data set #5 ('copyright', 'Byrne-Systems', '<meta name=\"copyright\" content=\"Byrne-Systems\">')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1605,7 +1605,7 @@
     "suite": "UnitTests\\testHTML::test_meta_method",
     "test": "UnitTests\\testHTML::test_meta_method with data set #6 ('', 'Byrne-Systems', '')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1616,52 +1616,52 @@
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #0 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', false, false, false, '<script src=\"\/lib\/modernizr\/m...cript>')"
+    "test": "UnitTests\\testHTML::test_script_method with data set #0 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', false, false, false, '<script src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\"><\/script>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #0 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', false, false, false, '<script src=\"\/lib\/modernizr\/m...cript>')",
+    "test": "UnitTests\\testHTML::test_script_method with data set #0 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', false, false, false, '<script src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\"><\/script>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #1 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', false, false, '<script type=\"text\/javascript...cript>')"
+    "test": "UnitTests\\testHTML::test_script_method with data set #1 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', false, false, '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\"><\/script>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #1 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', false, false, '<script type=\"text\/javascript...cript>')",
+    "test": "UnitTests\\testHTML::test_script_method with data set #1 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', false, false, '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\"><\/script>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #2 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, false, '<script type=\"text\/javascript...cript>')"
+    "test": "UnitTests\\testHTML::test_script_method with data set #2 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, false, '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\" defer><\/script>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #2 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, false, '<script type=\"text\/javascript...cript>')",
+    "test": "UnitTests\\testHTML::test_script_method with data set #2 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, false, '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\" defer><\/script>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
 }{
     "event": "testStart",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #3 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, 'UTF-8', '<script type=\"text\/javascript...cript>')"
+    "test": "UnitTests\\testHTML::test_script_method with data set #3 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, 'UTF-8', '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\" charset=\"UTF-8\" defer><\/script>')"
 }{
     "event": "test",
     "suite": "UnitTests\\testHTML::test_script_method",
-    "test": "UnitTests\\testHTML::test_script_method with data set #3 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, 'UTF-8', '<script type=\"text\/javascript...cript>')",
+    "test": "UnitTests\\testHTML::test_script_method with data set #3 ('\/lib\/modernizr\/modernizr.dev-v2.8.3.js', 'text\/javascript', true, 'UTF-8', '<script type=\"text\/javascript\" src=\"\/lib\/modernizr\/modernizr.dev-v2.8.3.js\" charset=\"UTF-8\" defer><\/script>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1678,7 +1678,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #0 ('content', 'a', '<a>content<\/a>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -1691,7 +1691,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #1 ('content', 'abbr', '<abbr>content<\/abbr>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1704,7 +1704,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #2 ('content', 'address', '<address>content<\/address>')",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1717,7 +1717,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #3 ('content', 'area', '<area>content<\/area>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1730,7 +1730,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #4 ('content', 'article', '<article>content<\/article>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010011196136475,
     "trace": [],
     "message": "",
     "output": ""
@@ -1743,7 +1743,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #5 ('content', 'aside', '<aside>content<\/aside>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1756,7 +1756,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #6 ('content', 'audio', '<audio>content<\/audio>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -1769,7 +1769,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #7 ('content', 'b', '<b>content<\/b>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1782,7 +1782,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #8 ('content', 'base', '<base>content<\/base>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -1795,7 +1795,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #9 ('content', 'bdi', '<bdi>content<\/bdi>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1808,7 +1808,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #10 ('content', 'bdo', '<bdo>content<\/bdo>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1821,7 +1821,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #11 ('content', 'blockquote', '<blockquote>content<\/blockquote>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1834,7 +1834,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #12 ('content', 'body', '<body>content<\/body>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -1847,7 +1847,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #13 ('content', 'br', '<br>content<\/br>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1860,7 +1860,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #14 ('content', 'button', '<button>content<\/button>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1873,7 +1873,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #15 ('content', 'canvas', '<canvas>content<\/canvas>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1886,7 +1886,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #16 ('content', 'caption', '<caption>content<\/caption>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1899,7 +1899,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #17 ('content', 'cite', '<cite>content<\/cite>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1912,7 +1912,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #18 ('content', 'code', '<code>content<\/code>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1925,7 +1925,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #19 ('content', 'col', '<col>content<\/col>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1938,7 +1938,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #20 ('content', 'colgroup', '<colgroup>content<\/colgroup>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -1951,7 +1951,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #21 ('content', 'datalist', '<datalist>content<\/datalist>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1964,7 +1964,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #22 ('content', 'dd', '<dd>content<\/dd>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -1977,7 +1977,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #23 ('content', 'del', '<del>content<\/del>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -1990,7 +1990,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #24 ('content', 'details', '<details>content<\/details>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2003,7 +2003,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #25 ('content', 'dfn', '<dfn>content<\/dfn>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2016,7 +2016,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #26 ('content', 'dialog', '<dialog>content<\/dialog>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2029,7 +2029,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #27 ('content', 'div', '<div>content<\/div>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2042,7 +2042,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #28 ('content', 'dl', '<dl>content<\/dl>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2055,7 +2055,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #29 ('content', 'dt', '<dt>content<\/dt>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2068,7 +2068,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #30 ('content', 'em', '<em>content<\/em>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2081,7 +2081,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #31 ('content', 'embed', '<embed>content<\/embed>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2094,7 +2094,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #32 ('content', 'fieldset', '<fieldset>content<\/fieldset>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2107,7 +2107,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #33 ('content', 'figcaption', '<figcaption>content<\/figcaption>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2120,7 +2120,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #34 ('content', 'figure', '<figure>content<\/figure>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2133,7 +2133,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #35 ('content', 'footer', '<footer>content<\/footer>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -2146,7 +2146,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #36 ('content', 'form', '<form>content<\/form>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2159,7 +2159,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #37 ('content', 'h1', '<h1>content<\/h1>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2172,7 +2172,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #38 ('content', 'h2', '<h2>content<\/h2>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2185,7 +2185,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #39 ('content', 'h3', '<h3>content<\/h3>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2198,7 +2198,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #40 ('content', 'h4', '<h4>content<\/h4>')",
     "status": "pass",
-    "time": 0.0070009231567383,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2211,7 +2211,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #41 ('content', 'h5', '<h5>content<\/h5>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2224,7 +2224,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #42 ('content', 'h6', '<h6>content<\/h6>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2237,7 +2237,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #43 ('content', 'head', '<head>content<\/head>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2250,7 +2250,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #44 ('content', 'header', '<header>content<\/header>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2263,7 +2263,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #45 ('content', 'hr', '<hr>content<\/hr>')",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -2276,7 +2276,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #46 ('content', 'html', '<html>content<\/html>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2289,7 +2289,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #47 ('content', 'i', '<i>content<\/i>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2302,7 +2302,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #48 ('content', 'iframe', '<iframe>content<\/iframe>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2315,7 +2315,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #49 ('content', 'img', '<img>content<\/img>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2328,7 +2328,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #50 ('content', 'input', '<input>content<\/input>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2341,7 +2341,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #51 ('content', 'ins', '<ins>content<\/ins>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2354,7 +2354,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #52 ('content', 'kbd', '<kbd>content<\/kbd>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010011196136475,
     "trace": [],
     "message": "",
     "output": ""
@@ -2367,7 +2367,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #53 ('content', 'keygen', '<keygen>content<\/keygen>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2380,7 +2380,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #54 ('content', 'label', '<label>content<\/label>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2393,7 +2393,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #55 ('content', 'legend', '<legend>content<\/legend>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2406,7 +2406,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #56 ('content', 'li', '<li>content<\/li>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -2419,7 +2419,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #57 ('content', 'link', '<link>content<\/link>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2432,7 +2432,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #58 ('content', 'main', '<main>content<\/main>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2445,7 +2445,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #59 ('content', 'map', '<map>content<\/map>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2458,7 +2458,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #60 ('content', 'mark', '<mark>content<\/mark>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2471,7 +2471,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #61 ('content', 'menu', '<menu>content<\/menu>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2484,7 +2484,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #62 ('content', 'menuitem', '<menuitem>content<\/menuitem>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2497,7 +2497,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #63 ('content', 'meta', '<meta>content<\/meta>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2510,7 +2510,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #64 ('content', 'meter', '<meter>content<\/meter>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
@@ -2523,7 +2523,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #65 ('content', 'nav', '<nav>content<\/nav>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2536,7 +2536,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #66 ('content', 'noscript', '<noscript>content<\/noscript>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2549,7 +2549,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #67 ('content', 'object', '<object>content<\/object>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.002000093460083,
     "trace": [],
     "message": "",
     "output": ""
@@ -2562,7 +2562,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #68 ('content', 'ol', '<ol>content<\/ol>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0019998550415039,
     "trace": [],
     "message": "",
     "output": ""
@@ -2575,7 +2575,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #69 ('content', 'optgroup', '<optgroup>content<\/optgroup>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2588,7 +2588,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #70 ('content', 'option', '<option>content<\/option>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2601,7 +2601,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #71 ('content', 'output', '<output>content<\/output>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2614,7 +2614,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #72 ('content', 'p', '<p>content<\/p>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2627,7 +2627,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #73 ('content', 'param', '<param>content<\/param>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2640,7 +2640,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #74 ('content', 'pre', '<pre>content<\/pre>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2653,7 +2653,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #75 ('content', 'progress', '<progress>content<\/progress>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2666,7 +2666,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #76 ('content', 'q', '<q>content<\/q>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010011196136475,
     "trace": [],
     "message": "",
     "output": ""
@@ -2679,7 +2679,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #77 ('content', 'rp', '<rp>content<\/rp>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2692,7 +2692,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #78 ('content', 'rt', '<rt>content<\/rt>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2705,7 +2705,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #79 ('content', 'ruby', '<ruby>content<\/ruby>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -2718,7 +2718,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #80 ('content', 's', '<s>content<\/s>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2731,7 +2731,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #81 ('content', 'samp', '<samp>content<\/samp>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2744,7 +2744,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #82 ('content', 'script', '<script>content<\/script>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2757,7 +2757,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #83 ('content', 'section', '<section>content<\/section>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2770,7 +2770,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #84 ('content', 'select', '<select>content<\/select>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2783,7 +2783,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #85 ('content', 'small', '<small>content<\/small>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2796,7 +2796,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #86 ('content', 'source', '<source>content<\/source>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2809,7 +2809,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #87 ('content', 'span', '<span>content<\/span>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2822,7 +2822,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #88 ('content', 'strong', '<strong>content<\/strong>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2835,7 +2835,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #89 ('content', 'style', '<style>content<\/style>')",
     "status": "pass",
-    "time": 0.0050008296966553,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -2848,7 +2848,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #90 ('content', 'sub', '<sub>content<\/sub>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2861,7 +2861,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #91 ('content', 'summary', '<summary>content<\/summary>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010008811950684,
     "trace": [],
     "message": "",
     "output": ""
@@ -2874,7 +2874,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #92 ('content', 'sup', '<sup>content<\/sup>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2887,7 +2887,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #93 ('content', 'table', '<table>content<\/table>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -2900,7 +2900,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #94 ('content', 'tbody', '<tbody>content<\/tbody>')",
     "status": "pass",
-    "time": 0.0060009956359863,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2913,7 +2913,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #95 ('content', 'td', '<td>content<\/td>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2926,7 +2926,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #96 ('content', 'textarea', '<textarea>content<\/textarea>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2939,7 +2939,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #97 ('content', 'tfoot', '<tfoot>content<\/tfoot>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -2952,7 +2952,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #98 ('content', 'th', '<th>content<\/th>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2965,7 +2965,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #99 ('content', 'thead', '<thead>content<\/thead>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -2978,7 +2978,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #100 ('content', 'time', '<time>content<\/time>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -2991,7 +2991,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #101 ('content', 'title', '<title>content<\/title>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3004,7 +3004,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #102 ('content', 'tr', '<tr>content<\/tr>')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -3017,7 +3017,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #103 ('content', 'track', '<track>content<\/track>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3030,7 +3030,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #104 ('content', 'u', '<u>content<\/u>')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3043,7 +3043,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #105 ('content', 'ul', '<ul>content<\/ul>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010011196136475,
     "trace": [],
     "message": "",
     "output": ""
@@ -3056,7 +3056,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #106 ('content', 'var', '<var>content<\/var>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3069,7 +3069,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #107 ('content', 'video', '<video>content<\/video>')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3082,7 +3082,7 @@
     "suite": "UnitTests\\testHTML::test_tag_method",
     "test": "UnitTests\\testHTML::test_tag_method with data set #108 ('content', 'wb', '<wb>content<\/wb>')",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3099,7 +3099,7 @@
     "suite": "UnitTests\\testTemplate",
     "test": "UnitTests\\testTemplate::test_template_set_N_output_methods",
     "status": "pass",
-    "time": 0.0060000419616699,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3112,7 +3112,7 @@
     "suite": "UnitTests\\testTemplate",
     "test": "UnitTests\\testTemplate::test_Merge_Templates",
     "status": "pass",
-    "time": 0.0059998035430908,
+    "time": 0.01200008392334,
     "trace": [],
     "message": "",
     "output": ""
@@ -3125,7 +3125,7 @@
     "suite": "UnitTests\\testTemplate",
     "test": "UnitTests\\testTemplate::test_Failure_Output",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -3146,7 +3146,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_illegal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_illegal_values with data set #0 ('email')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -3159,7 +3159,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_illegal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_illegal_values with data set #1 ('email@address')",
     "status": "pass",
-    "time": 0.0049998760223389,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
@@ -3172,7 +3172,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_illegal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_illegal_values with data set #2 ('email@address.')",
     "status": "pass",
-    "time": 0.0050010681152344,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -3185,7 +3185,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_illegal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_illegal_values with data set #3 (array('email', 'email@address', 'email@address.'))",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -3202,7 +3202,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_legal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_legal_values with data set #0 ('email@address.com')",
     "status": "pass",
-    "time": 0.005000114440918,
+    "time": 0.0010001659393311,
     "trace": [],
     "message": "",
     "output": ""
@@ -3215,7 +3215,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_legal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_legal_values with data set #1 ('e@address.net')",
     "status": "pass",
-    "time": 0.0040011405944824,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -3228,7 +3228,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_legal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_legal_values with data set #2 ('email@a.co')",
     "status": "pass",
-    "time": 0.0039999485015869,
+    "time": 0,
     "trace": [],
     "message": "",
     "output": ""
@@ -3241,7 +3241,7 @@
     "suite": "UnitTests\\testValidation::test_email_format_method_with_legal_values",
     "test": "UnitTests\\testValidation::test_email_format_method_with_legal_values with data set #3 (array('email@address.com', 'e@address.net', 'email@a.co'))",
     "status": "pass",
-    "time": 0.0039999485015869,
+    "time": 0.00099992752075195,
     "trace": [],
     "message": "",
     "output": ""
