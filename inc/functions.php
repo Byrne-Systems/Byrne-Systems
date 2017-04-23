@@ -94,5 +94,4 @@ class Article
     {
       return $this->time;
     }
-
 }

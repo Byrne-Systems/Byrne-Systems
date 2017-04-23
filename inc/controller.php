@@ -13,21 +13,20 @@ namespace WAFFLE\Controller;
 use WAFFLE\Controller;                                  # Primary: controller for index.php
 use WAFFLE\Framework\Engines\Template;                  # Template: engine developed to substitute special WAFFLE tags while publishing a clean HTML document
 
-
-require '/../lib/_Framework/template.class.php';
-require '/../inc/functions.php';
-
 # Set: Root Directory
 $root = rtrim(dirname(__FILE__), '/inc');
 
-// session_start();                                        # Session: start
+require $_SERVER['DOCUMENT_ROOT'] . '/lib/_Framework/template.class.php';
+
+# Set: Root Directory
+// $root = rtrim(dirname(__FILE__), '/inc');
 
 # ------------------------------------ [ Header ] --------------------------- #
 
 # Load: ancillary (or contributory) views
 $notes  = new Template($root . '/web/views/meta/' . 'notes.wad');
 $meta   = new Template($root . '/web/views/meta/' . 'meta.wad');
-// $styles = new Template($root . '/web/views/meta/' . 'styles.wad');              // (Deprecated) in favor for adaptive web solution
+$styles = new Template($root . '/web/views/meta/' . 'styles.wad');              // (Deprecated) in favor for adaptive web solution
 $script = new Template($root . '/web/views/meta/' . 'script.wad');
 
 ###############################################################################
@@ -110,20 +109,17 @@ if (empty($_GET['page'])) {
 } else if ($_GET['page'] == 'projects') {
 
   # Load: projects page page elements
-  $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
+  // $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
   $projects = new Template($root . '/web/views/pages/projects/' . 'projects.wad');
   $sidebar  = new Template($root . '/web/views/pages/projects/' . 'sidebar.wad');
-
-  # Loop: content with Article class in functions.php
   $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
-
   $footer   = new Template($root . '/web/views/pages/projects/' . 'footer.wad');
 
   #############################################################################
   ###                       Setup Projects Page                             ###
   #############################################################################
   $layout->set('header', '');
-  $layout->set('styles',                  $styles->output());
+  // $layout->set('styles',                  $styles->output());
   $projects->set('sidebar',               $sidebar->output());
   $projects->set('content',               $content->output());
   $layout->set('main',                    $projects->output());
@@ -158,7 +154,6 @@ if (empty($_GET['page'])) {
   $layout->set('styles',                  $styles->output());
   $layout->set('main',                    $main->output());
   $layout->set('footer',                  $footer->output());
-
 }
 
 ###############################################################################
@@ -170,7 +165,7 @@ $layout->set('file_notes',              $notes->output());
 $layout->set('title',                   'Byrne-Systems | Web-Application Design & Development');
 $layout->set('meta_tags',               $meta->output());
 $layout->set('favicon',                 $layout->favicon($root . '/web/images/fav/cube.fav'));
-// $layout->set('styles',                  $styles->output());                     // (Deprecated) in favor for adaptive web solution
+$layout->set('styles',                  $styles->output());                     // (Deprecated) in favor for adaptive web solution
 $layout->set('wrapper',                 'Byrne-Systems');
 $layout->set('script',                  $script->output());
 
