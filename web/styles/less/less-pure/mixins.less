@@ -184,11 +184,35 @@
   padding: 1px 3px;
   margin-left: 3px;
   text-decoration: none;
+  .tag-ahk {
+    @emerald: rgb(82, 197, 82);
+    background-color: @emerald;
+    color: white;
+    .border(2px, solid, lighten(@emerald, 5%), lighten(@emerald, 5%), darken(@emerald, 5%), darken(@emerald, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-bash {
+    @denim: rgb(21, 114, 182);
+    background-color: @denim;
+    color: white;
+    .border(2px, solid, lighten(@denim, 5%), lighten(@denim, 5%), darken(@denim, 5%), darken(@denim, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
   .tag-css {
     @denim: rgb(21, 114, 182);
     background-color: @denim;
     color: white;
     .border(2px, solid, lighten(@denim, 5%), lighten(@denim, 5%), darken(@denim, 5%), darken(@denim, 5%));
+    &:hover
+    { color: @athens-gray; }
+  }
+  .tag-less {
+    @bay-of-many: rgb(37, 81, 133);
+    background-color: @bay-of-many;
+    color: white;
+    .border(2px, solid, lighten(@bay-of-many, 5%), lighten(@bay-of-many, 5%), darken(@bay-of-many, 5%), darken(@bay-of-many, 5%));
     &:hover
     { color: @athens-gray; }
   }

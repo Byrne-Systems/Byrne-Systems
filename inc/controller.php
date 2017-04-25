@@ -5,7 +5,6 @@
  * @package     Controllers\Controller
  * @category    Controllers
  * @author      Justin D. Byrne <justin@byrne-systems.com>
- * @version     $Id$
  */
 
 namespace WAFFLE\Controller;

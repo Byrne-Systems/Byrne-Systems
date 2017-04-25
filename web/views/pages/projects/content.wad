@@ -3,20 +3,25 @@
 
     <!-- WAFFLE -->
     <div class="posts">
+
       <h1 class="content-subhead">
         <span class="timestamp"></span>
-        <span class="stamp">3/01/2017 @ 10:54pm</span>
+        <span class="stamp">01/15/2017 @ 11:21am</span>
       </h1>
-      <!-- A single blog post -->
+
       <section class="post">
+
         <div class="post-header">
           <img src="web/images/post-projects.png">
-          <span class="post-title">WAFFLE</span>
+          <span class="post-title">
+            <a href="https://github.com/Byrne-Systems/WAFFLE">WAFFLE</a>
+          </span>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-php" href="#">PHP</a>
           </p>
           <div class="clearfix"></div>
         </div>
+
         <div class="post-description">
           <article>
             <img class="post-image" src="web/images/waffle_logo.png">
@@ -31,20 +36,26 @@
             <div class="clearfix"></div>
           </article>
         </div>
+
       </section>
+
     </div>
 
     <!-- LESS-Pure -->
     <div class="posts">
+
       <h1 class="content-subhead">
         <span class="timestamp"></span>
-        <span class="stamp">3/01/2017 @ 10:54pm</span>
+        <span class="stamp">2/06/2017 @ 9:16am</span>
       </h1>
-      <!-- A single blog post -->
+
       <section class="post">
+
         <div class="post-header">
           <img src="web/images/post-projects.png">
-          <span class="post-title">WAFFLE</span>
+          <span class="post-title">
+            <a href="https://github.com/Byrne-Systems/LESS-Pure">LESS-Pure</a>
+          </span>
           <p class="post-meta">
             By <a href="#" class="post-author">Justin D. Byrne</a> under
             <a class="tag tag-less" href="#">LESS</a>
@@ -53,6 +64,7 @@
           </p>
           <div class="clearfix"></div>
         </div>
+
         <div class="post-description">
           <article>
             <img class="post-image" src="web/images/less-pure_logo.png">
@@ -67,64 +79,88 @@
             <div class="clearfix"></div>
           </article>
         </div>
+
       </section>
+
     </div>
 
-    <!-- Sacred Animations -->
+    <!-- Bash Binaries -->
     <div class="posts">
-      <h1 class="content-subhead">
-        <span class="timestamp"></span>
-        <span class="stamp">4/11/2017 @ 10:54pm</span>
-      </h1>
-      <!-- A single blog post -->
-      <section class="post">
-        <div class="post-header">
-          <img src="web/images/post-projects.png">
-          <span class="post-title">Byrne-Systems Projects Page</span>
-          <p class="post-meta">
-            By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
-          </p>
-        </div>
-        <div class="post-description">
-          <article>
-            <img class="post-image" src="web/images/mock-image_126x126.png">
-            <p class="post-content">
-              Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
-              <br><br>
-              Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
-            </p>
-            <div class="clearfix"></div>
-          </article>
-        </div>
-      </section>
-    </div>
 
-    <!-- Sacred Animations -->
-    <div class="posts">
       <h1 class="content-subhead">
         <span class="timestamp"></span>
-        <span class="stamp">4/11/2017 @ 10:54pm</span>
+        <span class="stamp">2/17/2017 @ 11:15pm</span>
       </h1>
-      <!-- A single blog post -->
+
       <section class="post">
+
         <div class="post-header">
           <img src="web/images/post-projects.png">
-          <span class="post-title">Byrne-Systems Projects Page</span>
+          <span class="post-title">
+            <a href="https://github.com/Justin-Byrne/bash-binaries">Bash Binaries</a>
+          </span>
           <p class="post-meta">
-            By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-css" href="#">CSS</a> <a class="tag tag-pure" href="#">Pure</a>
+            By <a href="#" class="post-author">Justin D. Byrne</a> under
+            <a class="tag tag-bash" href="#">BASH</a>
           </p>
         </div>
+
         <div class="post-description">
           <article>
             <img class="post-image" src="web/images/bash_logo.png">
             <p class="post-content">
-              Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
+              <a href="https://github.com/Justin-Byrne/bash-binaries">Bash binaries</a>
+              are a small personal group of frequently utilized binaries, that serve to
+              supply unique features, specialized methods (or commands), or color data;
+              depending on the binary used. If you would like, please feel free to fork
+              these binaries and contribute to their features.
             </p>
             <div class="clearfix"></div>
           </article>
         </div>
+
       </section>
+
     </div>
 
-    <!-- Sacred Animations -->
-    </div><!-- .posts-wrapper -->
+    <!-- xButton -->
+    <div class="posts">
+
+      <h1 class="content-subhead">
+        <span class="timestamp"></span>
+        <span class="stamp">2/31/2017 @ 9:17pm</span>
+      </h1>
+
+      <section class="post">
+
+        <div class="post-header">
+          <img src="web/images/post-projects.png">
+          <span class="post-title">
+            <a href="https://github.com/Justin-Byrne/xButton">xButton</a>
+          </span>
+          <p class="post-meta">
+            By <a href="#" class="post-author">Justin D. Byrne</a> under
+            <a class="tag tag-ahk" href="#">AHK</a>
+          </p>
+        </div>
+
+        <div class="post-description">
+          <article>
+            <img class="post-image" src="web/images/xbutton-logo.png">
+            <p class="post-content">
+              <a href="https://github.com/Justin-Byrne/bash-binaries">xButton</a> is
+              a small project written using <a href="https://autohotkey.com/">AutoHotKey</a>
+              script that adds an auxiliary context menu which behaves as a Windows
+              Applications Menu. <a href="https://github.com/Justin-Byrne/bash-binaries">xButton's</a>
+              name derives from it's <a href="https://autohotkey.com/docs/KeyList.htm#Mouse">binding button</a>,
+              which is the fourth mouse button that is typically used for the browser back button.
+            </p>
+            <div class="clearfix"></div>
+          </article>
+        </div>
+
+      </section>
+
+    </div>
+
+  </div><!-- .posts-wrapper -->

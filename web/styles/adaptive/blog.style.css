@@ -699,12 +699,12 @@ template {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
 /* .tag */
 /* -------------------------------------------------------------------------- */
@@ -719,6 +719,28 @@ template {
   margin-left: 3px;
   text-decoration: none;
 }
+.tag .tag-ahk {
+  background-color: #52c552;
+  color: white;
+  border-top: 2px solid #65cb65;
+  border-right: 2px solid #65cb65;
+  border-bottom: 2px solid #40be40;
+  border-left: 2px solid #40be40;
+}
+.tag .tag-ahk:hover {
+  color: #e9ebee;
+}
+.tag .tag-bash {
+  background-color: #1572b6;
+  color: white;
+  border-top: 2px solid #1880cd;
+  border-right: 2px solid #1880cd;
+  border-bottom: 2px solid #12649f;
+  border-left: 2px solid #12649f;
+}
+.tag .tag-bash:hover {
+  color: #e9ebee;
+}
 .tag .tag-css {
   background-color: #1572b6;
   color: white;
@@ -728,6 +750,28 @@ template {
   border-left: 2px solid #12649f;
 }
 .tag .tag-css:hover {
+  color: #e9ebee;
+}
+.tag .tag-less {
+  background-color: #255185;
+  color: white;
+  border-top: 2px solid #2b5d99;
+  border-right: 2px solid #2b5d99;
+  border-bottom: 2px solid #1f4571;
+  border-left: 2px solid #1f4571;
+}
+.tag .tag-less:hover {
+  color: #e9ebee;
+}
+.tag .tag-php {
+  background-color: #5f82ba;
+  color: white;
+  border-top: 2px solid #7190c2;
+  border-right: 2px solid #7190c2;
+  border-bottom: 2px solid #4d74b2;
+  border-left: 2px solid #4d74b2;
+}
+.tag .tag-php:hover {
   color: #e9ebee;
 }
 .tag .tag-pure {
@@ -1933,12 +1977,12 @@ html {
 @font-face {
   font-family: 'lato';
   src: url('../../fonts/lato/lato.eot');
-  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
+  src: url('../../fonts/lato/lato.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/lato.woff2') format('woff2'), url('../../fonts/lato/lato.woff') format('woff'), url('../../fonts/lato/lato.ttf') format('truetype'), url('../../fonts/lato/lato.svg#lato') format('svg');
 }
 @font-face {
   font-family: 'webfont-icons';
   src: url('../../fonts/webfont-icons/webicons.eot');
-  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
+  src: url('../../fonts/webfont-icons/webicons.eot?#iefix') format('embedded-opentype'), url('../../fonts/webfont-icons/webicons.woff2') format('woff2'), url('../../fonts/webfont-icons/webicons.woff') format('woff'), url('../../fonts/webfont-icons/webicons.ttf') format('truetype'), url('../../fonts/webfont-icons/webicons.svg#webicons') format('svg');
 }
 #Byrne-Systems {
   /* Blog Page */
@@ -2094,6 +2138,20 @@ html {
   color: black;
   border-left: 1px solid #909ebb;
   box-shadow: 2px 0px 3px black;
+  /* Construction */
+  min-height: 720px;
+  /* Construction */
+}
+#Byrne-Systems .blog .content .temp {
+  text-align: center;
+  padding-top: 49px;
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+#Byrne-Systems .blog .content .construction {
+  text-align: center;
 }
 #Byrne-Systems .blog .content .content-subhead {
   font-family: "droid-mono";
@@ -2295,6 +2353,8 @@ html {
   vertical-align: top;
   text-rendering: auto;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   background-color: #4b4f56;
   border-top: 1px solid #3a3d43;
   border-right: 1px solid #191a1d;
