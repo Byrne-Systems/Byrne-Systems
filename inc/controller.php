@@ -25,7 +25,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/lib/_Framework/template.class.php';
 # Load: ancillary (or contributory) views
 $notes  = new Template($root . '/web/views/meta/' . 'notes.wad');
 $meta   = new Template($root . '/web/views/meta/' . 'meta.wad');
-$styles = new Template($root . '/web/views/meta/' . 'styles.wad');              // (Deprecated) in favor for adaptive web solution
+// $styles = new Template($root . '/web/views/meta/' . 'styles.wad');              // (Deprecated) in favor for adaptive web solution
 $script = new Template($root . '/web/views/meta/' . 'script.wad');
 
 ###############################################################################
@@ -164,7 +164,7 @@ $layout->set('file_notes',              $notes->output());
 $layout->set('title',                   'Byrne-Systems | Web-Application Design & Development');
 $layout->set('meta_tags',               $meta->output());
 $layout->set('favicon',                 $layout->favicon($root . '/web/images/fav/cube.fav'));
-$layout->set('styles',                  $styles->output());                     // (Deprecated) in favor for adaptive web solution
+// $layout->set('styles',                  $styles->output());                     // (Deprecated) in favor for adaptive web solution
 $layout->set('wrapper',                 'Byrne-Systems');
 $layout->set('script',                  $script->output());
 

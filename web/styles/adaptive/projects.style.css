@@ -2213,9 +2213,6 @@ html {
   margin: 14px 14px 0px 0px;
   float: right;
 }
-#Byrne-Systems .projects .content .post .post-header .clearfix {
-  clear: both;
-}
 #Byrne-Systems .projects .content .post .post-header .post-meta {
   padding-left: 28px;
   font-family: "lato";
@@ -2224,6 +2221,17 @@ html {
   line-height: 21px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-ahk {
+  background-color: #52c552;
+  color: white;
+  border-top: 2px solid #65cb65;
+  border-right: 2px solid #65cb65;
+  border-bottom: 2px solid #40be40;
+  border-left: 2px solid #40be40;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-ahk:hover {
+  color: #e9ebee;
 }
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-css {
   background-color: #1572b6;
@@ -2234,6 +2242,17 @@ html {
   border-left: 2px solid #12649f;
 }
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-css:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-bash {
+  background-color: #1572b6;
+  color: white;
+  border-top: 2px solid #1880cd;
+  border-right: 2px solid #1880cd;
+  border-bottom: 2px solid #12649f;
+  border-left: 2px solid #12649f;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-bash:hover {
   color: #e9ebee;
 }
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-pure {
@@ -2258,6 +2277,28 @@ html {
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-js:hover {
   color: #e9ebee;
 }
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-less {
+  background-color: #255185;
+  color: white;
+  border-top: 2px solid #2b5d99;
+  border-right: 2px solid #2b5d99;
+  border-bottom: 2px solid #1f4571;
+  border-left: 2px solid #1f4571;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-less:hover {
+  color: #e9ebee;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-php {
+  background-color: #5f82ba;
+  color: white;
+  border-top: 2px solid #7190c2;
+  border-right: 2px solid #7190c2;
+  border-bottom: 2px solid #4d74b2;
+  border-left: 2px solid #4d74b2;
+}
+#Byrne-Systems .projects .content .post .post-header .post-meta .tag-php:hover {
+  color: #e9ebee;
+}
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-yui {
   background-color: #6d479c;
   color: white;
@@ -2278,50 +2319,6 @@ html {
   border-left: 2px solid #cd7025;
 }
 #Byrne-Systems .projects .content .post .post-header .post-meta .tag-uncategorized:hover {
-  color: #e9ebee;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-php {
-  background-color: #5f82ba;
-  color: white;
-  border-top: 2px solid #7190c2;
-  border-right: 2px solid #7190c2;
-  border-bottom: 2px solid #4d74b2;
-  border-left: 2px solid #4d74b2;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-php:hover {
-  color: #e9ebee;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-bash {
-  background-color: #1572b6;
-  color: white;
-  border-top: 2px solid #1880cd;
-  border-right: 2px solid #1880cd;
-  border-bottom: 2px solid #12649f;
-  border-left: 2px solid #12649f;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-bash:hover {
-  color: #e9ebee;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-less {
-  background-color: #255185;
-  color: white;
-  border-top: 2px solid #2b5d99;
-  border-right: 2px solid #2b5d99;
-  border-bottom: 2px solid #1f4571;
-  border-left: 2px solid #1f4571;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-less:hover {
-  color: #e9ebee;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-ahk {
-  background-color: #52c552;
-  color: white;
-  border-top: 2px solid #65cb65;
-  border-right: 2px solid #65cb65;
-  border-bottom: 2px solid #40be40;
-  border-left: 2px solid #40be40;
-}
-#Byrne-Systems .projects .content .post .post-header .post-meta .tag-ahk:hover {
   color: #e9ebee;
 }
 #Byrne-Systems .projects .content .post .post-header .post-meta a {

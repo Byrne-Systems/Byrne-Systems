@@ -79,12 +79,20 @@ html {
           { .size(64px, 64px); margin: 14px 14px 0px 0px; float: right; }
           .post-meta
           { padding-left: 28px; #fonts > .face > .lato(normal, 15px, 21px); font-weight: 600; letter-spacing: 1px;
+            .tag-ahk
+            { .tag > .tag-ahk; }
             .tag-css
             { .tag > .tag-css; }
+            .tag-bash
+            { .tag > .tag-bash; }
             .tag-pure
             { .tag > .tag-pure; }
             .tag-js
             { .tag > .tag-js; }
+            .tag-less
+            { .tag > .tag-less; }
+            .tag-php
+            { .tag > .tag-php; }
             .tag-yui
             { .tag > .tag-yui; }
             .tag-uncategorized
@@ -99,11 +107,13 @@ html {
         .post-description
         { background-color: @athens-light; padding: 0px 18px; .border-radius(0px, 0px, 3px, 3px); .border-r(1px, solid, white);
           p
-          { #fonts > .face > .droid-mono(normal, 14px, 24px); text-align: justify; color: darken(@boulder, 7%); }
+          { #fonts > .face > .droid-mono(normal, 18px, 42px); text-align: justify; color: darken(@boulder, 7%); }
           .post-image
           { .pure-u-1-6; padding: 20px 0px; }
           .post-content
           { .pure-u-5-6; padding: 0px 0px 10px 20px; float: right; }
+          .clearfix
+          { clear: both; }
         }
       }
     }
