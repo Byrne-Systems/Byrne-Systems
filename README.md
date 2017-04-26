@@ -20,7 +20,7 @@
 :octocat: Checkout this repository into the directory where you plan on serving this site from:
 
 ```bash
-git clone git://github.com/Justin-Byrne/Byrne-Systems.git
+git clone git://github.com/Byrne-Systems/Byrne-Systems.git
 ```
 
 Load Website:

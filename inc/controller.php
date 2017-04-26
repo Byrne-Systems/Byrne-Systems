@@ -108,7 +108,7 @@ if (empty($_GET['page'])) {
 } else if ($_GET['page'] == 'projects') {
 
   # Load: projects page page elements
-  // $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
+  $styles   = new Template($root . '/web/views/pages/projects/' . 'styles.wad');
   $projects = new Template($root . '/web/views/pages/projects/' . 'projects.wad');
   $sidebar  = new Template($root . '/web/views/pages/projects/' . 'sidebar.wad');
   $content  = new Template($root . '/web/views/pages/projects/' . 'content.wad');
@@ -118,7 +118,7 @@ if (empty($_GET['page'])) {
   ###                       Setup Projects Page                             ###
   #############################################################################
   $layout->set('header', '');
-  // $layout->set('styles',                  $styles->output());
+  $layout->set('styles',                  $styles->output());
   $projects->set('sidebar',               $sidebar->output());
   $projects->set('content',               $content->output());
   $layout->set('main',                    $projects->output());
