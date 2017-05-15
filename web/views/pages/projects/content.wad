@@ -17,7 +17,8 @@
             <a href="https://github.com/Byrne-Systems/WAFFLE">WAFFLE</a>
           </span>
           <p class="post-meta">
-            By <a href="#" class="post-author">Justin D. Byrne</a> under <a class="tag tag-php" href="#">PHP</a>
+            By <a href="#" class="post-author">Justin D. Byrne</a> under
+            <a class="tag tag-php" href="#">PHP</a>
           </p>
           <div class="clearfix"></div>
         </div>
@@ -26,10 +27,10 @@
           <article>
             <img class="post-image" src="web/images/waffle_logo.png">
             <p class="post-content">
-              <a href="https://github.com/Byrne-Systems/WAFFLE">WAFFLE</a> is a thin server side framework
+              <a href="https://github.com/Byrne-Systems/WAFFLE" target="_blank">WAFFLE</a> is a thin server side framework
               centralized on being a platform for developing a variety of Web-Applications, from simple
               web-sites and static pages to web-applications and canvas animations.
-              <a href="https://github.com/Byrne-Systems/WAFFLE">WAFFLE</a> provides developers with a
+              <a href="https://github.com/Byrne-Systems/WAFFLE" target="_blank">WAFFLE</a> provides developers with a
               thin layer to control the way their projects load and behave, allowing developers to have
               a wider breadth of control.
             </p>
@@ -69,11 +70,13 @@
           <article>
             <img class="post-image" src="web/images/less-pure_logo.png">
             <p class="post-content">
-              <a href="https://github.com/Byrne-Systems/LESS-Pure">LESS Pure</a> is a modularized iteration of
-              Yahoo's <a href="https://purecss.io/">Pure.css</a> responsive CSS modules, coupled with
-              a <a href="http://lesscss.org/">LESS</a> modularized version of <a href="http://nicolasgallagher.com/">Nicolas Gallagher's</a>
-              <a href="https://necolas.github.io/normalize.css/">Normalize.css</a>. This is purely (no pun intended) a lightweight front-end
-              solution for web-developers who want to take advantage of the visual architecture of <a href="https://purecss.io/">Pure.css</a>,
+              <a href="https://github.com/Byrne-Systems/LESS-Pure" target="_blank">LESS Pure</a> is a modularized iteration of
+              Yahoo's <a href="https://purecss.io/" target="_blank">Pure.css</a> responsive CSS modules, coupled with
+              a <a href="http://lesscss.org/" target="_blank">LESS</a> modularized version of
+              <a href="http://nicolasgallagher.com/" target="_blank">Nicolas Gallagher's</a>
+              <a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>. This is purely (no pun
+              intended) a lightweight front-end solution for web-developers who want to take advantage
+              of the visual architecture of <a href="https://purecss.io/" target="_blank">Pure.css</a>,
               in LESS.
             </p>
             <div class="clearfix"></div>
@@ -109,7 +112,7 @@
           <article>
             <img class="post-image" src="web/images/bash_logo.png">
             <p class="post-content">
-              <a href="https://github.com/Justin-Byrne/bash-binaries">Bash binaries</a>
+              <a href="https://github.com/Justin-Byrne/bash-binaries" target="_blank">Bash binaries</a>
               are a small personal group of frequently utilized binaries, that serve to
               supply unique features, specialized methods (or commands), or color data;
               depending on the binary used. If you would like, please feel free to fork
@@ -148,11 +151,11 @@
           <article>
             <img class="post-image" src="web/images/xbutton-logo.png">
             <p class="post-content">
-              <a href="https://github.com/Justin-Byrne/bash-binaries">xButton</a> is
-              a small project written using <a href="https://autohotkey.com/">AutoHotKey</a>
+              <a href="https://github.com/Justin-Byrne/xButton" target="_blank">xButton</a> is
+              a small project written using <a href="https://autohotkey.com/" target="_blank">AutoHotKey</a>
               script that adds an auxiliary context menu which behaves as a Windows
-              Applications Menu. <a href="https://github.com/Justin-Byrne/bash-binaries">xButton's</a>
-              name derives from it's <a href="https://autohotkey.com/docs/KeyList.htm#Mouse">binding button</a>,
+              Applications Menu. <a href="https://github.com/Justin-Byrne/xButton" target="_blank">xButton's</a>
+              name derives from it's <a href="https://autohotkey.com/docs/KeyList.htm#Mouse" target="_blank">binding button</a>,
               which is the fourth mouse button that is typically used for the browser back button.
             </p>
             <div class="clearfix"></div>

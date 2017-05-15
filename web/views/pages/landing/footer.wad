@@ -1,22 +1,22 @@
   <footer>
     <ul>
       <li>
-        <a href="index.php?page=projects">
+        <a href="projects">
           <span class="projects"></span>
         </a>
       </li>
       <li>
-        <a href="index.php?page=blog">
+        <a href="blog">
           <span class="blog"></span>
         </a>
       </li>
       <li>
-        <a href="index.php?page=about">
+        <a href="about">
           <span class="about"></span>
         </a>
       </li>
       <li>
-        <a href="index.php?page=contact">
+        <a href="contact">
           <span class="contact"></span>
         </a>
       </li>

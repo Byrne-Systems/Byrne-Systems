@@ -19,25 +19,29 @@ if (mysqli_connect_errno()) {
     exit();
 }
 
-session_start();                    # Start: session to carry session data
+session_start();                                        # Start: session to carry session data
 
 # Master: switch construct operating according the passed '$page' variable
 switch ($_GET['page']) {
 
     case 'about':
-      $_SESSION['about'];           # Set: session variables for about page
+      $_SESSION['page'] = 'about';                      # Set: session variables for about page
     break;
 
     case 'projects':
-      $_SESSION['projects'];        # Set: session variables for projects page
+      $_SESSION['page'] = 'projects';                   # Set: session variables for projects page
     break;
 
     case 'blog':
-      $_SESSION['blog'];            # Set: session variables for blog page
+      $_SESSION['page'] = 'blog';                       # Set: session variables for blog page
     break;
 
     case 'contact':
-      $_SESSION['contact'];         # Set: session variables for contact page
+      $_SESSION['page'] = 'contact';                    # Set: session variables for contact page
+    break;
+
+    case '404':
+      $_SESSION['page'] = '404';                        # Set: session variables for contact page
     break;
 
 }
