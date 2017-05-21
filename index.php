@@ -9,6 +9,7 @@ use WAFFLE\Framework\Engines\Template;                  # Template: engine devel
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+# Require: templating class
 require $_SERVER['DOCUMENT_ROOT'] . '/lib/.framework/template.class.php';
 
 ###############################################################################

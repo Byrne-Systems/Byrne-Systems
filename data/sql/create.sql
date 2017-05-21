@@ -5,40 +5,32 @@
 -- DROP TABLE IF EXISTS `tags`;
 -- DROP TABLE IF EXISTS `type`;
 
-CREATE TABLE `Articles` (
-  `art_id`        varchar(7)      NOT NULL,
-  `typ_id`        varchar(7)      NOT NULL,
-  `title`         varchar(50)     NOT NULL,
-  `subtitle`      varchar(50)     NOT NULL,
-  `content`       varchar(350)    NOT NULL,
-  `author`        varchar(7)      NOT NULL,
-  `header_image`  varchar(250)    NOT NULL,
+CREATE TABLE `articles` (
+  `art_id`        INT             NOT NULL AUTO_INCREMENT,
+  `type`          VARCHAR(7)      NOT NULL,
+  `title`         VARCHAR(50)     NOT NULL,
+  `content`       VARCHAR(350)    NOT NULL,
+  `author`        VARCHAR(7)      NOT NULL,
+  `header_image`  VARCHAR(250)    NOT NULL,
   `date`          DATE            NOT NULL,
   `time`          TIME            NOT NULL,
   PRIMARY KEY (`art_id`)
 );
 
 CREATE TABLE `user_meta` (
-  `usr_id`        varchar(7)      NOT NULL,
-  `ip`            varchar(15)     NOT NULL DEFAULT '0.0.0.0',
-  `agent`         varchar(256),
+  `usr_id`        INT             NOT NULL AUTO_INCREMENT,
+  `ip`            VARCHAR(15)     NOT NULL DEFAULT '0.0.0.0',
+  `agent`         VARCHAR(256),
   `timestamp`     TIMESTAMP       NOT NULL,
   PRIMARY KEY (`usr_id`)
 );
 
 CREATE TABLE `tags` (
-  `tag_id`        varchar(7)      NOT NULL,
-  `art_id`        varchar(7)      NOT NULL,
-  `tag_name`      varchar(30)     NOT NULL,
-  `tag_type`      varchar(30)     NOT NULL,
+  `tag_id`        INT             NOT NULL AUTO_INCREMENT,
+  `art_id`        INT             NOT NULL,
+  `tag_name`      VARCHAR(30)     NOT NULL,
+  `tag_type`      VARCHAR(30)     NOT NULL,
   PRIMARY KEY (`tag_id`)
 );
 
-CREATE TABLE `type` (
-  `typ_id`        varchar(7)      NOT NULL,
-  `type`          varchar(7)      NOT NULL DEFAULT 'project',
-  PRIMARY KEY (`typ_id`)
-);
-
-ALTER TABLE `Articles` ADD CONSTRAINT `Articles_fk0` FOREIGN KEY (`typ_id`) REFERENCES `type`(`typ_id`);
 ALTER TABLE `tags` ADD CONSTRAINT `tags_fk0` FOREIGN KEY (`art_id`) REFERENCES `Articles`(`art_id`);

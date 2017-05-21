@@ -12,6 +12,41 @@ ini_set('display_errors', 1);
 # Require: templating class
 require $_SERVER['DOCUMENT_ROOT'] . '/lib/.framework/template.class.php';
 
+########                SQL                                            ########
+require $_SERVER['DOCUMENT_ROOT'] . '/inc/sql-config.php';                      # Global: SQL Configuration Variables
+
+# Instantiate: mysqli object for MySQL connection
+// $conn = new mysqli(HOST, USER, PASSWORD, DATABASE);
+
+// # Check: connection
+// if (mysqli_connect_errno()) {
+//   printf("[failed] connection failed: %s\n", mysqli_connect_error());
+//   exit();
+// } else {
+//   echo "[success] connection established";
+// }
+
+// $type    = "project";
+// $title   = "WAFFLE";
+// $content = "content...";
+// $author  = "Justin D. Byrne";
+// $header_image = "waffle_logo.png";
+// $date;
+// $time;
+
+// $stmt = "INSERT INTO articles (type, title, content, author, header_image)
+// VALUES ('" . $type . "', '" . $title . "', '" . $content . "', '" . $author . "', '" . $header_image . "')";
+
+// if ($conn->query($stmt) === TRUE) {
+//   echo "New record created!" . '<br>';
+// } else {
+//   echo "[error] " . $sql . "<br>" . $conn->error;
+// }
+
+// $conn->close();
+
+########                SQL                                            ########
+
 ###############################################################################
 ###                             Load Views                                  ###
 ###############################################################################

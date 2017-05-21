@@ -15,35 +15,42 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
 
 # Check: database connection connection
 if (mysqli_connect_errno()) {
-    printf("Connect failed: %s\n", mysqli_connect_error());
-    exit();
+  printf("Connect failed: %s\n", mysqli_connect_error());
+  exit();
 }
+
+echo "MySQLi Successful!";
 
 session_start();                                        # Start: session to carry session data
 
+echo $_SESSION['page'];
+
 # Master: switch construct operating according the passed '$page' variable
-switch ($_GET['page']) {
+switch ($_SESSION['page']) {
 
-    case 'about':
-      $_SESSION['page'] = 'about';                      # Set: session variables for about page
-    break;
+  case 'about':
+    $_SESSION['page'] = 'about';                        # Set: session variables for about page
+    header('http://localhost/about');
+  break;
 
-    case 'projects':
-      $_SESSION['page'] = 'projects';                   # Set: session variables for projects page
-    break;
+  case 'blog':
+    $_SESSION['page'] = 'blog';                         # Set: session variables for blog page
+    header('http://localhost/blog');
+  break;
 
-    case 'blog':
-      $_SESSION['page'] = 'blog';                       # Set: session variables for blog page
-    break;
+  case 'contact':
+    $_SESSION['page'] = 'contact';                      # Set: session variables for contact page
+    header('http://localhost/contact');
+  break;
 
-    case 'contact':
-      $_SESSION['page'] = 'contact';                    # Set: session variables for contact page
-    break;
+  case 'projects':
+    $_SESSION['page'] = 'projects';                     # Set: session variables for projects page
+    header('http://localhost/projects');
+  break;
 
-    case '404':
-      $_SESSION['page'] = '404';                        # Set: session variables for contact page
-    break;
-
+  case '404':
+    $_SESSION['page'] = '404';                          # Set: session variables for contact page
+  break;
 }
 
 header("Location: http://localhost/", TRUE, 307);

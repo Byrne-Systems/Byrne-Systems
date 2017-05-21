@@ -24,14 +24,13 @@ $app     = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/' . 'app.wad');
 $notes   = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/meta/' . 'notes.wad');
 $meta    = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/meta/' . 'meta.wad');
 // $styles = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/meta/' . 'styles.wad');              // (Deprecated) in favor for adaptive web solution
-$styles  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/projects/' . 'styles.wad');
+$styles  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/contact/' . 'styles.wad');
 $script  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/meta/' . 'script.wad');
 
 # Load: body elements
-$projects = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/projects/' . 'projects.wad');
-$sidebar  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/projects/' . 'sidebar.wad');
-$content  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/projects/' . 'content.wad');
-$footer   = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/projects/' . 'footer.wad');
+$header  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/contact/' . 'header.wad');
+$main    = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/contact/' . 'main.wad');
+$footer  = new Template($_SERVER['DOCUMENT_ROOT'] . '/web/views/pages/contact/' . 'footer.wad');
 
 ###############################################################################
 ###                       Setup Page                                        ###
@@ -43,11 +42,9 @@ $layout->set('meta_tags',               $meta->output());
 $layout->set('favicon',                 $layout->favicon($_SERVER['DOCUMENT_ROOT'] . '/web/images/fav/cube.fav'));
 $layout->set('styles',                  $styles->output());
 $layout->set('wrapper',                 'Byrne-Systems');
-$layout->set('header',                  '');
+$layout->set('header',                  $header->output());
 $layout->set('styles',                  $styles->output());
-$projects->set('sidebar',               $sidebar->output());
-$projects->set('content',               $content->output());
-$layout->set('main',                    $projects->output());
+$layout->set('main',                    $main->output());
 $layout->set('footer',                  $footer->output());
 $layout->set('script',                  $script->output());
 
